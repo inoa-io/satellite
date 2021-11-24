@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BA033CC0FP-E2)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/BA033CC0FP-E2.lib)(options "")(descr ""))
+  (lib (name 1727078)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/1727078.lib)(options "")(descr ""))
+)
