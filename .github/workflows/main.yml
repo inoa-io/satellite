@@ -1,0 +1,46 @@
+name: Main
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: KiCad::SoC-Module::Docs
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/docs.kibot.yaml
+          dir: out
+          schema: 'soc-module/soc-module.sch'
+          board: 'soc-module/soc-module.kicad_pcb'
+      - name: KiCad::SoC-Module::Gerber
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/gerbers.kibot.yaml
+          dir: out
+          schema: 'soc-module/soc-module.sch'
+          board: 'soc-module/soc-module.kicad_pcb'
+      - name: KiCad::SoC-Module::Plot
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/plot.kibot.yaml
+          dir: out
+          schema: 'soc-module/soc-module.sch'
+          board: 'soc-module/soc-module.kicad_pcb'
+      - name: KiCad::SoC-Module::Position
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/position.kibot.yaml
+          dir: out
+          schema: 'soc-module/soc-module.sch'
+          board: 'soc-module/soc-module.kicad_pcb'
+      - name: upload results
+        uses: actions/upload-artifact@v2
+        with:
+          name: out
+          path: out
