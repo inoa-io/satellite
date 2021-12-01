@@ -362,7 +362,7 @@ L Connector_Generic:Conn_01x14 J3
 U 1 1 6196598F
 P 4050 6550
 F 0 "J3" H 4130 6542 50  0000 L CNN
-F 1 "East" H 4130 6451 50  0000 L CNN
+F 1 "West" H 4130 6451 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 4050 6550 50  0001 C CNN
 F 3 "~" H 4050 6550 50  0001 C CNN
 	1    4050 6550
@@ -463,7 +463,7 @@ L Connector_Generic:Conn_01x14 J2
 U 1 1 619F1F30
 P 2600 6550
 F 0 "J2" H 2680 6542 50  0000 L CNN
-F 1 "West" H 2680 6451 50  0000 L CNN
+F 1 "East" H 2680 6451 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 2600 6550 50  0001 C CNN
 F 3 "~" H 2600 6550 50  0001 C CNN
 	1    2600 6550
@@ -1118,13 +1118,13 @@ Wire Wire Line
 	1650 7250 1650 5950
 Wire Wire Line
 	1650 5950 2400 5950
-Text GLabel 3600 7250 0    50   Input ~ 0
+Text GLabel 2150 7150 0    50   Input ~ 0
 LAN_CS
-Text GLabel 3600 7150 0    50   Input ~ 0
-SPI_CLK
 Text GLabel 3600 7050 0    50   Input ~ 0
+SPI_CLK
+Text GLabel 3600 7150 0    50   Input ~ 0
 SPI_MISO
-Text GLabel 3600 6950 0    50   Input ~ 0
+Text GLabel 3600 7250 0    50   Input ~ 0
 SPI_MOSI
 NoConn ~ 3600 6850
 NoConn ~ 3600 6750
@@ -1135,7 +1135,7 @@ NoConn ~ 3600 6350
 NoConn ~ 3600 6250
 NoConn ~ 3600 6150
 NoConn ~ 3600 6050
-NoConn ~ 2150 7150
+NoConn ~ 3600 6950
 NoConn ~ 2150 7050
 NoConn ~ 2150 6950
 NoConn ~ 2150 6850

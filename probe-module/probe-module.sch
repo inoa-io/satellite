@@ -1,0 +1,53 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery BT1
+U 1 1 61A74918
+P 1250 1400
+F 0 "BT1" H 1358 1446 50  0000 L CNN
+F 1 "18650" H 1358 1355 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_1042_1x18650" V 1250 1460 50  0001 C CNN
+F 3 "~" V 1250 1460 50  0001 C CNN
+	1    1250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0101
+U 1 1 61A7545E
+P 1250 1050
+F 0 "#PWR0101" H 1250 900 50  0001 C CNN
+F 1 "+BATT" H 1265 1223 50  0000 C CNN
+F 2 "" H 1250 1050 50  0001 C CNN
+F 3 "" H 1250 1050 50  0001 C CNN
+	1    1250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61A75CA1
+P 1250 1750
+F 0 "#PWR0102" H 1250 1500 50  0001 C CNN
+F 1 "GND" H 1255 1577 50  0000 C CNN
+F 2 "" H 1250 1750 50  0001 C CNN
+F 3 "" H 1250 1750 50  0001 C CNN
+	1    1250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1050 1250 1200
+Wire Wire Line
+	1250 1600 1250 1750
+$EndSCHEMATC
