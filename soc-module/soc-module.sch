@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Satellite SoC Module"
+Date "2021-11-29"
+Rev "2.0"
+Comp "GrayC GmbH"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "ATECC608A Crypto Processor / Storage"
+Comment3 "ESP32, 16MB Flash, 8MB Ram"
+Comment4 "Module with Microcontroller, SD Card and Crypto"
 $EndDescr
 $Comp
 L esp32-wrover-ie-16mb:ESP32-WROVER-IE-16MB U2
