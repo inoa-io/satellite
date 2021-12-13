@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Satellite SoC Module"
-Date "2021-11-29"
+Title "Satellite SoM"
+Date "2021-12-01"
 Rev "2.0"
 Comp "GrayC GmbH"
-Comment1 ""
-Comment2 "ATECC608A Crypto Processor / Storage"
-Comment3 "ESP32, 16MB Flash, 8MB Ram"
-Comment4 "Module with Microcontroller, SD Card and Crypto"
+Comment1 "Fabian Schlegel"
+Comment2 ""
+Comment3 "ESP32-WROVER-IE, ATECC608A, µSD"
+Comment4 "Microcontroller with Crypto and Storage as single Module"
 $EndDescr
 $Comp
 L esp32-wrover-ie-16mb:ESP32-WROVER-IE-16MB U2
@@ -44,17 +44,6 @@ F 1 "West" H 10180 1751 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 10100 1850 50  0001 C CNN
 F 3 "~" H 10100 1850 50  0001 C CNN
 	1    10100 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x13 J2
-U 1 1 6189476F
-P 10100 3350
-F 0 "J2" H 10180 3392 50  0000 L CNN
-F 1 "East" H 10180 3301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical" H 10100 3350 50  0001 C CNN
-F 3 "~" H 10100 3350 50  0001 C CNN
-	1    10100 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -753,4 +742,30 @@ F 3 "~" H 1450 6400 50  0001 C CNN
 	1    1450 6400
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 61A81BCC
+P 10100 3350
+F 0 "J2" H 10180 3342 50  0000 L CNN
+F 1 "East" H 10180 3251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 10100 3350 50  0001 C CNN
+F 3 "~" H 10100 3350 50  0001 C CNN
+	1    10100 3350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9650 4050
+Wire Wire Line
+	9650 4050 9900 4050
+Text GLabel 5250 6250 2    50   Input ~ 0
+IO23
+Text GLabel 5250 6400 2    50   Input ~ 0
+IO19
+Text GLabel 5250 6550 2    50   Input ~ 0
+IO18
+Wire Wire Line
+	5000 6250 5250 6250
+Wire Wire Line
+	5000 6400 5250 6400
+Wire Wire Line
+	5000 6550 5250 6550
 $EndSCHEMATC
