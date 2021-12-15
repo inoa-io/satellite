@@ -9,9 +9,9 @@ Date "2021-11-11"
 Rev "2.0"
 Comp "GrayC GmbH"
 Comment1 "Fabian Schlegel"
-Comment2 "W5500"
-Comment3 "Ethernet Extension"
-Comment4 "Inoa Satelite"
+Comment2 ""
+Comment3 "W5500 EThernet Chip"
+Comment4 "Ethernet Communication Module for Satellite"
 $EndDescr
 $Comp
 L Interface_Ethernet:W5500 U1
