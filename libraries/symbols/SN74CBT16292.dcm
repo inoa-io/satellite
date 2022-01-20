@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74CBT16292
+D 8-bit level-shifting bus switch with output enable
+$ENDCMP
+#
+#End Doc Library

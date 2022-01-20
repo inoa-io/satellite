@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SARA-R410M)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/SARA-R410M.lib)(options "")(descr ""))
+)
