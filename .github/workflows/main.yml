@@ -5,12 +5,17 @@ on:
     branches:
       - 'main'
 
+# TODO: Release the project and copy current images to docs, commit, set a tag
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      # ~~~~~~~~~~~~~~~
+      # SoC Module
+      # ~~~~~~~~~~~~~~~
       - name: KiCad::SoC-Module::Docs
         uses: nerdyscout/kicad-exports@v2.2
         with:
@@ -39,6 +44,9 @@ jobs:
           dir: out
           schema: 'soc-module/soc-module.sch'
           board: 'soc-module/soc-module.kicad_pcb'
+      # ~~~~~~~~~~~~~~~
+      # Upload
+      # ~~~~~~~~~~~~~~~
       - name: upload results
         uses: actions/upload-artifact@v2
         with:
