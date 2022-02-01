@@ -1,5 +1,7 @@
 # Inoa Satellite
 
+[![Main](https://github.com/inoa-io/satellite/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/inoa-io/satellite/actions/workflows/main.yml)
+
 The Inoa Satellite is an open hardware project for building a metering / gateway device meant for an industrial environment.
 
 ## Why?
