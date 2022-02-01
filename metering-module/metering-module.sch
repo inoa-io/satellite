@@ -1004,10 +1004,6 @@ Wire Wire Line
 	7000 3900 7150 3900
 Wire Wire Line
 	7000 4000 7150 4000
-Text GLabel 9800 4100 0    50   Input ~ 0
-U0TXD
-Text GLabel 9800 4200 0    50   Input ~ 0
-U0RXD
 Wire Wire Line
 	9800 4100 10050 4100
 Wire Wire Line
@@ -1066,13 +1062,13 @@ Wire Wire Line
 	5650 4300 5900 4300
 Wire Wire Line
 	7000 3650 7000 3900
-Text GLabel 8300 4200 0    50   Input ~ 0
+Text GLabel 6500 5950 2    50   Input ~ 0
 S0_0
-Text GLabel 8300 4900 0    50   Input ~ 0
+Text GLabel 6500 6050 2    50   Input ~ 0
 S0_1
-Text GLabel 8300 5000 0    50   Input ~ 0
+Text GLabel 6500 6250 2    50   Input ~ 0
 SW0
-Text GLabel 9800 4700 0    50   Input ~ 0
+Text GLabel 6500 6150 2    50   Input ~ 0
 SW1
 Wire Wire Line
 	9800 4700 10050 4700
@@ -1108,4 +1104,161 @@ Wire Wire Line
 Connection ~ 5850 4600
 Wire Wire Line
 	5850 4600 5850 4850
+$Comp
+L Interface_Expansion:MCP23008-xSO U6
+U 1 1 61EB4389
+P 5700 6350
+F 0 "U6" H 5350 7050 50  0000 C CNN
+F 1 "MCP23008-xSO" H 5300 6950 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 5700 5300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf" H 7000 5150 50  0001 C CNN
+	1    5700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 61F32AD8
+P 6000 7100
+F 0 "C7" H 6115 7146 50  0000 L CNN
+F 1 "100nF" H 6115 7055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6038 6950 50  0001 C CNN
+F 3 "~" H 6000 7100 50  0001 C CNN
+	1    6000 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0127
+U 1 1 61F36D22
+P 5700 5600
+F 0 "#PWR0127" H 5700 5450 50  0001 C CNN
+F 1 "+3V3" H 5715 5773 50  0000 C CNN
+F 2 "" H 5700 5600 50  0001 C CNN
+F 3 "" H 5700 5600 50  0001 C CNN
+	1    5700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0133
+U 1 1 61F37FD9
+P 5700 7250
+F 0 "#PWR0133" H 5700 7000 50  0001 C CNN
+F 1 "GND" H 5705 7077 50  0000 C CNN
+F 2 "" H 5700 7250 50  0001 C CNN
+F 3 "" H 5700 7250 50  0001 C CNN
+	1    5700 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5600 5700 5700
+Wire Wire Line
+	5700 6950 5700 7100
+Wire Wire Line
+	5850 7100 5700 7100
+Connection ~ 5700 7100
+Wire Wire Line
+	5700 7100 5700 7250
+Wire Wire Line
+	6150 7100 6350 7100
+Wire Wire Line
+	6350 7100 6350 5700
+Wire Wire Line
+	6350 5700 5700 5700
+Connection ~ 5700 5700
+Wire Wire Line
+	5700 5700 5700 5750
+NoConn ~ 9800 4700
+NoConn ~ 8300 4900
+NoConn ~ 8300 5000
+NoConn ~ 8300 4200
+Wire Wire Line
+	6200 5950 6500 5950
+Wire Wire Line
+	6200 6050 6500 6050
+Wire Wire Line
+	6500 6150 6200 6150
+Wire Wire Line
+	6200 6250 6500 6250
+NoConn ~ 6500 6350
+NoConn ~ 6500 6450
+NoConn ~ 6500 6550
+NoConn ~ 6500 6650
+Wire Wire Line
+	6500 6350 6200 6350
+Wire Wire Line
+	6500 6450 6200 6450
+Wire Wire Line
+	6500 6550 6200 6550
+Wire Wire Line
+	6500 6650 6200 6650
+Text GLabel 4900 6150 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 4900 6050 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 9800 4300 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 9800 4000 0    50   Input ~ 0
+I2C_SCL
+Wire Wire Line
+	9800 4000 10050 4000
+Wire Wire Line
+	9800 4300 10050 4300
+NoConn ~ 8300 4000
+NoConn ~ 8300 3900
+NoConn ~ 8300 4400
+NoConn ~ 8300 4500
+NoConn ~ 8300 4800
+NoConn ~ 8300 5100
+NoConn ~ 9800 4800
+NoConn ~ 9800 4600
+NoConn ~ 9800 4500
+NoConn ~ 9800 4400
+NoConn ~ 9800 4200
+NoConn ~ 9800 4100
+NoConn ~ 9800 3900
+Wire Wire Line
+	8300 3900 8550 3900
+Wire Wire Line
+	8300 4000 8550 4000
+Wire Wire Line
+	8300 4400 8550 4400
+Wire Wire Line
+	8300 4500 8550 4500
+Wire Wire Line
+	8300 4800 8550 4800
+Wire Wire Line
+	8300 5100 8550 5100
+Wire Wire Line
+	9800 3900 10050 3900
+Wire Wire Line
+	9800 4400 10050 4400
+Wire Wire Line
+	9800 4500 10050 4500
+Wire Wire Line
+	9800 4600 10050 4600
+Wire Wire Line
+	9800 4800 10050 4800
+Wire Wire Line
+	4900 6050 5200 6050
+Wire Wire Line
+	4900 6150 5200 6150
+Text GLabel 4900 6350 0    50   Input ~ 0
+S0_INT
+Wire Wire Line
+	4900 6350 5200 6350
+Wire Wire Line
+	5200 6550 5050 6550
+Wire Wire Line
+	5050 6550 5050 6650
+Wire Wire Line
+	5050 7100 5700 7100
+Wire Wire Line
+	5050 6650 5200 6650
+Connection ~ 5050 6650
+Wire Wire Line
+	5050 6650 5050 6750
+Wire Wire Line
+	5200 6750 5050 6750
+Connection ~ 5050 6750
+Wire Wire Line
+	5050 6750 5050 7100
 $EndSCHEMATC
