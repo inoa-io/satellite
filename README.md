@@ -4,6 +4,8 @@
 
 The Inoa Satellite is an open hardware project for building a metering / gateway device meant for an industrial environment.
 
+![./docs/images/inoa-satellite.png](./docs/images/inoa-satellite.png)
+
 ## Why?
 
 There are a huge amount of IoT gateways out there, but none of these fulfill completely all of our design goals:
@@ -152,3 +154,46 @@ Clone this project and run `./build.sh`. You will get a selection of the possibl
 | SR-NB-XXX | NB IoT Module          | v2.0            |
 | SR-LR-XXX | LoRa / LoRa WAN Module | v2.0            |
 | SR-PN-XXX | Panel Module           | v2.0            |
+
+## Pin Out
+
+| Pin ESP | Pin Satellite | Pin Name  | Standard Purpose     |
+|---------|---------------|-----------|----------------------|
+| 1       | East 1        | GND       | Ground               |
+| 2       | West 1        | 3V3       | Power supply         |
+| 3       | West 2        | EN3       | Reset                |
+| 4       | West 3        | I36       |                      |
+| 5       | West 4        | I39       |                      |
+| 6       | West 5        | I34       |                      |
+| 7       | West 6        | I35       |                      |
+| 8       | West 7        | IO32      |                      |
+| 9       | West 8        | IO33      |                      |
+| 10      | West 9        | IO25      |                      |
+| 11      | West 10       | IO26      |                      |
+| 12      | West 11       | IO27      |                      |
+| 13      | West 12       | IO14      |                      |
+| 14      | West 13       | IO12      |                      |
+| 15      | NC            | GND       | Ground               |
+| 16      | West 14       | IO13      | Status LED           |
+| 17      | NC            | NC        | Internal Flash / RAM |
+| 18      | NC            | NC        | Internal Flash / RAM |
+| 19      | NC            | NC        | Internal Flash / RAM |
+| 20      | NC            | NC        | Internal Flash / RAM |
+| 21      | NC            | NC        | Internal Flash / RAM |
+| 22      | NC            | NC        | Internal Flash / RAM |
+| 23      | East 14       | IO15      |                      |
+| 24      | East 13       | IO2       |                      |
+| 25      | East 12       | IO0       | Setup Button         |
+| 26      | East 11       | IO4       |                      |
+| 27      | NC            | NC        | Internal Flash / RAM |
+| 28      | NC            | NC        | Internal Flash / RAM |
+| 29      | East 9        | IO5       | SPI 1 CS (SD)        |
+| 30      | East 8        | IO18      | SPI 1 CLK            |
+| 31      | East 7        | IO19      | SPI 1 MISO           |
+| 32      | NC            | NC        | Internal Flash / RAM |
+| 33      | East 6        | IO21      | I2C SDA              |
+| 34      | East 5        | URXD0     | UART 0 RX            |
+| 35      | East 4        | UTXD0     | UART 0 TX            |
+| 36      | East 3        | IO22      | I2C SCL              |
+| 37      | East 2        | IO23      | SPI 1 MOSI           |
+| 38      | East 1        | GND       | Ground               |
