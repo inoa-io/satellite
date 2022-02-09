@@ -41,19 +41,25 @@ The Satellite consists of up to 4 levels (level 1 is the bottom). Level 3 is an 
 * Level 3 is the network / communication level (Ethernet, NB IoT, LoRa, ...)
 * Level 4 is meant for the user panel
 
-### Electric Metering Module
+### Metering Modules
+
+#### Electric Metering Module
 
 The electric metering module is dedicated to be used for interacting with electric meters, inverters, batteries and so on. It is a base module on level 1 of the stack. Its features are:
 
 * 4V-24V power input
 * PE / Shield pin
 * 2x RS485 interface (used for e.g. ModBus, ...)
-* 2x S0 pulse interface
+* 2x pulse interface (S0, Photoelectric barrier, ...)
 * 2x relay driver
 
 ![./docs/images/electric-metering-module.png](./docs/images/electric-metering-module.png)
 
-### Current Loop Metering Module
+#### Current Loop Metering Module
+
+_**Coming soon**_
+
+#### MBus / WMBus Metering Module
 
 _**Coming soon**_
 
@@ -135,3 +141,14 @@ Clone this project and run `./build.sh`. You will get a selection of the possibl
 * Each PCB has an etched label for "TOP" and "BOT" marks
 * Each PCB has an etched label for the product serial following the pattern: SR-XX-NNN (e.g. SR-SM-021)
 * The product serial start with "SR" for "Satellite Rail", the next two characters are reserved for the module, the 3 digits represents the version
+
+| Serial    | Module / Part          | Current Version |
+|-----------|------------------------|-----------------|
+| SR-SC-XXX | SoC Module             | v2.0            |
+| SR-EM-XXX | Electric Metering      | v2.0            |
+| SR-CM-XXX | Current Loop Metering  | v2.0            |
+| SR-MM-XXX | MBus / WMBus Metering  | v2.0            |
+| SR-ET-XXX | Ethernet Module        | v2.0            |
+| SR-NB-XXX | NB IoT Module          | v2.0            |
+| SR-LR-XXX | LoRa / LoRa WAN Module | v2.0            |
+| SR-PN-XXX | Panel Module           | v2.0            |

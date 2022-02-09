@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 18)
+    (drawings 19)
     (tracks 328)
     (zones 0)
     (modules 17)
@@ -955,7 +955,10 @@
     )
   )
 
-  (gr_text GC-SR-002 (at 173 95.5 90) (layer B.Cu)
+  (gr_text µSD (at 123.5 91 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text SR-SC-020 (at 173 95.5 90) (layer B.Cu)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 171 80.3) (end 176 85.3) (layer Edge.Cuts) (width 0.05) (tstamp 61DE1786))
@@ -975,7 +978,7 @@
   (gr_text BOT (at 124.5 82) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "Satellite SoC Module v2.0\nGrayC GmbH" (at 147.5 95.2) (layer B.SilkS)
+  (gr_text "Satellite SoC Module v2.0\nGrayC GmbH\nhttps://docs.inoa.io" (at 146 95) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text TOP (at 124.5 82) (layer F.Cu)

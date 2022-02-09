@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Satellite Panel"
+Date "2022-02-08"
+Rev "2.0"
+Comp "GrayC GmbH"
+Comment1 "Fabian Schlegel"
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "Front Panel Module with Setup / Reset Buttons and Status LEDs"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_01x14 J1
@@ -75,7 +75,9 @@ P 2600 3800
 F 0 "R1" H 2670 3846 50  0000 L CNN
 F 1 "220R" H 2670 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2530 3800 50  0001 C CNN
-F 3 "~" H 2600 3800 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" H 2600 3800 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/YAGEO/RT1206FRE07220RL?qs=yNCrj0CQcyIDJm%252BN6MoQJw%3D%3D" H 2600 3800 50  0001 C CNN "Product"
+F 5 "0.16" H 2600 3800 50  0001 C CNN "Price"
 	1    2600 3800
 	1    0    0    -1  
 $EndComp
@@ -136,7 +138,9 @@ P 3250 3800
 F 0 "R2" H 3320 3846 50  0000 L CNN
 F 1 "10k" H 3320 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3180 3800 50  0001 C CNN
-F 3 "~" H 3250 3800 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" H 3250 3800 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/YAGEO/RT1206FRE0710KL?qs=8cPjvKtxWv45%2FSPYTvTNKg%3D%3D" H 3250 3800 50  0001 C CNN "Product"
+F 5 "0.16" H 3250 3800 50  0001 C CNN "Price"
 	1    3250 3800
 	1    0    0    -1  
 $EndComp
