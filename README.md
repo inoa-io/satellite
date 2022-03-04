@@ -179,35 +179,23 @@ We choosed 0.8mm 0.4mm vias.
 
 ## Pin Out
 
-```
-   1 1 1 1 1
-   4 3 2 1 0 9 8 7 6 5 4 3 2 1
-   | | | | | | | | | | | | | |
-+------------------------------+
-|E                              \
-|            S o C              |
-|W                              |
-+-------------------------------+
-   | | | | | | | | | | | | | |
-```
-
 | Pin ESP | Pin Satellite | Pin Name  | Standard Purpose     |
 |---------|---------------|-----------|----------------------|
-| 1       | East 1        | GND       | ⎓ Ground               |
-| 2       | West 1        | 3V3       | ⎓ Power supply         |
+| 1       | East 1        | GND       | Ground               |
+| 2       | West 1        | 3V3       | Power supply         |
 | 3       | West 2        | EN3       | Reset                |
 | 4       | West 3        | I36       | I2C Interupt         |
-| 5       | West 4        | I39       | 💻 UART 1 RX        |
+| 5       | West 4        | I39       | UART 1 RX            |
 | 6       | West 5        | I34       | SPI 2 MISO           |
-| 7       | West 6        | I35       | 💻 UART 2 RX            |
+| 7       | West 6        | I35       | UART 2 RX            |
 | 8       | West 7        | IO32      | SPI 2 MOSI           |
 | 9       | West 8        | IO33      | SPI 2 CLK            |
-| 10      | West 9        | IO25      | 💻 UART 1 TXE           |
-| 11      | West 10       | IO26      | 💻 UART 1 TX            |
+| 10      | West 9        | IO25      | UART 1 TXE           |
+| 11      | West 10       | IO26      | UART 1 TX            |
 | 12      | West 11       | IO27      | SPI 2 CS (Eth)       |
 | 13      | West 12       | IO14      | Ethernet Reset       |
 | 14      | West 13       | IO12      |                      |
-| 15      | NC            | GND       | ⎓ Ground               |
+| 15      | NC            | GND       | Ground               |
 | 16      | West 14       | IO13      | Status LED           |
 | 17      | NC            | NC        | Internal Flash / RAM |
 | 18      | NC            | NC        | Internal Flash / RAM |
@@ -215,8 +203,8 @@ We choosed 0.8mm 0.4mm vias.
 | 20      | NC            | NC        | Internal Flash / RAM |
 | 21      | NC            | NC        | Internal Flash / RAM |
 | 22      | NC            | NC        | Internal Flash / RAM |
-| 23      | East 13       | IO15      | 💻 UART 2 TX            |
-| 24      | East 12       | IO2       | 💻 UART 2 TXE           |
+| 23      | East 13       | IO15      | UART 2 TX            |
+| 24      | East 12       | IO2       | UART 2 TXE           |
 | 25      | East 11       | IO0       | Setup Button         |
 | 26      | East 10       | IO4       | Ethernet Interupt    |
 | 27      | NC            | NC        | Internal Flash / RAM |
@@ -226,8 +214,8 @@ We choosed 0.8mm 0.4mm vias.
 | 31      | East 7        | IO19      | SPI 1 MISO           |
 | 32      | NC            | NC        | Internal Flash / RAM |
 | 33      | East 6        | IO21      | I2C SDA              |
-| 34      | East 5        | URXD0     | 💻 UART 0 RX            |
-| 35      | East 4        | UTXD0     | 💻 UART 0 TX            |
+| 34      | East 5        | URXD0     | UART 0 RX            |
+| 35      | East 4        | UTXD0     | UART 0 TX            |
 | 36      | East 3        | IO22      | I2C SCL              |
 | 37      | East 2        | IO23      | SPI 1 MOSI           |
 | 38      | East 1        | GND       | Ground               |

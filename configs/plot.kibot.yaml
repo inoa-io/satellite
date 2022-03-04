@@ -44,7 +44,7 @@ outputs:
       warnings: 'none'
 
   - name: 'https://github.com/yaqwsx/PcbDraw'
-    comment: 'default green svg top'
+    comment: 'default green svg bottom'
     type: 'pcbdraw'
     dir: 'docs/img'
     options:
