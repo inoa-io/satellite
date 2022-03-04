@@ -75,6 +75,37 @@ jobs:
           schema: 'ethernet-extension/ethernet-extension.sch'
           board: 'ethernet-extension/ethernet-extension.kicad_pcb'
       # ~~~~~~~~~~~~~~~
+      # Panel Module
+      # ~~~~~~~~~~~~~~~
+      - name: KiCad::Panel-Module::Docs
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/docs.kibot.yaml
+          dir: out
+          schema: 'panel-module/panel-module.sch'
+          board: 'panel-module/panel-module.kicad_pcb'
+      - name: KiCad::Panel-Module::Gerber
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/gerbers.kibot.yaml
+          dir: out
+          schema: 'panel-module/panel-module.sch'
+          board: 'panel-module/panel-module.kicad_pcb'
+      - name: KiCad::Panel-Module::Plot
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/plot.kibot.yaml
+          dir: out
+          schema: 'panel-module/panel-module.sch'
+          board: 'panel-module/panel-module.kicad_pcb'
+      - name: KiCad::Panel-Module::Position
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/position.kibot.yaml
+          dir: out
+          schema: 'panel-module/panel-module.sch'
+          board: 'panel-module/panel-module.kicad_pcb'
+      # ~~~~~~~~~~~~~~~
       # Upload
       # ~~~~~~~~~~~~~~~
       - name: upload results
