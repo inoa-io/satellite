@@ -44,6 +44,37 @@ jobs:
           schema: 'soc-module/soc-module.sch'
           board: 'soc-module/soc-module.kicad_pcb'
       # ~~~~~~~~~~~~~~~
+      # Ethernet Module
+      # ~~~~~~~~~~~~~~~
+      - name: KiCad::Ethernet-Module::Docs
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/docs.kibot.yaml
+          dir: out
+          schema: 'ethernet-extension/ethernet-extension.sch'
+          board: 'ethernet-extension/ethernet-extension.kicad_pcb'
+      - name: KiCad::Ethernet-Module::Gerber
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/gerbers.kibot.yaml
+          dir: out
+          schema: 'ethernet-extension/ethernet-extension.sch'
+          board: 'ethernet-extension/ethernet-extension.kicad_pcb'
+      - name: KiCad::Ethernet-Module::Plot
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/plot.kibot.yaml
+          dir: out
+          schema: 'ethernet-extension/ethernet-extension.sch'
+          board: 'ethernet-extension/ethernet-extension.kicad_pcb'
+      - name: KiCad::Ethernet-Module::Position
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/position.kibot.yaml
+          dir: out
+          schema: 'ethernet-extension/ethernet-extension.sch'
+          board: 'ethernet-extension/ethernet-extension.kicad_pcb'
+      # ~~~~~~~~~~~~~~~
       # Upload
       # ~~~~~~~~~~~~~~~
       - name: upload results

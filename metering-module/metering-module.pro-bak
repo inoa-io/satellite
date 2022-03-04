@@ -1,6 +1,6 @@
-update=Fr 04 Mär 2022 15:39:38 CET
+update=Thu Feb 24 09:20:58 2022
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -240,7 +240,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/home/fabian/workdir/out/metering-module/docs/img/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

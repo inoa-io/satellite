@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Electric Metering Module"
+Date "2022-02-09"
+Rev "2.0"
+Comp "GrayC GmbH"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -21,6 +21,8 @@ F 0 "U4" H 6250 2450 50  0000 C CNN
 F 1 "MAX3486" H 6200 2350 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6450 1200 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 6450 1950 50  0001 C CNN
+F 4 "3.71" H 6450 1900 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D" H 6450 1900 50  0001 C CNN "Product"
 	1    6450 1900
 	1    0    0    -1  
 $EndComp
@@ -31,7 +33,9 @@ P 1600 6650
 F 0 "U2" H 1600 6975 50  0000 C CNN
 F 1 "LTV-817S" H 1600 6884 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-4_W9.53mm" H 1600 6350 50  0001 C CNN
-F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 1250 6950 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/239/LTV-8X7_series_201610_-1544776.pdf" H 1250 6950 50  0001 C CNN
+F 4 "0.40" H 1600 6650 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Lite-On/LTV-817S" H 1600 6650 50  0001 C CNN "Product"
 	1    1600 6650
 	1    0    0    -1  
 $EndComp
@@ -42,7 +46,9 @@ P 3850 1350
 F 0 "U3" H 3850 1715 50  0000 C CNN
 F 1 "BA033CC0FP-E2" H 3850 1624 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3850 1600 50  0001 C CNN
-F 3 "" H 3850 1600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/348/baxxdd0-e-1873983.pdf" H 3850 1600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2" H 3850 1350 50  0001 C CNN "Product"
+F 5 "0.97" H 3850 1350 50  0001 C CNN "Price"
 	1    3850 1350
 	1    0    0    -1  
 $EndComp
@@ -51,9 +57,11 @@ L Device:Fuse F1
 U 1 1 6193041A
 P 1550 1350
 F 0 "F1" V 1353 1350 50  0000 C CNN
-F 1 "Fuse" V 1444 1350 50  0000 C CNN
+F 1 "25V/1A" V 1444 1350 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1480 1350 50  0001 C CNN
-F 3 "~" H 1550 1350 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/Bourns_SF_1206HIA_M_datasheet-1892140.pdf" H 1550 1350 50  0001 C CNN
+F 4 "0.93" H 1550 1350 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2" H 1550 1350 50  0001 C CNN "Product"
 	1    1550 1350
 	0    1    1    0   
 $EndComp
@@ -64,7 +72,9 @@ P 2750 1350
 F 0 "D2" H 2750 1133 50  0000 C CNN
 F 1 "1N5819" H 2750 1224 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2750 1175 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 2750 1350 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/ds30217-71027.pdf" H 2750 1350 50  0001 C CNN
+F 4 "0.25" H 2750 1350 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D" H 2750 1350 50  0001 C CNN "Product"
 	1    2750 1350
 	-1   0    0    1   
 $EndComp
@@ -75,7 +85,9 @@ P 2400 1750
 F 0 "R5" H 2470 1796 50  0000 L CNN
 F 1 "10k" H 2470 1705 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2330 1750 50  0001 C CNN
-F 3 "~" H 2400 1750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf" H 2400 1750 50  0001 C CNN
+F 4 "0.08" H 2400 1750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF" H 2400 1750 50  0001 C CNN "Product"
 	1    2400 1750
 	1    0    0    -1  
 $EndComp
@@ -84,7 +96,7 @@ L Device:C C1
 U 1 1 61933997
 P 3150 1750
 F 0 "C1" H 3265 1796 50  0000 L CNN
-F 1 "100nF / 30V" H 3265 1705 50  0000 L CNN
+F 1 "100nF / 35V" H 3265 1705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3188 1600 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3150 1750 50  0001 C CNN
 F 4 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 3150 1750 50  0001 C CNN "Product"
@@ -99,7 +111,9 @@ P 4550 1750
 F 0 "C2" H 4665 1796 50  0000 L CNN
 F 1 "100nF" H 4665 1705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4588 1600 50  0001 C CNN
-F 3 "~" H 4550 1750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4550 1750 50  0001 C CNN
+F 4 "0.24" H 4550 1750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 4550 1750 50  0001 C CNN "Product"
 	1    4550 1750
 	1    0    0    -1  
 $EndComp
@@ -223,7 +237,9 @@ P 2800 6200
 F 0 "D4" V 2754 6280 50  0000 L CNN
 F 1 "BAV303" V 2845 6280 50  0000 L CNN
 F 2 "Diode_SMD:D_MicroMELF" H 2800 6025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85545/bav300.pdf" H 2800 6200 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/427/bav300-1767813.pdf" H 2800 6200 50  0001 C CNN
+F 4 "0.20" H 2800 6200 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Vishay-Semiconductors/BAV303-TR?qs=7qbm%252BEMa92zC5P%252BxWlWw9w%3D%3D" H 2800 6200 50  0001 C CNN "Product"
 	1    2800 6200
 	0    1    1    0   
 $EndComp
@@ -232,9 +248,11 @@ L Device:R R4
 U 1 1 61946509
 P 2200 6750
 F 0 "R4" V 1993 6750 50  0000 C CNN
-F 1 "R" V 2084 6750 50  0000 C CNN
+F 1 "1k" V 2084 6750 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2130 6750 50  0001 C CNN
-F 3 "~" H 2200 6750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/219/RK73B-1825463.pdf" H 2200 6750 50  0001 C CNN
+F 4 "0.10" H 2200 6750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KOA-Speer/RK73B2BTTDD102J" H 2200 6750 50  0001 C CNN "Product"
 	1    2200 6750
 	0    1    1    0   
 $EndComp
@@ -243,9 +261,11 @@ L Device:R R2
 U 1 1 61946A11
 P 1150 7050
 F 0 "R2" H 1220 7096 50  0000 L CNN
-F 1 "R" H 1220 7005 50  0000 L CNN
+F 1 "220R" H 1220 7005 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1080 7050 50  0001 C CNN
-F 3 "~" H 1150 7050 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf" H 1150 7050 50  0001 C CNN
+F 4 "0.08" H 1150 7050 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R" H 1150 7050 50  0001 C CNN "Product"
 	1    1150 7050
 	1    0    0    -1  
 $EndComp
@@ -256,7 +276,9 @@ P 2700 6750
 F 0 "Q2" H 2891 6796 50  0000 L CNN
 F 1 "MMBT3904" H 2891 6705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 6675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2700 6750 50  0001 L CNN
+F 3 "https://www.mouser.de/datasheet/2/916/MMBT3904-1599187.pdf" H 2700 6750 50  0001 L CNN
+F 4 "0.09" H 2700 6750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Nexperia/MMBT3904215" H 2700 6750 50  0001 C CNN "Product"
 	1    2700 6750
 	1    0    0    -1  
 $EndComp
@@ -336,7 +358,9 @@ P 1600 4450
 F 0 "U1" H 1600 4775 50  0000 C CNN
 F 1 "LTV-817S" H 1600 4684 50  0000 C CNN
 F 2 "Package_DIP:SMDIP-4_W9.53mm" H 1600 4150 50  0001 C CNN
-F 3 "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF" H 1250 4750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/239/LTV-8X7_series_201610_-1544776.pdf" H 1250 4750 50  0001 C CNN
+F 4 "0.40" H 1600 4450 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Lite-On/LTV-817S" H 1600 4450 50  0001 C CNN "Product"
 	1    1600 4450
 	1    0    0    -1  
 $EndComp
@@ -347,7 +371,9 @@ P 2800 4000
 F 0 "D3" V 2754 4080 50  0000 L CNN
 F 1 "BAV303" V 2845 4080 50  0000 L CNN
 F 2 "Diode_SMD:D_MicroMELF" H 2800 3825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/85545/bav300.pdf" H 2800 4000 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/427/bav300-1767813.pdf" H 2800 4000 50  0001 C CNN
+F 4 "0.20" H 2800 4000 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Vishay-Semiconductors/BAV303-TR?qs=7qbm%252BEMa92zC5P%252BxWlWw9w%3D%3D" H 2800 4000 50  0001 C CNN "Product"
 	1    2800 4000
 	0    1    1    0   
 $EndComp
@@ -356,9 +382,11 @@ L Device:R R3
 U 1 1 6195E759
 P 2200 4550
 F 0 "R3" V 1993 4550 50  0000 C CNN
-F 1 "R" V 2084 4550 50  0000 C CNN
+F 1 "1k" V 2084 4550 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2130 4550 50  0001 C CNN
-F 3 "~" H 2200 4550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/219/RK73B-1825463.pdf" H 2200 4550 50  0001 C CNN
+F 4 "0.10" H 2200 4550 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KOA-Speer/RK73B2BTTDD102J" H 2200 4550 50  0001 C CNN "Product"
 	1    2200 4550
 	0    1    1    0   
 $EndComp
@@ -367,9 +395,11 @@ L Device:R R1
 U 1 1 6195E75F
 P 1150 4850
 F 0 "R1" H 1220 4896 50  0000 L CNN
-F 1 "R" H 1220 4805 50  0000 L CNN
+F 1 "220R" H 1220 4805 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 1080 4850 50  0001 C CNN
-F 3 "~" H 1150 4850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf" H 1150 4850 50  0001 C CNN
+F 4 "0.08" H 1150 4850 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R" H 1150 4850 50  0001 C CNN "Product"
 	1    1150 4850
 	1    0    0    -1  
 $EndComp
@@ -380,7 +410,9 @@ P 2700 4550
 F 0 "Q1" H 2891 4596 50  0000 L CNN
 F 1 "MMBT3904" H 2891 4505 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2900 4475 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 2700 4550 50  0001 L CNN
+F 3 "https://www.mouser.de/datasheet/2/916/MMBT3904-1599187.pdf" H 2700 4550 50  0001 L CNN
+F 4 "0.09" H 2700 4550 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Nexperia/MMBT3904215" H 2700 4550 50  0001 C CNN "Product"
 	1    2700 4550
 	1    0    0    -1  
 $EndComp
@@ -460,7 +492,9 @@ P 7100 1550
 F 0 "C3" H 7215 1596 50  0000 L CNN
 F 1 "100nF" H 7215 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7138 1400 50  0001 C CNN
-F 3 "~" H 7100 1550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7100 1550 50  0001 C CNN
+F 4 "0.24" H 7100 1550 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 7100 1550 50  0001 C CNN "Product"
 	1    7100 1550
 	1    0    0    -1  
 $EndComp
@@ -536,6 +570,8 @@ F 0 "U5" H 9250 2450 50  0000 C CNN
 F 1 "MAX3486" H 9200 2350 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9450 1200 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 9450 1950 50  0001 C CNN
+F 4 "3.71" H 9450 1900 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D" H 9450 1900 50  0001 C CNN "Product"
 	1    9450 1900
 	1    0    0    -1  
 $EndComp
@@ -546,7 +582,9 @@ P 10100 1550
 F 0 "C4" H 10215 1596 50  0000 L CNN
 F 1 "100nF" H 10215 1505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 10138 1400 50  0001 C CNN
-F 3 "~" H 10100 1550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 10100 1550 50  0001 C CNN
+F 4 "0.24" H 10100 1550 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 10100 1550 50  0001 C CNN "Product"
 	1    10100 1550
 	1    0    0    -1  
 $EndComp
@@ -621,7 +659,9 @@ P 7350 4200
 F 0 "J2" H 7430 4192 50  0000 L CNN
 F 1 "South" H 7430 4101 50  0000 L CNN
 F 2 "footprints:PHOENIX_1727078" H 7350 4200 50  0001 C CNN
-F 3 "~" H 7350 4200 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/324/4/1727078-1437530.pdf" H 7350 4200 50  0001 C CNN
+F 4 "4.85" H 7350 4200 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078" H 7350 4200 50  0001 C CNN "Product"
 	1    7350 4200
 	1    0    0    -1  
 $EndComp
@@ -632,7 +672,9 @@ P 5450 4300
 F 0 "J1" H 5530 4292 50  0000 L CNN
 F 1 "North" H 5530 4201 50  0000 L CNN
 F 2 "footprints:PHOENIX_1727078" H 5450 4300 50  0001 C CNN
-F 3 "~" H 5450 4300 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/324/4/1727078-1437530.pdf" H 5450 4300 50  0001 C CNN
+F 4 "4.85" H 5450 4300 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078" H 5450 4300 50  0001 C CNN "Product"
 	1    5450 4300
 	-1   0    0    1   
 $EndComp
@@ -643,7 +685,9 @@ P 8750 4400
 F 0 "J3" H 8830 4392 50  0000 L CNN
 F 1 "West" H 8830 4301 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 8750 4400 50  0001 C CNN
-F 3 "~" H 8750 4400 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/181/M20-999-1218971.pdf" H 8750 4400 50  0001 C CNN
+F 4 "0.45" H 8750 4400 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Harwin/M20-9991446" H 8750 4400 50  0001 C CNN "Product"
 	1    8750 4400
 	1    0    0    -1  
 $EndComp
@@ -654,7 +698,9 @@ P 10250 4400
 F 0 "J4" H 10330 4392 50  0000 L CNN
 F 1 "East" H 10330 4301 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 10250 4400 50  0001 C CNN
-F 3 "~" H 10250 4400 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/181/M20-999-1218971.pdf" H 10250 4400 50  0001 C CNN
+F 4 "0.45" H 10250 4400 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Harwin/M20-9991446" H 10250 4400 50  0001 C CNN "Product"
 	1    10250 4400
 	1    0    0    -1  
 $EndComp
@@ -743,9 +789,11 @@ L Device:R R8
 U 1 1 61BBE81A
 P 3700 4000
 F 0 "R8" V 3493 4000 50  0000 C CNN
-F 1 "R" V 3584 4000 50  0000 C CNN
+F 1 "10k" V 3584 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3630 4000 50  0001 C CNN
-F 3 "~" H 3700 4000 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf" H 3700 4000 50  0001 C CNN
+F 4 "0.08" H 3700 4000 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF" H 3700 4000 50  0001 C CNN "Product"
 	1    3700 4000
 	-1   0    0    1   
 $EndComp
@@ -754,9 +802,11 @@ L Device:R R10
 U 1 1 61BBF91B
 P 4150 4500
 F 0 "R10" V 3943 4500 50  0000 C CNN
-F 1 "R" V 4034 4500 50  0000 C CNN
+F 1 "220R" V 4034 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4080 4500 50  0001 C CNN
-F 3 "~" H 4150 4500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf" H 4150 4500 50  0001 C CNN
+F 4 "0.08" H 4150 4500 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R" H 4150 4500 50  0001 C CNN "Product"
 	1    4150 4500
 	-1   0    0    1   
 $EndComp
@@ -767,7 +817,9 @@ P 3700 4550
 F 0 "C5" H 3815 4596 50  0000 L CNN
 F 1 "100nF" H 3815 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3738 4400 50  0001 C CNN
-F 3 "~" H 3700 4550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3700 4550 50  0001 C CNN
+F 4 "0.24" H 3700 4550 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 3700 4550 50  0001 C CNN "Product"
 	1    3700 4550
 	1    0    0    -1  
 $EndComp
@@ -802,7 +854,9 @@ P 4150 4900
 F 0 "D7" H 4150 5117 50  0000 C CNN
 F 1 "D_TVS" H 4150 5026 50  0000 C CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4150 4900 50  0001 C CNN
-F 3 "~" H 4150 4900 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/MLC-777442.pdf" H 4150 4900 50  0001 C CNN
+F 4 "0.32" H 4150 4900 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D" H 4150 4900 50  0001 C CNN "Product"
 	1    4150 4900
 	0    1    1    0   
 $EndComp
@@ -836,9 +890,11 @@ L Device:R R9
 U 1 1 61C4B6B3
 P 3700 6200
 F 0 "R9" V 3493 6200 50  0000 C CNN
-F 1 "R" V 3584 6200 50  0000 C CNN
+F 1 "10k" V 3584 6200 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3630 6200 50  0001 C CNN
-F 3 "~" H 3700 6200 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf" H 3700 6200 50  0001 C CNN
+F 4 "0.08" H 3700 6200 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF" H 3700 6200 50  0001 C CNN "Product"
 	1    3700 6200
 	-1   0    0    1   
 $EndComp
@@ -847,9 +903,11 @@ L Device:R R11
 U 1 1 61C4B6B9
 P 4150 6700
 F 0 "R11" V 3943 6700 50  0000 C CNN
-F 1 "R" V 4034 6700 50  0000 C CNN
+F 1 "220R" V 4034 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4080 6700 50  0001 C CNN
-F 3 "~" H 4150 6700 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/418/4/NG_DS_1773204-3_1-1358553.pdf" H 4150 6700 50  0001 C CNN
+F 4 "0.08" H 4150 6700 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R" H 4150 6700 50  0001 C CNN "Product"
 	1    4150 6700
 	-1   0    0    1   
 $EndComp
@@ -860,7 +918,9 @@ P 3700 6750
 F 0 "C6" H 3815 6796 50  0000 L CNN
 F 1 "100nF" H 3815 6705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3738 6600 50  0001 C CNN
-F 3 "~" H 3700 6750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3700 6750 50  0001 C CNN
+F 4 "0.24" H 3700 6750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 3700 6750 50  0001 C CNN "Product"
 	1    3700 6750
 	1    0    0    -1  
 $EndComp
@@ -895,7 +955,9 @@ P 4150 7100
 F 0 "D8" H 4150 7317 50  0000 C CNN
 F 1 "D_TVS" H 4150 7226 50  0000 C CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4150 7100 50  0001 C CNN
-F 3 "~" H 4150 7100 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/MLC-777442.pdf" H 4150 7100 50  0001 C CNN
+F 4 "0.32" H 4150 7100 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D" H 4150 7100 50  0001 C CNN "Product"
 	1    4150 7100
 	0    1    1    0   
 $EndComp
@@ -1096,7 +1158,9 @@ P 5700 6450
 F 0 "U6" H 5350 7150 50  0000 C CNN
 F 1 "MCP23008-xSO" H 5300 7050 50  0000 C CNN
 F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 5700 5400 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf" H 7000 5250 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/268/21919b-65915.pdf" H 7000 5250 50  0001 C CNN
+F 4 "1.10" H 5700 6450 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Microchip-Technology/MCP23008-E-SO" H 5700 6450 50  0001 C CNN "Product"
 	1    5700 6450
 	1    0    0    -1  
 $EndComp
@@ -1107,7 +1171,9 @@ P 6000 7200
 F 0 "C7" H 6115 7246 50  0000 L CNN
 F 1 "100nF" H 6115 7155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6038 7050 50  0001 C CNN
-F 3 "~" H 6000 7200 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 6000 7200 50  0001 C CNN
+F 4 "0.24" H 6000 7200 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 6000 7200 50  0001 C CNN "Product"
 	1    6000 7200
 	0    1    1    0   
 $EndComp
@@ -1265,4 +1331,15 @@ Wire Wire Line
 	2400 1350 2600 1350
 Wire Wire Line
 	1900 1350 2400 1350
+$Comp
+L grayc-logo-negative:LOGO G1
+U 1 1 621EAB94
+P 10700 6300
+F 0 "G1" H 10810 6350 60  0000 L CNN
+F 1 "LOGO" H 10810 6244 60  0000 L CNN
+F 2 "images:grayc-logo-negative" H 10700 6300 50  0001 C CNN
+F 3 "" H 10700 6300 50  0001 C CNN
+	1    10700 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

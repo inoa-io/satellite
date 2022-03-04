@@ -737,30 +737,6 @@ Wire Wire Line
 Connection ~ 1800 4900
 Wire Wire Line
 	1800 4900 1800 5050
-Text GLabel 5000 5950 0    50   Input ~ 0
-I2C_SDA
-Text GLabel 5000 6100 0    50   Input ~ 0
-I2C_SCL
-Text GLabel 5000 6250 0    50   Input ~ 0
-SPI_0_MOSI
-Text GLabel 5000 6400 0    50   Input ~ 0
-SPI_0_MISO
-Text GLabel 5000 6550 0    50   Input ~ 0
-SPI_0_CLK
-Text GLabel 5000 6700 0    50   Input ~ 0
-SD_CS
-Text GLabel 5250 5950 2    50   Input ~ 0
-IO21
-Text GLabel 5250 6100 2    50   Input ~ 0
-IO22
-Text GLabel 5250 6700 2    50   Input ~ 0
-IO5
-Wire Wire Line
-	5000 5950 5250 5950
-Wire Wire Line
-	5250 6100 5000 6100
-Wire Wire Line
-	5000 6700 5250 6700
 $Comp
 L Device:R R1
 U 1 1 618B88C5
@@ -790,16 +766,121 @@ $EndComp
 NoConn ~ 9650 4050
 Wire Wire Line
 	9650 4050 9900 4050
-Text GLabel 5250 6250 2    50   Input ~ 0
-IO23
-Text GLabel 5250 6400 2    50   Input ~ 0
-IO19
-Text GLabel 5250 6550 2    50   Input ~ 0
+Wire Wire Line
+	9650 5650 9900 5650
+Wire Wire Line
+	9650 5500 9900 5500
+Wire Wire Line
+	9650 5350 9900 5350
+Text GLabel 9900 5650 2    50   Input ~ 0
 IO18
+Text GLabel 9900 5500 2    50   Input ~ 0
+IO19
+Text GLabel 9900 5350 2    50   Input ~ 0
+IO23
 Wire Wire Line
-	5000 6250 5250 6250
+	9650 5800 9900 5800
 Wire Wire Line
-	5000 6400 5250 6400
+	9900 5200 9650 5200
 Wire Wire Line
-	5000 6550 5250 6550
+	9650 5050 9900 5050
+Text GLabel 9900 5800 2    50   Input ~ 0
+IO5
+Text GLabel 9900 5200 2    50   Input ~ 0
+IO22
+Text GLabel 9900 5050 2    50   Input ~ 0
+IO21
+Text GLabel 9650 5800 0    50   Input ~ 0
+SD_CS
+Text GLabel 9650 5650 0    50   Input ~ 0
+SPI_0_CLK
+Text GLabel 9650 5500 0    50   Input ~ 0
+SPI_0_MISO
+Text GLabel 9650 5350 0    50   Input ~ 0
+SPI_0_MOSI
+Text GLabel 9650 5200 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 9650 5050 0    50   Input ~ 0
+I2C_SDA
+Text Notes 9050 4850 0    50   ~ 0
+Bus Mapping
+$Comp
+L grayc-logo-negative:LOGO G1
+U 1 1 6226A4CD
+P 10750 6300
+F 0 "G1" H 10860 6350 60  0000 L CNN
+F 1 "LOGO" H 10860 6244 60  0000 L CNN
+F 2 "images:grayc-logo-negative" H 10750 6300 50  0001 C CNN
+F 3 "" H 10750 6300 50  0001 C CNN
+	1    10750 6300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	900  2550 2550 2550
+Wire Notes Line
+	2550 2550 2550 800 
+Wire Notes Line
+	2550 800  900  800 
+Wire Notes Line
+	900  750  900  2550
+Wire Notes Line
+	2950 800  4950 800 
+Wire Notes Line
+	4950 800  4950 2550
+Wire Notes Line
+	4950 2550 2950 2550
+Wire Notes Line
+	2950 2550 2950 800 
+Wire Notes Line
+	900  2800 3950 2800
+Wire Notes Line
+	3950 2800 3950 5350
+Wire Notes Line
+	3950 5350 900  5350
+Wire Notes Line
+	900  5350 900  2800
+Wire Notes Line
+	5300 800  8450 800 
+Wire Notes Line
+	8450 800  8450 4500
+Wire Notes Line
+	8450 4500 5300 4500
+Wire Notes Line
+	5300 4500 5300 800 
+Wire Notes Line
+	900  5700 2750 5700
+Wire Notes Line
+	2750 5700 2750 7550
+Wire Notes Line
+	2750 7550 900  7550
+Wire Notes Line
+	900  7550 900  5700
+Wire Notes Line
+	9000 800  10500 800 
+Wire Notes Line
+	10500 800  10500 4500
+Wire Notes Line
+	10500 4500 9000 4500
+Wire Notes Line
+	9000 4500 9000 800 
+Wire Notes Line
+	9000 5950 9000 4700
+Wire Notes Line
+	9000 4700 10500 4700
+Wire Notes Line
+	10500 4700 10500 5950
+Wire Notes Line
+	9000 5950 10500 5950
+Text Notes 7700 950  0    50   ~ 0
+Chip Peripherials
+Text Notes 9050 950  0    50   ~ 0
+Bus Mapping
+Text Notes 3000 950  0    50   ~ 0
+HSM
+Text Notes 2050 950  0    50   ~ 0
+SPI PullUps
+Text Notes 3550 2950 0    50   ~ 0
+SD Card
+Text Notes 2400 5850 0    50   ~ 0
+Buttons
 $EndSCHEMATC
