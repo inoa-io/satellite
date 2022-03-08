@@ -43,6 +43,20 @@ jobs:
           dir: out
           schema: 'soc-module/soc-module.sch'
           board: 'soc-module/soc-module.kicad_pcb'
+      - name: KiCad::SoC-Module::BoM
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/bom.kibot.yaml
+          dir: out
+          schema: 'soc-module/soc-module.sch'
+          board: 'soc-module/soc-module.kicad_pcb'
+      - name: KiCad::SoC-Module::Model
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/model.kibot.yaml
+          dir: out
+          schema: 'soc-module/soc-module.sch'
+          board: 'soc-module/soc-module.kicad_pcb'
       # ~~~~~~~~~~~~~~~
       # Ethernet Module
       # ~~~~~~~~~~~~~~~
@@ -74,6 +88,20 @@ jobs:
           dir: out
           schema: 'ethernet-extension/ethernet-extension.sch'
           board: 'ethernet-extension/ethernet-extension.kicad_pcb'
+      - name: KiCad::Ethernet-Module::BoM
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/bom.kibot.yaml
+          dir: out
+          schema: 'ethernet-extension/ethernet-extension.sch'
+          board: 'ethernet-extension/ethernet-extension.kicad_pcb'
+      - name: KiCad::Ethernet-Module::Model
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/model.kibot.yaml
+          dir: out
+          schema: 'ethernet-extension/ethernet-extension.sch'
+          board: 'ethernet-extension/ethernet-extension.kicad_pcb'
       # ~~~~~~~~~~~~~~~
       # Panel Module
       # ~~~~~~~~~~~~~~~
@@ -102,6 +130,20 @@ jobs:
         uses: nerdyscout/kicad-exports@v2.2
         with:
           config: configs/position.kibot.yaml
+          dir: out
+          schema: 'panel-module/panel-module.sch'
+          board: 'panel-module/panel-module.kicad_pcb'
+      - name: KiCad::Panel-Module::BoM
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/bom.kibot.yaml
+          dir: out
+          schema: 'panel-module/panel-module.sch'
+          board: 'panel-module/panel-module.kicad_pcb'
+      - name: KiCad::Panel-Module::Model
+        uses: nerdyscout/kicad-exports@v2.2
+        with:
+          config: configs/model.kibot.yaml
           dir: out
           schema: 'panel-module/panel-module.sch'
           board: 'panel-module/panel-module.kicad_pcb'

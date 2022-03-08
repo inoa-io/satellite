@@ -742,6 +742,8 @@ F 0 "D1" H 5350 6367 50  0000 C CNN
 F 1 "CDNBS08-SLVU2.8-4" H 5350 6276 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5350 5250 50  0001 C CNN
 F 3 "https://www.bourns.com/pdfs/CDNBS08-SLVU28-4.pdf" H 5400 5100 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bourns/CDNBS08-SLVU28-4" H 5350 5800 50  0001 C CNN "Products"
+F 5 "1.68" H 5350 5800 50  0001 C CNN "Price"
 	1    5350 5800
 	1    0    0    -1  
 $EndComp
