@@ -1,0 +1,185 @@
+kibot:
+  version: 1
+
+global:
+  output: '%f_rev%r-%i.%x'
+  variant: ''
+
+preflight:
+  run_erc: true
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+  update_xml: false
+
+outputs:
+  # --------------------
+  # Schematics
+  # --------------------
+  - name: 'print schema'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: docs
+  - name: 'print schema'
+    comment: "Print schematic (SVG)"
+    type: svg_sch_print
+    dir: docs/img
+  - name: 'print board mechanics'
+    comment: "Print board (PDF)"
+    type: pdf_pcb_print
+    layers:
+      - Dwgs.User
+      - Edge.Cuts
+      - F.CrtYd
+    dir: docs
+    options:
+      drill_marks: full
+      output: '%f-mechanic.%x'
+      plot_sheet_reference: true
+  - name: 'print board documentation'
+    comment: "Print board (PDF)"
+    type: pdf_pcb_print
+    layers: 
+      - Edge.Cuts
+      - Cmts.User
+      - F.Fab
+    dir: docs
+    options:
+      output: '%f-documentation.%x'
+      plot_sheet_reference: true
+  # --------------------
+  # Images / Drawings
+  # --------------------
+  - name: 'https://github.com/yaqwsx/PcbDraw'
+    comment: 'default green svg top'
+    type: 'pcbdraw'
+    dir: 'docs/img'
+    options:
+      bottom: false
+      dnf_filter: ''
+      dpi: 300
+      format: 'svg'
+      highlight: []
+      libs: ['/usr/share/pcbdraw/footprints/KiCAD-base']
+      mirror: false
+      no_drillholes: false
+      output: '%f-%i%v.%x'
+      placeholder: false
+      remap:
+      show_components: none
+      style: '/usr/share/pcbdraw/styles/jlcpcb-green-hasl.json'
+      variant: ''
+      vcuts: false
+      warnings: 'none'
+  - name: 'https://github.com/yaqwsx/PcbDraw'
+    comment: 'default green svg bottom'
+    type: 'pcbdraw'
+    dir: 'docs/img'
+    options:
+      bottom: true
+      dnf_filter: ''
+      dpi: 300
+      format: 'svg'
+      highlight: []
+      libs: ['/usr/share/pcbdraw/footprints/KiCAD-base']
+      mirror: true
+      no_drillholes: false
+      output: '%f-%i%v.%x'
+      placeholder: false
+      remap:
+      show_components: none
+      style: '/usr/share/pcbdraw/styles/jlcpcb-green-hasl.json'
+      variant: ''
+      vcuts: false
+      warnings: 'none'
+  # --------------------
+  # BoM
+  # --------------------
+  - name: 'https://github.com/SchrodingersGat/KiBoM'
+    comment: 'bom.html'
+    type: 'kibom'
+    dir: 'docs/bom'
+    options:
+      conf:
+        component_aliases: [['r', 'r_small', 'res', 'resistor'], ['l', 'l_small', 'inductor'], ['c', 'c_small', 'cap', 'capacitor'], ['sw', 'switch'], ['zener', 'zenersmall'], ['d', 'diode', 'd_small']]
+        datasheet_as_link: 'Datasheet'
+        digikey_link: ''
+        exclude_any:
+          - column: References
+            regex: '^TP[0-9]*'
+          - column: References
+            regex: '^FID'
+          - column: Part
+            regex: 'mount.*hole'
+          - column: Part
+            regex: 'solder.*bridge'
+          - column: Part
+            regex: 'test.*point'
+          - column: Footprint
+            regex: 'test.*point'
+          - column: Footprint
+            regex: 'mount.*hole'
+          - column: Footprint
+            regex: 'fiducial'
+          - column: References
+            regex: 'LOGO'
+        fit_field: 'Variant'
+        group_connectors: true
+        group_fields: ['Part', 'Part Lib', 'Value', 'Footprint', 'Footprint Lib']
+        hide_headers: false
+        hide_pcb_info: false
+        html_generate_dnf: true
+        ignore_dnf: true
+        merge_blank_fields: true
+        number_rows: true
+        test_regex: true
+        use_alt: false
+      format: 'HTML'
+      number: 1
+      output: '%f-%i%v.%x'
+      separator: ','
+      variant: ''
+  - name: 'https://github.com/SchrodingersGat/KiBoM'
+    comment: 'bom.xlsx'
+    type: 'kibom'
+    dir: 'docs/bom'
+    options:
+      conf:
+        component_aliases: [['r', 'r_small', 'res', 'resistor'], ['l', 'l_small', 'inductor'], ['c', 'c_small', 'cap', 'capacitor'], ['sw', 'switch'], ['zener', 'zenersmall'], ['d', 'diode', 'd_small']]
+        datasheet_as_link: 'Datasheet'
+        digikey_link: ''
+        exclude_any:
+          - column: References
+            regex: '^TP[0-9]*'
+          - column: References
+            regex: '^FID'
+          - column: Part
+            regex: 'mount.*hole'
+          - column: Part
+            regex: 'solder.*bridge'
+          - column: Part
+            regex: 'test.*point'
+          - column: Footprint
+            regex: 'test.*point'
+          - column: Footprint
+            regex: 'mount.*hole'
+          - column: Footprint
+            regex: 'fiducial'
+          - column: References
+            regex: 'LOGO'
+        fit_field: 'Variant'
+        group_connectors: true
+        group_fields: ['Part', 'Part Lib', 'Value', 'Footprint', 'Footprint Lib']
+        hide_headers: false
+        hide_pcb_info: false
+        html_generate_dnf: true
+        ignore_dnf: true
+        merge_blank_fields: true
+        number_rows: true
+        test_regex: true
+        use_alt: false
+      format: 'XLSX'
+      number: 1
+      output: '%f-%i%v.%x'
+      separator: ';'
+      variant: ''
