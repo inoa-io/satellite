@@ -10,7 +10,7 @@ preflight:
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
-  update_xml: false
+  update_xml: true
 
 outputs:
   # --------------------
@@ -92,6 +92,92 @@ outputs:
       variant: ''
       vcuts: false
       warnings: 'none'
+  # --------------------
+  # Gerbers
+  # --------------------
+  - name: "https://en.wikipedia.org/wiki/Gerber_format"
+    comment: 'gerbers'
+    type: 'gerber'
+    dir: 'gerbers'
+    options:
+      create_gerber_job_file: false
+      dnf_filter: ''
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: false
+      force_plot_invisible_refs_vals: false
+      gerber_job_file: '%f-%i%v.%x'
+      gerber_precision: 4.6
+      line_width: 0.1
+      output: '%f-%i%v.%x'
+      plot_footprint_refs: true
+      plot_footprint_values: true
+      plot_sheet_reference: false
+      subtract_mask_from_silk: false
+      tent_vias: true
+      use_aux_axis_as_origin: true
+      use_gerber_net_attributes: true
+      use_gerber_x2_attributes: true
+      use_protel_extensions: false
+      variant: ''
+    layers: all
+  - name: 'https://en.wikipedia.org/wiki/Gerber_format'
+    comment: 'drill'
+    type: gerb_drill
+    dir: gerbers
+    options:
+      map:
+        output: ''
+        type: 'gerber'
+      output: '%f-%i%v.%x'
+      report:
+        filename: '%i.%x'
+      use_aux_axis_as_origin: false
+  - name: 'https://en.wikipedia.org/wiki/Gerber_format'
+    comment: 'drill excellon'
+    type: "excellon"
+    dir: "gerbers"
+    options:
+      map:
+        output: '%f-%i%v.%x'
+        type: 'gerber'
+      metric_units: true
+      minimal_header: false
+      mirror_y_axis: false
+      output: '%f-%i%v.%x'
+      pth_and_npth_single_file: false
+      report:
+        filename: '%i.%x'
+      use_aux_axis_as_origin: false
+  # --------------------
+  # Positioning
+  # --------------------
+  - name: 'link'
+    comment: '*_pos.csv'
+    type: 'position'
+    dir: 'gerbers'
+    options:
+      dnf_filter: ''
+      format: 'CSV'
+      only_smd: true
+      output: '%f-%i%v.%x'
+      separate_files_for_front_and_back: false
+      units: 'millimeters'
+      variant: ''
+  # --------------------
+  # 3D Model
+  # --------------------
+  - name: 'https://www.freecadweb.org/'
+    comment: '3D step model'
+    type: 'step'
+    dir: 'cad'
+    options:
+      dnf_filter: ''
+      metric_units: true
+      min_distance: -1
+      no_virtual: false
+      origin: 'grid'
+      output: '%f.%x'
+      variant: ''
   # --------------------
   # BoM
   # --------------------
