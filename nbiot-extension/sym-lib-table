@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name SARA-R410M)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/SARA-R410M.lib)(options "")(descr ""))
+  (lib (name BC66NB-04-STD)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/BC66NB-04-STD.lib)(options "")(descr ""))
 )
