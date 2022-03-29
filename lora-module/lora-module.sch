@@ -29,194 +29,114 @@ $EndComp
 $Comp
 L BA033CC0FP-E2:BA033CC0FP-E2 U3
 U 1 1 6192F73F
-P 3850 1350
-F 0 "U3" H 3850 1715 50  0000 C CNN
-F 1 "BA033CC0FP-E2" H 3850 1624 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3850 1600 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/348/baxxdd0-e-1873983.pdf" H 3850 1600 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2" H 3850 1350 50  0001 C CNN "Product"
-F 5 "0.97" H 3850 1350 50  0001 C CNN "Price"
-	1    3850 1350
+P 3400 1350
+F 0 "U3" H 3400 1715 50  0000 C CNN
+F 1 "BA033CC0FP-E2" H 3400 1624 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 3400 1600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/348/baxxdd0-e-1873983.pdf" H 3400 1600 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2" H 3400 1350 50  0001 C CNN "Product"
+F 5 "0.97" H 3400 1350 50  0001 C CNN "Price"
+	1    3400 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Fuse F1
 U 1 1 6193041A
-P 1550 1350
-F 0 "F1" V 1353 1350 50  0000 C CNN
-F 1 "25V/1A" V 1444 1350 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1480 1350 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/54/Bourns_SF_1206HIA_M_datasheet-1892140.pdf" H 1550 1350 50  0001 C CNN
-F 4 "0.93" H 1550 1350 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2" H 1550 1350 50  0001 C CNN "Product"
-	1    1550 1350
+P 1600 1350
+F 0 "F1" V 1403 1350 50  0000 C CNN
+F 1 "25V/1A" V 1494 1350 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 1350 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/Bourns_SF_1206HIA_M_datasheet-1892140.pdf" H 1600 1350 50  0001 C CNN
+F 4 "0.93" H 1600 1350 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2" H 1600 1350 50  0001 C CNN "Product"
+	1    1600 1350
 	0    1    1    0   
 $EndComp
 $Comp
 L Diode:1N5819 D2
 U 1 1 61931275
-P 2750 1350
-F 0 "D2" H 2750 1133 50  0000 C CNN
-F 1 "1N5819" H 2750 1224 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2750 1175 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/115/ds30217-71027.pdf" H 2750 1350 50  0001 C CNN
-F 4 "0.25" H 2750 1350 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D" H 2750 1350 50  0001 C CNN "Product"
-	1    2750 1350
+P 2500 1350
+F 0 "D2" H 2500 1133 50  0000 C CNN
+F 1 "1N5819" H 2500 1224 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2500 1175 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/ds30217-71027.pdf" H 2500 1350 50  0001 C CNN
+F 4 "0.25" H 2500 1350 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D" H 2500 1350 50  0001 C CNN "Product"
+	1    2500 1350
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 61931725
-P 2400 1750
-F 0 "R5" H 2470 1796 50  0000 L CNN
-F 1 "10k" H 2470 1705 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2330 1750 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf" H 2400 1750 50  0001 C CNN
-F 4 "0.08" H 2400 1750 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF" H 2400 1750 50  0001 C CNN "Product"
-	1    2400 1750
+P 2200 1650
+F 0 "R5" H 2270 1696 50  0000 L CNN
+F 1 "10k" H 2270 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2130 1650 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf" H 2200 1650 50  0001 C CNN
+F 4 "0.08" H 2200 1650 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF" H 2200 1650 50  0001 C CNN "Product"
+	1    2200 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C1
 U 1 1 61933997
-P 3150 1750
-F 0 "C1" H 3265 1796 50  0000 L CNN
-F 1 "100nF / 35V" H 3265 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3188 1600 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3150 1750 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 3150 1750 50  0001 C CNN "Product"
-F 5 "0.24" H 3150 1750 50  0001 C CNN "Price"
-	1    3150 1750
+P 2800 1650
+F 0 "C1" H 2915 1696 50  0000 L CNN
+F 1 "100nF/35V" H 2915 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2838 1500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2800 1650 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 2800 1650 50  0001 C CNN "Product"
+F 5 "0.24" H 2800 1650 50  0001 C CNN "Price"
+	1    2800 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C2
 U 1 1 61933D85
-P 4550 1750
-F 0 "C2" H 4665 1796 50  0000 L CNN
-F 1 "100nF" H 4665 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4588 1600 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4550 1750 50  0001 C CNN
-F 4 "0.24" H 4550 1750 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 4550 1750 50  0001 C CNN "Product"
-	1    4550 1750
+P 4000 1650
+F 0 "C2" H 4115 1696 50  0000 L CNN
+F 1 "100nF" H 4115 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 4038 1500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4000 1650 50  0001 C CNN
+F 4 "0.24" H 4000 1650 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 4000 1650 50  0001 C CNN "Product"
+	1    4000 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR0101
 U 1 1 619346CF
-P 1150 1100
-F 0 "#PWR0101" H 1150 950 50  0001 C CNN
-F 1 "VCC" H 1165 1273 50  0000 C CNN
-F 2 "" H 1150 1100 50  0001 C CNN
-F 3 "" H 1150 1100 50  0001 C CNN
-	1    1150 1100
+P 1300 1100
+F 0 "#PWR0101" H 1300 950 50  0001 C CNN
+F 1 "VCC" H 1315 1273 50  0000 C CNN
+F 2 "" H 1300 1100 50  0001 C CNN
+F 3 "" H 1300 1100 50  0001 C CNN
+	1    1300 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0102
 U 1 1 6193AECD
-P 4800 1100
-F 0 "#PWR0102" H 4800 950 50  0001 C CNN
-F 1 "+3V3" H 4815 1273 50  0000 C CNN
-F 2 "" H 4800 1100 50  0001 C CNN
-F 3 "" H 4800 1100 50  0001 C CNN
-	1    4800 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1100 1150 1350
-Wire Wire Line
-	1150 1350 1400 1350
-Wire Wire Line
-	2900 1350 3150 1350
-Wire Wire Line
-	3150 1600 3150 1350
-Connection ~ 3150 1350
-Wire Wire Line
-	3150 1350 3400 1350
-Wire Wire Line
-	2400 1600 2400 1350
-Wire Wire Line
-	1700 1350 1900 1350
-Wire Wire Line
-	1900 1600 1900 1350
-Wire Wire Line
-	4300 1350 4550 1350
-Wire Wire Line
-	4550 1350 4550 1600
-Wire Wire Line
-	4550 1350 4800 1350
-Wire Wire Line
-	4800 1350 4800 1100
-Connection ~ 4550 1350
-$Comp
-L power:GND #PWR0103
-U 1 1 6193D17D
-P 3150 2150
-F 0 "#PWR0103" H 3150 1900 50  0001 C CNN
-F 1 "GND" H 3155 1977 50  0000 C CNN
-F 2 "" H 3150 2150 50  0001 C CNN
-F 3 "" H 3150 2150 50  0001 C CNN
-	1    3150 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 6193D3F0
-P 3850 2150
-F 0 "#PWR0104" H 3850 1900 50  0001 C CNN
-F 1 "GND" H 3855 1977 50  0000 C CNN
-F 2 "" H 3850 2150 50  0001 C CNN
-F 3 "" H 3850 2150 50  0001 C CNN
-	1    3850 2150
+P 4150 1100
+F 0 "#PWR0102" H 4150 950 50  0001 C CNN
+F 1 "+3V3" H 4165 1273 50  0000 C CNN
+F 2 "" H 4150 1100 50  0001 C CNN
+F 3 "" H 4150 1100 50  0001 C CNN
+	1    4150 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 6193D5EA
-P 4550 2150
-F 0 "#PWR0105" H 4550 1900 50  0001 C CNN
-F 1 "GND" H 4555 1977 50  0000 C CNN
-F 2 "" H 4550 2150 50  0001 C CNN
-F 3 "" H 4550 2150 50  0001 C CNN
-	1    4550 2150
+P 4000 2750
+F 0 "#PWR0105" H 4000 2500 50  0001 C CNN
+F 1 "GND" H 4005 2577 50  0000 C CNN
+F 2 "" H 4000 2750 50  0001 C CNN
+F 3 "" H 4000 2750 50  0001 C CNN
+	1    4000 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 6193D7EC
-P 2400 2150
-F 0 "#PWR0106" H 2400 1900 50  0001 C CNN
-F 1 "GND" H 2405 1977 50  0000 C CNN
-F 2 "" H 2400 2150 50  0001 C CNN
-F 3 "" H 2400 2150 50  0001 C CNN
-	1    2400 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0107
-U 1 1 6193DD3C
-P 1900 2150
-F 0 "#PWR0107" H 1900 1900 50  0001 C CNN
-F 1 "GND" H 1905 1977 50  0000 C CNN
-F 2 "" H 1900 2150 50  0001 C CNN
-F 3 "" H 1900 2150 50  0001 C CNN
-	1    1900 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 1900 1900 2150
-Wire Wire Line
-	2400 2150 2400 1900
-Wire Wire Line
-	3150 1900 3150 2150
-Wire Wire Line
-	3850 2150 3850 1650
-Wire Wire Line
-	4550 1900 4550 2150
 $Comp
 L Device:C C3
 U 1 1 619F107C
@@ -437,61 +357,29 @@ $EndComp
 $Comp
 L power:GND #PWR0121
 U 1 1 61A7D923
-P 9400 5350
-F 0 "#PWR0121" H 9400 5100 50  0001 C CNN
-F 1 "GND" H 9405 5177 50  0000 C CNN
-F 2 "" H 9400 5350 50  0001 C CNN
-F 3 "" H 9400 5350 50  0001 C CNN
-	1    9400 5350
+P 9850 5350
+F 0 "#PWR0121" H 9850 5100 50  0001 C CNN
+F 1 "GND" H 9800 5150 50  0000 C CNN
+F 2 "" H 9850 5350 50  0001 C CNN
+F 3 "" H 9850 5350 50  0001 C CNN
+	1    9850 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0122
 U 1 1 61A7E0B7
-P 9900 5500
-F 0 "#PWR0122" H 9900 5300 50  0001 C CNN
-F 1 "GNDPWR" H 9904 5346 50  0000 C CNN
-F 2 "" H 9900 5450 50  0001 C CNN
-F 3 "" H 9900 5450 50  0001 C CNN
-	1    9900 5500
+P 10000 5350
+F 0 "#PWR0122" H 10000 5150 50  0001 C CNN
+F 1 "GNDPWR" H 10100 5150 50  0000 C CNN
+F 2 "" H 10000 5300 50  0001 C CNN
+F 3 "" H 10000 5300 50  0001 C CNN
+	1    10000 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 5100 10050 5100
-Wire Wire Line
-	10050 3800 9400 3800
-Wire Wire Line
-	9400 3800 9400 5350
 Wire Wire Line
 	8400 3650 8400 3800
 Wire Wire Line
 	8400 3800 8550 3800
-Wire Wire Line
-	9900 5100 9900 5500
-$Comp
-L Connector:TestPoint TP1
-U 1 1 61BC6D73
-P 5750 7000
-F 0 "TP1" H 5808 7118 50  0000 L CNN
-F 1 "Shield" H 5808 7027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 5950 7000 50  0001 C CNN
-F 3 "~" H 5950 7000 50  0001 C CNN
-	1    5750 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR0108
-U 1 1 61BC8379
-P 5750 7250
-F 0 "#PWR0108" H 5750 7050 50  0001 C CNN
-F 1 "GNDPWR" H 5754 7096 50  0000 C CNN
-F 2 "" H 5750 7200 50  0001 C CNN
-F 3 "" H 5750 7200 50  0001 C CNN
-	1    5750 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 7000 5750 7250
 $Comp
 L power:VCC #PWR0109
 U 1 1 61C0DAB5
@@ -503,13 +391,9 @@ F 3 "" H 6450 3650 50  0001 C CNN
 	1    6450 3650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6350 4300 0    50   Input ~ 0
-RS485_0_A
-Text GLabel 6350 4400 0    50   Input ~ 0
-RS485_0_B
-Text GLabel 6350 4500 0    50   Input ~ 0
+Text GLabel 6050 4500 0    50   Input ~ 0
 RS485_1_A
-Text GLabel 6350 4600 0    50   Input ~ 0
+Text GLabel 6050 4600 0    50   Input ~ 0
 RS485_1_B
 $Comp
 L power:GND #PWR0130
@@ -522,14 +406,6 @@ F 3 "" H 6550 4850 50  0001 C CNN
 	1    6550 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6350 4300 6600 4300
-Wire Wire Line
-	6600 4400 6350 4400
-Wire Wire Line
-	6350 4500 6600 4500
-Wire Wire Line
-	6600 4600 6350 4600
 Wire Wire Line
 	6450 3900 6600 3900
 Wire Wire Line
@@ -606,7 +482,6 @@ Wire Wire Line
 	9800 4000 10050 4000
 Wire Wire Line
 	9800 4300 10050 4300
-NoConn ~ 8300 4000
 NoConn ~ 8300 3900
 NoConn ~ 8300 4400
 NoConn ~ 8300 4500
@@ -641,22 +516,16 @@ Wire Wire Line
 $Comp
 L Device:D_Zener D1
 U 1 1 62076EFE
-P 1900 1750
-F 0 "D1" V 1854 1830 50  0000 L CNN
-F 1 "25V" V 1945 1830 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-523" H 1900 1750 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/80/CPDU_Series_HF__RevF396351-2505940.pdf" H 1900 1750 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D" V 1900 1750 50  0001 C CNN "Product"
-F 5 "0.40" V 1900 1750 50  0001 C CNN "Price"
-	1    1900 1750
+P 1900 1650
+F 0 "D1" V 1854 1730 50  0000 L CNN
+F 1 "25V" V 1945 1730 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 1900 1650 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/80/CPDU_Series_HF__RevF396351-2505940.pdf" H 1900 1650 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D" V 1900 1650 50  0001 C CNN "Product"
+F 5 "0.40" V 1900 1650 50  0001 C CNN "Price"
+	1    1900 1650
 	0    1    1    0   
 $EndComp
-Connection ~ 1900 1350
-Connection ~ 2400 1350
-Wire Wire Line
-	2400 1350 2600 1350
-Wire Wire Line
-	1900 1350 2400 1350
 $Comp
 L grayc-logo-negative:LOGO G1
 U 1 1 621EAB94
@@ -664,18 +533,12 @@ P 10700 6300
 F 0 "G1" H 10810 6350 60  0000 L CNN
 F 1 "LOGO" H 10810 6244 60  0000 L CNN
 F 2 "images:grayc-logo-negative" H 10700 6300 50  0001 C CNN
-F 3 "" H 10700 6300 50  0001 C CNN
+F 3 "N/A" H 10700 6300 50  0001 C CNN
+F 4 "N/A" H 10700 6300 50  0001 C CNN "Price"
+F 5 "N/A" H 10700 6300 50  0001 C CNN "Product"
 	1    10700 6300
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	1000 800  5000 800 
-Wire Notes Line
-	5000 800  5000 2450
-Wire Notes Line
-	5000 2450 1000 2450
-Wire Notes Line
-	1000 2450 1000 800 
 Wire Notes Line
 	5150 800  10950 800 
 Wire Notes Line
@@ -692,131 +555,90 @@ Wire Notes Line
 	7700 3300 10950 3300
 Wire Notes Line
 	10950 5800 7700 5800
-Text Notes 1050 2400 0    50   ~ 0
-Power Supply
 Text Notes 5200 950  0    50   ~ 0
 RS485
 Text Notes 5200 3450 0    50   ~ 0
 Screw Terminal
 Text Notes 7750 3450 0    50   ~ 0
 Bus Mapping
-Wire Notes Line
-	1000 6250 1000 2750
-Text Notes 1050 2900 0    50   ~ 0
-LoRa
 $Comp
 L RF_Module:RFM95W-868S2 U7
 U 1 1 623522BD
-P 2400 3900
-F 0 "U7" H 2000 4550 50  0000 C CNN
-F 1 "RFM95W-868S2" H 2000 4450 50  0000 C CNN
-F 2 "footprints:XCVR_RFM69HW-868S2" H -900 5550 50  0001 C CNN
-F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H -900 5550 50  0001 C CNN
-	1    2400 3900
+P 2250 4200
+F 0 "U7" H 1850 4800 50  0000 C CNN
+F 1 "RFM95W-868S2" H 1850 4700 50  0000 C CNN
+F 2 "footprints:XCVR_RFM69HW-868S2" H -1050 5850 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf" H -1050 5850 50  0001 C CNN
+	1    2250 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C7
 U 1 1 623B54D2
-P 3050 4600
-F 0 "C7" H 3165 4646 50  0000 L CNN
-F 1 "100nF" H 3165 4555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3088 4450 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3050 4600 50  0001 C CNN
-F 4 "0.24" H 3050 4600 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 3050 4600 50  0001 C CNN "Product"
-	1    3050 4600
+P 2900 4750
+F 0 "C7" H 3015 4796 50  0000 L CNN
+F 1 "100nF" H 3015 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2938 4600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2900 4750 50  0001 C CNN
+F 4 "0.24" H 2900 4750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 2900 4750 50  0001 C CNN "Product"
+	1    2900 4750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3200 4300
-NoConn ~ 3200 4200
-NoConn ~ 3200 4100
-NoConn ~ 3200 4000
-NoConn ~ 3200 3900
-NoConn ~ 3200 3800
 $Comp
 L Connector:Conn_Coaxial J5
 U 1 1 623D3AC1
-P 4050 3600
-F 0 "J5" H 4000 3850 50  0000 L CNN
-F 1 "Conn_Coaxial" H 3800 3750 50  0000 L CNN
-F 2 "footprints:LINX_CONSMA002" H 4050 3600 50  0001 C CNN
-F 3 " ~" H 4050 3600 50  0001 C CNN
-	1    4050 3600
+P 4000 3900
+F 0 "J5" H 3950 4150 50  0000 L CNN
+F 1 "LoRa SMA" H 3750 4050 50  0000 L CNN
+F 2 "footprints:LINX_CONSMA002" H 4000 3900 50  0001 C CNN
+F 3 " ~" H 4000 3900 50  0001 C CNN
+	1    4000 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR0110
 U 1 1 62403D6C
-P 2400 3100
-F 0 "#PWR0110" H 2400 2950 50  0001 C CNN
-F 1 "+3V3" H 2415 3273 50  0000 C CNN
-F 2 "" H 2400 3100 50  0001 C CNN
-F 3 "" H 2400 3100 50  0001 C CNN
-	1    2400 3100
+P 2250 3600
+F 0 "#PWR0110" H 2250 3450 50  0001 C CNN
+F 1 "+3V3" H 2265 3773 50  0000 C CNN
+F 2 "" H 2250 3600 50  0001 C CNN
+F 3 "" H 2250 3600 50  0001 C CNN
+	1    2250 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 6240446E
-P 2500 5050
-F 0 "#PWR0111" H 2500 4800 50  0001 C CNN
-F 1 "GND" H 2505 4877 50  0000 C CNN
-F 2 "" H 2500 5050 50  0001 C CNN
-F 3 "" H 2500 5050 50  0001 C CNN
-	1    2500 5050
+P 2250 5000
+F 0 "#PWR0111" H 2250 4750 50  0001 C CNN
+F 1 "GND" H 2255 4827 50  0000 C CNN
+F 2 "" H 2250 5000 50  0001 C CNN
+F 3 "" H 2250 5000 50  0001 C CNN
+	1    2250 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 3100 2400 3250
+	3050 4100 2750 4100
 Wire Wire Line
-	3200 3800 2900 3800
+	3050 4200 2750 4200
 Wire Wire Line
-	3200 3900 2900 3900
+	3050 4300 2750 4300
 Wire Wire Line
-	3200 4000 2900 4000
+	3050 4400 2750 4400
 Wire Wire Line
-	3200 4100 2900 4100
-Wire Wire Line
-	3200 4200 2900 4200
-Wire Wire Line
-	3200 4300 2900 4300
-Wire Wire Line
-	2400 3250 3050 3250
-Wire Wire Line
-	3050 3250 3050 4450
-Connection ~ 2400 3250
-Wire Wire Line
-	2400 3250 2400 3400
-Wire Wire Line
-	2500 5050 2500 4900
-Wire Wire Line
-	3050 4900 3050 4750
-Wire Wire Line
-	2500 4900 2500 4500
-Connection ~ 2500 4900
-Wire Wire Line
-	2300 4500 2300 4900
-Wire Wire Line
-	2300 4900 2400 4900
-Wire Wire Line
-	2400 4500 2400 4900
-Connection ~ 2400 4900
-Wire Wire Line
-	2400 4900 2500 4900
+	3050 4500 2750 4500
 $Comp
 L power:GNDPWR #PWR0112
 U 1 1 624545B2
-P 4050 5050
-F 0 "#PWR0112" H 4050 4850 50  0001 C CNN
-F 1 "GNDPWR" H 4050 4877 50  0000 C CNN
-F 2 "" H 4050 5000 50  0001 C CNN
-F 3 "" H 4050 5000 50  0001 C CNN
-	1    4050 5050
+P 4000 4950
+F 0 "#PWR0112" H 4000 4750 50  0001 C CNN
+F 1 "GNDPWR" H 4000 4777 50  0000 C CNN
+F 2 "" H 4000 4900 50  0001 C CNN
+F 3 "" H 4000 4900 50  0001 C CNN
+	1    4000 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 5050 4050 3800
 Wire Notes Line
 	5150 3300 5150 5800
 Wire Notes Line
@@ -827,66 +649,544 @@ Text GLabel 9800 4400 0    50   Input ~ 0
 SPI_0_MISO
 Text GLabel 9800 4500 0    50   Input ~ 0
 SPI_0_CLK
-Text GLabel 1750 3700 0    50   Input ~ 0
+Text GLabel 1600 4000 0    50   Input ~ 0
 SPI_0_MOSI
-Text GLabel 1750 3800 0    50   Input ~ 0
+Text GLabel 1600 4100 0    50   Input ~ 0
 SPI_0_MISO
-Text GLabel 1750 3600 0    50   Input ~ 0
+Text GLabel 1600 3900 0    50   Input ~ 0
 SPI_0_CLK
 Wire Wire Line
-	1750 3600 1900 3600
+	1600 3900 1750 3900
 Wire Wire Line
-	1750 3700 1900 3700
+	1600 4000 1750 4000
 Wire Wire Line
-	1750 3800 1900 3800
+	1600 4100 1750 4100
 $Comp
 L Device:D_TVS D3
 U 1 1 62410F8D
-P 3550 4600
-F 0 "D3" V 3504 4680 50  0000 L CNN
-F 1 "D_TVS" V 3595 4680 50  0000 L CNN
-F 2 "" H 3550 4600 50  0001 C CNN
-F 3 "~" H 3550 4600 50  0001 C CNN
-	1    3550 4600
+P 3600 4750
+F 0 "D3" V 3554 4830 50  0000 L CNN
+F 1 "D_TVS" V 3645 4830 50  0000 L CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 4750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/MLC-777442.pdf" H 3600 4750 50  0001 C CNN
+F 4 "0.32" V 3600 4750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D" V 3600 4750 50  0001 C CNN "Product"
+	1    3600 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 624133E2
-P 3550 4050
-F 0 "R1" H 3620 4096 50  0000 L CNN
-F 1 "220R" H 3620 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3480 4050 50  0001 C CNN
-F 3 "" H 3550 4050 50  0001 C CNN
-F 4 "0.08" H 3550 4050 50  0001 C CNN "Price"
-F 5 "" H 3550 4050 50  0001 C CNN "Product"
-	1    3550 4050
+P 3600 4350
+F 0 "R1" H 3670 4396 50  0000 L CNN
+F 1 "220R" H 3670 4305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3530 4350 50  0001 C CNN
+F 3 "" H 3600 4350 50  0001 C CNN
+F 4 "0.08" H 3600 4350 50  0001 C CNN "Price"
+F 5 "" H 3600 4350 50  0001 C CNN "Product"
+	1    3600 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 4900 3550 4750
-Wire Wire Line
-	2500 4900 3050 4900
-Connection ~ 3050 4900
-Wire Wire Line
-	3050 4900 3550 4900
-Wire Wire Line
-	3550 4450 3550 4200
-Wire Wire Line
-	3550 3900 3550 3600
-Connection ~ 3550 3600
-Wire Wire Line
-	3550 3600 3850 3600
-Wire Wire Line
-	2900 3600 3550 3600
-Wire Notes Line
-	5000 2750 5000 6250
-Wire Notes Line
-	1000 2750 5000 2750
-Wire Notes Line
-	1000 6250 5000 6250
 Wire Notes Line
 	10950 3300 10950 5800
 Wire Notes Line
 	7700 5800 7700 3300
+$Comp
+L Interface_Expansion:MCP23008-xSO U1
+U 1 1 6239DBCB
+P 2250 6550
+F 0 "U1" H 1800 7450 50  0000 C CNN
+F 1 "MCP23008-xSO" H 1800 7350 50  0000 C CNN
+F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 2250 5500 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf" H 3550 5350 50  0001 C CNN
+	1    2250 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 6350 2    50   Input ~ 0
+LoRa_DIO0
+Text GLabel 3000 6250 2    50   Input ~ 0
+LoRa_DIO1
+Text GLabel 3000 6150 2    50   Input ~ 0
+LoRa_DIO2
+Text GLabel 3000 6550 2    50   Input ~ 0
+LoRa_DIO3
+Text GLabel 3000 6450 2    50   Input ~ 0
+LoRa_DIO4
+Text GLabel 3000 6650 2    50   Input ~ 0
+LoRa_DIO5
+Text GLabel 3000 6850 2    50   Input ~ 0
+LoRa_CS
+Text GLabel 3000 6750 2    50   Input ~ 0
+LoRa_Reset
+Wire Wire Line
+	2750 6150 3000 6150
+Wire Wire Line
+	2750 6250 3000 6250
+Wire Wire Line
+	2750 6350 3000 6350
+Wire Wire Line
+	2750 6450 3000 6450
+Wire Wire Line
+	2750 6550 3000 6550
+Wire Wire Line
+	2750 6650 3000 6650
+Wire Wire Line
+	2750 6750 3000 6750
+Text GLabel 3050 4600 2    50   Input ~ 0
+LoRa_DIO0
+Text GLabel 1600 4400 0    50   Input ~ 0
+LoRa_Reset
+Text GLabel 1600 4200 0    50   Input ~ 0
+LoRa_CS
+Wire Wire Line
+	1600 4200 1750 4200
+Wire Wire Line
+	1750 4400 1600 4400
+Text GLabel 3050 4500 2    50   Input ~ 0
+LoRa_DIO1
+Text GLabel 3050 4400 2    50   Input ~ 0
+LoRa_DIO2
+Text GLabel 3050 4300 2    50   Input ~ 0
+LoRa_DIO3
+Text GLabel 3050 4200 2    50   Input ~ 0
+LoRa_DIO4
+Text GLabel 3050 4100 2    50   Input ~ 0
+LoRa_DIO5
+$Comp
+L Connector:RJ12 J1
+U 1 1 624036A5
+P 6400 6750
+F 0 "J1" H 6457 7317 50  0000 C CNN
+F 1 "RJ12" H 6457 7226 50  0000 C CNN
+F 2 "footprints:Molex-95501-6669-MFG" V 6400 6775 50  0001 C CNN
+F 3 "~" V 6400 6775 50  0001 C CNN
+	1    6400 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VBUS #PWR0113
+U 1 1 6243E5C3
+P 1050 1100
+F 0 "#PWR0113" H 1050 950 50  0001 C CNN
+F 1 "VBUS" H 1065 1273 50  0000 C CNN
+F 2 "" H 1050 1100 50  0001 C CNN
+F 3 "" H 1050 1100 50  0001 C CNN
+	1    1050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F2
+U 1 1 624407F2
+P 1600 2150
+F 0 "F2" V 1403 2150 50  0000 C CNN
+F 1 "13V/2A" V 1494 2150 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 1530 2150 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/Bourns_SF_1206HIA_M_datasheet-1892140.pdf" H 1600 2150 50  0001 C CNN
+F 4 "0.93" H 1600 2150 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2" H 1600 2150 50  0001 C CNN "Product"
+	1    1600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D4
+U 1 1 6244153C
+P 1900 2450
+F 0 "D4" V 1854 2530 50  0000 L CNN
+F 1 "13V" V 1945 2530 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-523" H 1900 2450 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/80/CPDU_Series_HF__RevF396351-2505940.pdf" H 1900 2450 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D" V 1900 2450 50  0001 C CNN "Product"
+F 5 "0.40" V 1900 2450 50  0001 C CNN "Price"
+	1    1900 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N5819 D5
+U 1 1 624426A1
+P 2500 2150
+F 0 "D5" H 2500 2050 50  0000 C CNN
+F 1 "1N5819" H 2500 2250 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 2500 1975 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/ds30217-71027.pdf" H 2500 2150 50  0001 C CNN
+F 4 "0.25" H 2500 2150 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D" H 2500 2150 50  0001 C CNN "Product"
+	1    2500 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 62445F41
+P 2200 2450
+F 0 "R2" H 2270 2496 50  0000 L CNN
+F 1 "10k" H 2270 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2130 2450 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf" H 2200 2450 50  0001 C CNN
+F 4 "0.08" H 2200 2450 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF" H 2200 2450 50  0001 C CNN "Product"
+	1    2200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0114
+U 1 1 624490D6
+P 4400 1100
+F 0 "#PWR0114" H 4400 950 50  0001 C CNN
+F 1 "+12V" H 4415 1273 50  0000 C CNN
+F 2 "" H 4400 1100 50  0001 C CNN
+F 3 "" H 4400 1100 50  0001 C CNN
+	1    4400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0115
+U 1 1 6247564A
+P 3700 2750
+F 0 "#PWR0115" H 3700 2500 50  0001 C CNN
+F 1 "GND1" H 3705 2577 50  0000 C CNN
+F 2 "" H 3700 2750 50  0001 C CNN
+F 3 "" H 3700 2750 50  0001 C CNN
+	1    3700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR0123
+U 1 1 62488677
+P 6200 3650
+F 0 "#PWR0123" H 6200 3500 50  0001 C CNN
+F 1 "VBUS" H 6215 3823 50  0000 C CNN
+F 2 "" H 6200 3650 50  0001 C CNN
+F 3 "" H 6200 3650 50  0001 C CNN
+	1    6200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0124
+U 1 1 62489A9C
+P 6200 4850
+F 0 "#PWR0124" H 6200 4600 50  0001 C CNN
+F 1 "GND1" H 6205 4677 50  0000 C CNN
+F 2 "" H 6200 4850 50  0001 C CNN
+F 3 "" H 6200 4850 50  0001 C CNN
+	1    6200 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4300 6200 3650
+Wire Wire Line
+	6200 4300 6600 4300
+Wire Wire Line
+	6200 4400 6200 4850
+Wire Wire Line
+	6200 4400 6600 4400
+Wire Wire Line
+	6050 4500 6600 4500
+Wire Wire Line
+	6050 4600 6600 4600
+Wire Wire Line
+	1900 1800 1900 1950
+Wire Wire Line
+	1900 1950 2200 1950
+Wire Wire Line
+	4000 1950 4000 1800
+Wire Wire Line
+	2200 2600 2200 2700
+Wire Wire Line
+	3700 2700 3700 2750
+Wire Wire Line
+	1900 2600 1900 2700
+Wire Wire Line
+	1900 2700 2200 2700
+Connection ~ 2200 2700
+Wire Wire Line
+	2200 2700 3700 2700
+Wire Wire Line
+	4000 1950 4000 2750
+Connection ~ 4000 1950
+Wire Wire Line
+	1750 2150 1900 2150
+Wire Wire Line
+	2650 2150 4400 2150
+Wire Wire Line
+	4400 2150 4400 1100
+Wire Wire Line
+	3850 1350 4000 1350
+Wire Wire Line
+	4150 1350 4150 1100
+Wire Wire Line
+	4000 1500 4000 1350
+Connection ~ 4000 1350
+Wire Wire Line
+	4000 1350 4150 1350
+Wire Wire Line
+	1900 2300 1900 2150
+Connection ~ 1900 2150
+Wire Wire Line
+	1900 2150 2200 2150
+Wire Wire Line
+	2200 2150 2200 2300
+Connection ~ 2200 2150
+Wire Wire Line
+	2200 2150 2350 2150
+Wire Wire Line
+	2200 1800 2200 1950
+Connection ~ 2200 1950
+Wire Wire Line
+	2200 1950 2800 1950
+Wire Wire Line
+	2800 1800 2800 1950
+Connection ~ 2800 1950
+Wire Wire Line
+	2800 1950 3400 1950
+Wire Wire Line
+	2650 1350 2800 1350
+Wire Wire Line
+	2800 1350 2800 1500
+Connection ~ 2800 1350
+Wire Wire Line
+	2800 1350 2950 1350
+Wire Wire Line
+	1900 1500 1900 1350
+Wire Wire Line
+	1750 1350 1900 1350
+Connection ~ 1900 1350
+Wire Wire Line
+	1900 1350 2200 1350
+Wire Wire Line
+	2200 1350 2200 1500
+Connection ~ 2200 1350
+Wire Wire Line
+	2200 1350 2350 1350
+Wire Wire Line
+	1300 1100 1300 1350
+Wire Wire Line
+	1300 1350 1450 1350
+Wire Wire Line
+	1050 1100 1050 2150
+Wire Wire Line
+	1050 2150 1450 2150
+Wire Wire Line
+	2250 3600 2250 3650
+Wire Wire Line
+	2250 3650 2900 3650
+Connection ~ 2250 3650
+Wire Wire Line
+	2250 3650 2250 3700
+Wire Wire Line
+	2750 3900 3600 3900
+Wire Wire Line
+	2900 4600 2900 3650
+Wire Wire Line
+	3600 3900 3600 4200
+Connection ~ 3600 3900
+Wire Wire Line
+	3600 4500 3600 4600
+Wire Wire Line
+	2250 5000 2250 4950
+Wire Wire Line
+	2900 4900 2900 4950
+Wire Wire Line
+	2900 4950 2350 4950
+Connection ~ 2250 4950
+Wire Wire Line
+	2250 4950 2250 4800
+Wire Wire Line
+	2900 4950 3600 4950
+Wire Wire Line
+	3600 4950 3600 4900
+Connection ~ 2900 4950
+Wire Wire Line
+	3600 3900 3800 3900
+Wire Wire Line
+	2150 4800 2150 4950
+Wire Wire Line
+	2150 4950 2250 4950
+Wire Wire Line
+	2350 4800 2350 4950
+Connection ~ 2350 4950
+Wire Wire Line
+	2350 4950 2250 4950
+Wire Wire Line
+	4000 4100 4000 4950
+Wire Notes Line
+	4950 3100 850  3100
+Wire Notes Line
+	850  3100 850  800 
+Wire Notes Line
+	850  800  4950 800 
+Wire Notes Line
+	4950 800  4950 3100
+Wire Notes Line
+	4950 3300 850  3300
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 625FDD1A
+P 2250 5850
+F 0 "#PWR0103" H 2250 5700 50  0001 C CNN
+F 1 "+3V3" H 2265 6023 50  0000 C CNN
+F 2 "" H 2250 5850 50  0001 C CNN
+F 3 "" H 2250 5850 50  0001 C CNN
+	1    2250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 625FEF84
+P 2850 7000
+F 0 "C5" H 2965 7046 50  0000 L CNN
+F 1 "100nF" H 2965 6955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 6850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2850 7000 50  0001 C CNN
+F 4 "0.24" H 2850 7000 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D" H 2850 7000 50  0001 C CNN "Product"
+	1    2850 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 625FF8F2
+P 2250 7250
+F 0 "#PWR0104" H 2250 7000 50  0001 C CNN
+F 1 "GND" H 2255 7077 50  0000 C CNN
+F 2 "" H 2250 7250 50  0001 C CNN
+F 3 "" H 2250 7250 50  0001 C CNN
+	1    2250 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 7150 2250 7200
+Wire Wire Line
+	2850 6850 2850 5900
+Wire Wire Line
+	2850 5900 2250 5900
+Wire Wire Line
+	2250 5900 2250 5850
+Wire Wire Line
+	2250 5900 2250 5950
+Connection ~ 2250 5900
+Wire Wire Line
+	2250 7200 2850 7200
+Wire Wire Line
+	2850 7200 2850 7150
+Connection ~ 2250 7200
+Wire Wire Line
+	2250 7200 2250 7250
+$Comp
+L power:+12V #PWR0106
+U 1 1 6263934F
+P 5850 6400
+F 0 "#PWR0106" H 5850 6250 50  0001 C CNN
+F 1 "+12V" H 5865 6573 50  0000 C CNN
+F 2 "" H 5850 6400 50  0001 C CNN
+F 3 "" H 5850 6400 50  0001 C CNN
+	1    5850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR0107
+U 1 1 6263C3CC
+P 5850 7200
+F 0 "#PWR0107" H 5850 6950 50  0001 C CNN
+F 1 "GND1" H 5855 7027 50  0000 C CNN
+F 2 "" H 5850 7200 50  0001 C CNN
+F 3 "" H 5850 7200 50  0001 C CNN
+	1    5850 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 6550 0    50   Input ~ 0
+RS485_0_A
+Text GLabel 5750 7050 0    50   Input ~ 0
+RS485_0_B
+Wire Wire Line
+	5750 6550 6000 6550
+Wire Wire Line
+	5750 7050 6000 7050
+Wire Wire Line
+	5850 6750 6000 6750
+Wire Wire Line
+	6000 6650 5850 6650
+Wire Wire Line
+	5850 6650 5850 6400
+Wire Wire Line
+	5850 6750 5850 7200
+NoConn ~ 5750 6950
+NoConn ~ 5750 6850
+Wire Wire Line
+	5750 6850 6000 6850
+Wire Wire Line
+	5750 6950 6000 6950
+Wire Notes Line
+	5150 5900 6800 5900
+Wire Notes Line
+	6800 5900 6800 7550
+Wire Notes Line
+	6800 7550 5150 7550
+Wire Notes Line
+	5150 7550 5150 5900
+Wire Notes Line
+	850  3300 850  5300
+Wire Notes Line
+	850  5300 4950 5300
+Wire Notes Line
+	4950 5300 4950 3300
+Wire Notes Line
+	850  5450 4950 5450
+Wire Notes Line
+	4950 5450 4950 7550
+Wire Notes Line
+	4950 7550 850  7550
+Wire Notes Line
+	850  7550 850  5450
+Wire Wire Line
+	1750 6750 1600 6750
+Wire Wire Line
+	1600 6750 1600 6850
+Wire Wire Line
+	1600 7200 2250 7200
+Wire Wire Line
+	1600 6850 1750 6850
+Connection ~ 1600 6850
+Wire Wire Line
+	1600 6850 1600 6950
+Wire Wire Line
+	1750 6950 1600 6950
+Connection ~ 1600 6950
+Wire Wire Line
+	1600 6950 1600 7200
+Text GLabel 1500 6350 0    50   Input ~ 0
+I2C_SDA
+Text GLabel 1500 6250 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 1500 6550 0    50   Input ~ 0
+I2C_Int
+Wire Wire Line
+	1500 6250 1750 6250
+Wire Wire Line
+	1500 6350 1750 6350
+Wire Wire Line
+	1500 6550 1750 6550
+Wire Wire Line
+	1750 6150 1600 6150
+Wire Wire Line
+	1600 6150 1600 5900
+Wire Wire Line
+	1600 5900 2250 5900
+Wire Wire Line
+	3400 1650 3400 1950
+Connection ~ 3400 1950
+Wire Wire Line
+	3400 1950 4000 1950
+Wire Wire Line
+	2750 6850 3000 6850
+Wire Wire Line
+	2750 4600 3050 4600
+Text GLabel 8300 4000 0    50   Input ~ 0
+I2C_Int
+Wire Wire Line
+	10050 3800 9850 3800
+Wire Wire Line
+	9850 3800 9850 5350
+Wire Wire Line
+	10050 5100 10000 5100
+Wire Wire Line
+	10000 5100 10000 5350
 $EndSCHEMATC
