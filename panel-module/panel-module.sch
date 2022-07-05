@@ -139,32 +139,6 @@ F 3 "" H 3500 3250 50  0001 C CNN
 	1    3500 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R2
-U 1 1 61D8643D
-P 3500 2500
-F 0 "R2" H 3570 2546 50  0000 L CNN
-F 1 "10k" H 3570 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3430 2500 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" H 3500 2500 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/YAGEO/RT1206FRE0710KL?qs=8cPjvKtxWv45%2FSPYTvTNKg%3D%3D" H 3500 2500 50  0001 C CNN "Product"
-F 5 "0.16" H 3500 2500 50  0001 C CNN "Price"
-	1    3500 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0106
-U 1 1 61D86D89
-P 3500 2200
-F 0 "#PWR0106" H 3500 2050 50  0001 C CNN
-F 1 "+3V3" H 3515 2373 50  0000 C CNN
-F 2 "" H 3500 2200 50  0001 C CNN
-F 3 "" H 3500 2200 50  0001 C CNN
-	1    3500 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 2200 3500 2350
 Wire Wire Line
 	3500 3200 3500 3250
 $Comp
@@ -239,37 +213,20 @@ Wire Wire Line
 Text GLabel 4700 2200 1    50   Input ~ 0
 Panel_Status
 Wire Wire Line
-	2600 2200 2600 2350
-Wire Wire Line
 	2600 3200 2600 3250
 Text GLabel 3900 2200 1    50   Input ~ 0
 Panel_Setup
-Wire Wire Line
-	3900 2750 3900 2200
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61C12FBC
 P 9750 2450
 F 0 "H1" H 9850 2496 50  0000 L CNN
-F 1 "Antenna" H 9850 2405 50  0000 L CNN
-F 2 "footprints:MountingHole_5.5mm_No_Bound" H 9750 2450 50  0001 C CNN
+F 1 "Wifi" H 9850 2405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6" H 9750 2450 50  0001 C CNN
 F 3 "N/A" H 9750 2450 50  0001 C CNN
 F 4 "0" H 9750 2450 50  0001 C CNN "Price"
 F 5 "N/A" H 9750 2450 50  0001 C CNN "Product"
 	1    9750 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J3
-U 1 1 61C25C1F
-P 8350 4300
-F 0 "J3" H 8430 4342 50  0000 L CNN
-F 1 "Debug" H 8430 4251 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 8350 4300 50  0001 C CNN
-F 3 "N/A" H 8350 4300 50  0001 C CNN
-F 4 "0" H 8350 4300 50  0001 C CNN "Price"
-F 5 "N/A" H 8350 4300 50  0001 C CNN "Product"
-	1    8350 4300
 	1    0    0    -1  
 $EndComp
 Text GLabel 7900 1900 0    50   Input ~ 0
@@ -292,21 +249,6 @@ Wire Wire Line
 	6700 2100 6950 2100
 Wire Wire Line
 	6700 2200 6950 2200
-$Comp
-L power:GND #PWR0109
-U 1 1 61C384C9
-P 8050 5250
-F 0 "#PWR0109" H 8050 5000 50  0001 C CNN
-F 1 "GND" H 8055 5077 50  0000 C CNN
-F 2 "" H 8050 5250 50  0001 C CNN
-F 3 "" H 8050 5250 50  0001 C CNN
-	1    8050 5250
-	1    0    0    -1  
-$EndComp
-Text GLabel 6700 4400 0    50   Input ~ 0
-U0TXD
-Text GLabel 6700 4300 0    50   Input ~ 0
-U0RXD
 Text GLabel 6700 2800 0    50   Input ~ 0
 Panel_Setup
 Wire Wire Line
@@ -387,106 +329,6 @@ F 5 "N/A" H 10750 6350 50  0001 C CNN "Product"
 	1    10750 6350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 62200CD1
-P 7550 5250
-F 0 "#PWR0110" H 7550 5000 50  0001 C CNN
-F 1 "GND" H 7555 5077 50  0000 C CNN
-F 2 "" H 7550 5250 50  0001 C CNN
-F 3 "" H 7550 5250 50  0001 C CNN
-	1    7550 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 6221A31B
-P 7100 5250
-F 0 "#PWR0111" H 7100 5000 50  0001 C CNN
-F 1 "GND" H 7105 5077 50  0000 C CNN
-F 2 "" H 7100 5250 50  0001 C CNN
-F 3 "" H 7100 5250 50  0001 C CNN
-	1    7100 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 4200 8150 4200
-$Comp
-L Diode:ESD9B3.3ST5G D4
-U 1 1 622381EA
-P 7550 5000
-F 0 "D4" V 7504 5079 50  0000 L CNN
-F 1 "ESD3.3" V 7595 5079 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7550 5000 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/54/MLC-777442.pdf" H 7550 5000 50  0001 C CNN
-F 4 "0.32" H 7550 5000 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE" H 7550 5000 50  0001 C CNN "Product"
-	1    7550 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 62496C65
-P 7550 4600
-F 0 "R5" H 7620 4646 50  0000 L CNN
-F 1 "220R" H 7620 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7480 4600 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/427/rcge3-1761759.pdf" H 7550 4600 50  0001 C CNN
-F 4 "0.08" H 7550 4600 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA" H 7550 4600 50  0001 C CNN "Product"
-	1    7550 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 6249CAC0
-P 7100 4600
-F 0 "R4" H 7170 4646 50  0000 L CNN
-F 1 "220R" H 7170 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7030 4600 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/427/rcge3-1761759.pdf" H 7100 4600 50  0001 C CNN
-F 4 "0.08" H 7100 4600 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA" H 7100 4600 50  0001 C CNN "Product"
-	1    7100 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:ESD9B3.3ST5G D3
-U 1 1 624A1CA5
-P 7100 5000
-F 0 "D3" V 7054 5079 50  0000 L CNN
-F 1 "ESD3.3" V 7145 5079 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7100 5000 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/54/MLC-777442.pdf" H 7100 5000 50  0001 C CNN
-F 4 "0.32" H 7100 5000 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE" H 7100 5000 50  0001 C CNN "Product"
-	1    7100 5000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6700 4300 7100 4300
-Wire Wire Line
-	6700 4400 7550 4400
-Wire Wire Line
-	8050 4200 8050 5250
-Wire Wire Line
-	7550 5250 7550 5150
-Wire Wire Line
-	7100 5250 7100 5150
-Wire Wire Line
-	7100 4750 7100 4850
-Wire Wire Line
-	7550 4750 7550 4850
-Wire Wire Line
-	7100 4450 7100 4300
-Connection ~ 7100 4300
-Wire Wire Line
-	7550 4450 7550 4400
-Connection ~ 7550 4400
-Wire Wire Line
-	7550 4400 8150 4400
-Wire Wire Line
-	7100 4300 8150 4300
 Wire Notes Line
 	8700 1350 6050 1350
 Wire Notes Line
@@ -499,16 +341,6 @@ Wire Notes Line
 	4500 1350 5800 1350
 Wire Notes Line
 	2400 3550 2400 1350
-Wire Notes Line
-	8700 3850 8700 5600
-Wire Notes Line
-	8700 5600 6050 5600
-Wire Notes Line
-	6050 5600 6050 3850
-Wire Notes Line
-	6050 3850 8700 3850
-Text Notes 6150 4000 0    50   ~ 0
-Debug
 Text Notes 6150 1500 0    50   ~ 0
 Bus Mapping
 Text Notes 4600 1500 0    50   ~ 0
@@ -537,12 +369,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR0112
 U 1 1 6228C2A7
-P 5100 4650
-F 0 "#PWR0112" H 5100 4500 50  0001 C CNN
-F 1 "+3V3" H 5115 4823 50  0000 C CNN
-F 2 "" H 5100 4650 50  0001 C CNN
-F 3 "" H 5100 4650 50  0001 C CNN
-	1    5100 4650
+P 5050 4650
+F 0 "#PWR0112" H 5050 4500 50  0001 C CNN
+F 1 "+3V3" H 5065 4823 50  0000 C CNN
+F 2 "" H 5050 4650 50  0001 C CNN
+F 3 "" H 5050 4650 50  0001 C CNN
+	1    5050 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -556,10 +388,6 @@ F 3 "" H 5100 5250 50  0001 C CNN
 	1    5100 5250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 5250 5100 5100
-Wire Wire Line
-	5100 4650 5100 5000
 Wire Notes Line
 	5800 3850 5800 5600
 Text Notes 4600 4000 0    50   ~ 0
@@ -570,37 +398,6 @@ Text GLabel 6700 2000 0    50   Input ~ 0
 I2C_SCL
 Wire Wire Line
 	6700 2000 6950 2000
-$Comp
-L Device:R R6
-U 1 1 622EE010
-P 2600 2500
-F 0 "R6" H 2670 2546 50  0000 L CNN
-F 1 "10k" H 2670 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2530 2500 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" H 2600 2500 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/YAGEO/RT1206FRE0710KL?qs=8cPjvKtxWv45%2FSPYTvTNKg%3D%3D" H 2600 2500 50  0001 C CNN "Product"
-F 5 "0.16" H 2600 2500 50  0001 C CNN "Price"
-	1    2600 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 2650 2600 2750
-Wire Wire Line
-	3000 2750 3000 2200
-Connection ~ 2600 2750
-Wire Wire Line
-	2600 2750 2600 2800
-$Comp
-L power:+3V3 #PWR0114
-U 1 1 622F24BD
-P 2600 2200
-F 0 "#PWR0114" H 2600 2050 50  0001 C CNN
-F 1 "+3V3" H 2615 2373 50  0000 C CNN
-F 2 "" H 2600 2200 50  0001 C CNN
-F 3 "" H 2600 2200 50  0001 C CNN
-	1    2600 2200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C1
 U 1 1 622F8D63
@@ -619,29 +416,16 @@ L Device:C C2
 U 1 1 622F9C9B
 P 3900 3000
 F 0 "C2" H 4015 3046 50  0000 L CNN
-F 1 "2u2" H 4015 2955 50  0000 L CNN
+F 1 "0u1" H 4015 2955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3938 2850 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/396/mlcc02_e-1307760.pdf" H 3900 3000 50  0001 C CNN
-F 4 "0.07" H 3900 3000 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Taiyo-Yuden/TMK316BJ225KD-T" H 3900 3000 50  0001 C CNN "Product"
+F 3 "" H 3900 3000 50  0001 C CNN
+F 4 "" H 3900 3000 50  0001 C CNN "Price"
+F 5 "" H 3900 3000 50  0001 C CNN "Product"
 	1    3900 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3500 2650 3500 2750
-Wire Wire Line
-	2600 2750 3000 2750
-Wire Wire Line
-	3000 2750 3000 2850
-Connection ~ 3000 2750
-Wire Wire Line
-	3500 2750 3900 2750
-Connection ~ 3500 2750
-Wire Wire Line
 	3500 2750 3500 2800
-Wire Wire Line
-	3900 2750 3900 2850
-Connection ~ 3900 2750
 Wire Wire Line
 	2600 3200 3000 3200
 Wire Wire Line
@@ -652,18 +436,14 @@ Wire Wire Line
 Wire Wire Line
 	3900 3200 3900 3150
 Connection ~ 3500 3200
-Text GLabel 5000 4900 0    50   Input ~ 0
+Text GLabel 5000 5000 0    50   Input ~ 0
 I2C_SCL
-Text GLabel 5000 4800 0    50   Input ~ 0
+Text GLabel 5000 5100 0    50   Input ~ 0
 I2C_SDA
 Wire Wire Line
-	5000 4800 5150 4800
+	5000 5100 5150 5100
 Wire Wire Line
-	5000 4900 5150 4900
-Wire Wire Line
-	5150 5000 5100 5000
-Wire Wire Line
-	5100 5100 5150 5100
+	5000 5000 5150 5000
 Wire Notes Line
 	4250 3550 4250 1350
 Wire Notes Line
@@ -676,4 +456,82 @@ Wire Notes Line
 	4500 3850 4500 5600
 Wire Notes Line
 	4500 5600 5800 5600
+Wire Wire Line
+	5150 4800 5100 4800
+Wire Wire Line
+	5100 4800 5100 5250
+Wire Wire Line
+	5050 4650 5050 4900
+Wire Wire Line
+	5050 4900 5150 4900
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 62442453
+P 9750 2700
+F 0 "H2" H 9850 2746 50  0000 L CNN
+F 1 "LoRa" H 9850 2655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6" H 9750 2700 50  0001 C CNN
+F 3 "N/A" H 9750 2700 50  0001 C CNN
+F 4 "0" H 9750 2700 50  0001 C CNN "Price"
+F 5 "N/A" H 9750 2700 50  0001 C CNN "Product"
+	1    9750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small G2
+U 1 1 62515D78
+P 10300 6300
+F 0 "G2" H 10300 6575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10300 6075 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 10300 6300 50  0001 C CNN
+F 3 "~" H 10300 6300 50  0001 C CNN
+	1    10300 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2800 2600 2750
+$Comp
+L Device:R R2
+U 1 1 6283AF0E
+P 2800 2750
+F 0 "R2" V 2600 2700 50  0000 L CNN
+F 1 "1k" V 2700 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2730 2750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/427/rcge3-1761759.pdf" H 2800 2750 50  0001 C CNN
+F 4 "0.08" H 2800 2750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA" H 2800 2750 50  0001 C CNN "Product"
+	1    2800 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6283B7BD
+P 3700 2750
+F 0 "R4" V 3500 2700 50  0000 L CNN
+F 1 "1k" V 3600 2700 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3630 2750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/427/rcge3-1761759.pdf" H 3700 2750 50  0001 C CNN
+F 4 "0.08" H 3700 2750 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA" H 3700 2750 50  0001 C CNN "Product"
+	1    3700 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 2200 3000 2750
+Wire Wire Line
+	3900 2200 3900 2750
+Wire Wire Line
+	2600 2750 2650 2750
+Wire Wire Line
+	2950 2750 3000 2750
+Connection ~ 3000 2750
+Wire Wire Line
+	3000 2750 3000 2850
+Wire Wire Line
+	3500 2750 3550 2750
+Wire Wire Line
+	3850 2750 3900 2750
+Connection ~ 3900 2750
+Wire Wire Line
+	3900 2750 3900 2850
 $EndSCHEMATC

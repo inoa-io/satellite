@@ -883,4 +883,15 @@ Text Notes 3550 2950 0    50   ~ 0
 SD Card
 Text Notes 2400 5850 0    50   ~ 0
 Buttons
+$Comp
+L Graphic:Logo_Open_Hardware_Small G2
+U 1 1 62527A11
+P 10300 6300
+F 0 "G2" H 10300 6575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10300 6075 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 10300 6300 50  0001 C CNN
+F 3 "~" H 10300 6300 50  0001 C CNN
+	1    10300 6300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

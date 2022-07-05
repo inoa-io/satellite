@@ -46,7 +46,9 @@ P 2100 4100
 F 0 "C2" H 2192 4146 50  0000 L CNN
 F 1 "18pF" H 2192 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2100 4100 50  0001 C CNN
-F 3 "~" H 2100 4100 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/40/C0GNP0_Dielectric-951274.pdf" H 2100 4100 50  0001 C CNN
+F 4 "0.09" H 2100 4100 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A" H 2100 4100 50  0001 C CNN "Product"
 	1    2100 4100
 	1    0    0    -1  
 $EndComp
@@ -57,7 +59,9 @@ P 1500 4100
 F 0 "C1" H 1592 4146 50  0000 L CNN
 F 1 "18pF" H 1592 4055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1500 4100 50  0001 C CNN
-F 3 "~" H 1500 4100 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/40/C0GNP0_Dielectric-951274.pdf" H 1500 4100 50  0001 C CNN
+F 4 "0.09" H 1500 4100 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A" H 1500 4100 50  0001 C CNN "Product"
 	1    1500 4100
 	1    0    0    -1  
 $EndComp
@@ -136,6 +140,7 @@ F 0 "R3" H 1570 2396 50  0000 L CNN
 F 1 "10k" H 1570 2305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1430 2350 50  0001 C CNN
 F 3 "~" H 1500 2350 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D" H 1500 2350 50  0001 C CNN "Product"
 	1    1500 2350
 	1    0    0    -1  
 $EndComp
@@ -147,6 +152,7 @@ F 0 "R4" H 1870 2296 50  0000 L CNN
 F 1 "10k" H 1870 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1730 2250 50  0001 C CNN
 F 3 "~" H 1800 2250 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D" H 1800 2250 50  0001 C CNN "Product"
 	1    1800 2250
 	1    0    0    -1  
 $EndComp
@@ -158,6 +164,7 @@ F 0 "R5" H 2170 2196 50  0000 L CNN
 F 1 "10k" H 2170 2105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2030 2150 50  0001 C CNN
 F 3 "~" H 2100 2150 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D" H 2100 2150 50  0001 C CNN "Product"
 	1    2100 2150
 	1    0    0    -1  
 $EndComp
@@ -169,6 +176,7 @@ F 0 "R7" H 7770 5596 50  0000 L CNN
 F 1 "10k" H 7770 5505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7630 5550 50  0001 C CNN
 F 3 "~" H 7700 5550 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D" H 7700 5550 50  0001 C CNN "Product"
 	1    7700 5550
 	1    0    0    -1  
 $EndComp
@@ -248,8 +256,8 @@ F 0 "J3" H 3980 6042 50  0000 L CNN
 F 1 "West" H 3980 5951 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 3900 6050 50  0001 C CNN
 F 3 "N/A" H 3900 6050 50  0001 C CNN
-F 4 "0" H 3900 6050 50  0001 C CNN "Price"
-F 5 "N/A" H 3900 6050 50  0001 C CNN "Product"
+F 4 "2.40" H 3900 6050 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D" H 3900 6050 50  0001 C CNN "Product"
 	1    3900 6050
 	1    0    0    -1  
 $EndComp
@@ -268,7 +276,9 @@ P 4500 4000
 F 0 "C5" H 4592 4046 50  0000 L CNN
 F 1 "10nF" H 4592 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4500 4000 50  0001 C CNN
-F 3 "~" H 4500 4000 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/40/AutoMLCC-777028.pdf" H 4500 4000 50  0001 C CNN
+F 4 "0.09" H 4500 4000 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A" H 4500 4000 50  0001 C CNN "Product"
 	1    4500 4000
 	1    0    0    -1  
 $EndComp
@@ -279,7 +289,9 @@ P 5000 4000
 F 0 "C6" H 5092 4046 50  0000 L CNN
 F 1 "4u7" H 5092 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5000 4000 50  0001 C CNN
-F 3 "~" H 5000 4000 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/585/MLCC-1837944.pdf" H 5000 4000 50  0001 C CNN
+F 4 "0.09" H 5000 4000 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A475MQ8NNNC" H 5000 4000 50  0001 C CNN "Product"
 	1    5000 4000
 	1    0    0    -1  
 $EndComp
@@ -309,8 +321,8 @@ F 0 "J2" H 2530 6042 50  0000 L CNN
 F 1 "East" H 2530 5951 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 2450 6050 50  0001 C CNN
 F 3 "N/A" H 2450 6050 50  0001 C CNN
-F 4 "0" H 2450 6050 50  0001 C CNN "Price"
-F 5 "N/A" H 2450 6050 50  0001 C CNN "Product"
+F 4 "2.40" H 2450 6050 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D" H 2450 6050 50  0001 C CNN "Product"
 	1    2450 6050
 	1    0    0    -1  
 $EndComp
@@ -322,6 +334,7 @@ F 0 "R8" V 1593 3400 50  0000 C CNN
 F 1 "1M" V 1684 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1730 3400 50  0001 C CNN
 F 3 "~" H 1800 3400 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bourns/CMP0603-FX-1004ELF?qs=sGAEpiMZZMtlubZbdhIBIIPWN1VQSu3wmAar35e6bQc%3D" H 1800 3400 50  0001 C CNN "Product"
 	1    1800 3400
 	0    1    1    0   
 $EndComp
@@ -357,7 +370,9 @@ P 5500 4000
 F 0 "R9" H 5700 3950 50  0000 R CNN
 F 1 "12k4 1%" H 5900 4050 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5430 4000 50  0001 C CNN
-F 3 "~" H 5500 4000 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf" H 5500 4000 50  0001 C CNN
+F 4 "0.09" H 5500 4000 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-1242ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RK7FuIR85iNw%3D" H 5500 4000 50  0001 C CNN "Product"
 	1    5500 4000
 	1    0    0    -1  
 $EndComp
@@ -376,7 +391,9 @@ P 4350 2550
 F 0 "C17" H 4442 2596 50  0000 L CNN
 F 1 "10nF" H 4442 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4350 2550 50  0001 C CNN
-F 3 "~" H 4350 2550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/40/AutoMLCC-777028.pdf" H 4350 2550 50  0001 C CNN
+F 4 "0.09" H 4350 2550 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A" H 4350 2550 50  0001 C CNN "Product"
 	1    4350 2550
 	1    0    0    -1  
 $EndComp
@@ -387,7 +404,9 @@ P 4750 2550
 F 0 "C18" H 4842 2596 50  0000 L CNN
 F 1 "0u1" H 4842 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4750 2550 50  0001 C CNN
-F 3 "~" H 4750 2550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4750 2550 50  0001 C CNN
+F 4 "0.09" H 4750 2550 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU" H 4750 2550 50  0001 C CNN "Product"
 	1    4750 2550
 	1    0    0    -1  
 $EndComp
@@ -551,6 +570,8 @@ F 0 "D2" V 6654 5630 50  0000 L CNN
 F 1 "1N4148" V 6745 5630 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6700 5375 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6700 5550 50  0001 C CNN
+F 4 "0.12" H 6700 5550 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Panjit/1N4148WS_R1_00001" H 6700 5550 50  0001 C CNN "Product"
 	1    6700 5550
 	0    1    1    0   
 $EndComp
@@ -562,6 +583,7 @@ F 0 "R19" H 7270 5596 50  0000 L CNN
 F 1 "10k" H 7270 5505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7130 5550 50  0001 C CNN
 F 3 "~" H 7200 5550 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D" H 7200 5550 50  0001 C CNN "Product"
 	1    7200 5550
 	1    0    0    -1  
 $EndComp
@@ -572,7 +594,9 @@ P 7200 5900
 F 0 "C19" H 7300 5950 50  0000 L CNN
 F 1 "0u1" H 7300 5850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7200 5900 50  0001 C CNN
-F 3 "~" H 7200 5900 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7200 5900 50  0001 C CNN
+F 4 "0.09" H 7200 5900 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU" H 7200 5900 50  0001 C CNN "Product"
 	1    7200 5900
 	1    0    0    -1  
 $EndComp
@@ -648,6 +672,7 @@ F 0 "R6" H 2870 4046 50  0000 L CNN
 F 1 "10k" H 2870 3955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2730 4000 50  0001 C CNN
 F 3 "~" H 2800 4000 50  0001 C CNN
+F 4 "https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D" H 2800 4000 50  0001 C CNN "Product"
 	1    2800 4000
 	1    0    0    -1  
 $EndComp
@@ -687,6 +712,8 @@ F 0 "R2" H 10250 3250 50  0000 R CNN
 F 1 "330R" H 10350 3350 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9980 3300 50  0001 C CNN
 F 3 "~" H 10050 3300 50  0001 C CNN
+F 4 "0.09" H 10050 3300 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D" H 10050 3300 50  0001 C CNN "Product"
 	1    10050 3300
 	-1   0    0    1   
 $EndComp
@@ -731,6 +758,8 @@ F 0 "R1" H 10280 3254 50  0000 R CNN
 F 1 "330R" H 10280 3345 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10280 3300 50  0001 C CNN
 F 3 "~" H 10350 3300 50  0001 C CNN
+F 4 "0.09" H 10350 3300 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D" H 10350 3300 50  0001 C CNN "Product"
 	1    10350 3300
 	-1   0    0    1   
 $EndComp
@@ -742,8 +771,9 @@ F 0 "D1" H 5350 6367 50  0000 C CNN
 F 1 "CDNBS08-SLVU2.8-4" H 5350 6276 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5350 5250 50  0001 C CNN
 F 3 "https://www.bourns.com/pdfs/CDNBS08-SLVU28-4.pdf" H 5400 5100 50  0001 C CNN
-F 4 "https://www.mouser.de/ProductDetail/Bourns/CDNBS08-SLVU28-4" H 5350 5800 50  0001 C CNN "Products"
+F 4 "" H 5350 5800 50  0001 C CNN "Products"
 F 5 "1.68" H 5350 5800 50  0001 C CNN "Price"
+F 6 "https://www.mouser.de/ProductDetail/Bourns/CDNBS08-SLVU28-4" H 5350 5800 50  0001 C CNN "Product"
 	1    5350 5800
 	1    0    0    -1  
 $EndComp
@@ -798,7 +828,9 @@ P 7100 3600
 F 0 "C12" H 7192 3646 50  0000 L CNN
 F 1 "10nF" H 7192 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7100 3600 50  0001 C CNN
-F 3 "~" H 7100 3600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/40/AutoMLCC-777028.pdf" H 7100 3600 50  0001 C CNN
+F 4 "0.09" H 7100 3600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A" H 7100 3600 50  0001 C CNN "Product"
 	1    7100 3600
 	-1   0    0    1   
 $EndComp
@@ -809,7 +841,9 @@ P 7100 3050
 F 0 "R15" V 7200 3250 50  0000 R CNN
 F 1 "82R 1%" V 7200 3050 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 3050 50  0001 C CNN
-F 3 "~" H 7100 3050 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf" H 7100 3050 50  0001 C CNN
+F 4 "0.09" H 7100 3050 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D" H 7100 3050 50  0001 C CNN "Product"
 	1    7100 3050
 	-1   0    0    1   
 $EndComp
@@ -820,7 +854,9 @@ P 6900 3050
 F 0 "R14" V 7000 3250 50  0000 R CNN
 F 1 "82R 1%" V 7000 3050 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6830 3050 50  0001 C CNN
-F 3 "~" H 6900 3050 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf" H 6900 3050 50  0001 C CNN
+F 4 "0.09" H 6900 3050 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D" H 6900 3050 50  0001 C CNN "Product"
 	1    6900 3050
 	-1   0    0    1   
 $EndComp
@@ -839,7 +875,9 @@ P 7700 3600
 F 0 "C15" H 7792 3646 50  0000 L CNN
 F 1 "22nF" H 7792 3555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7700 3600 50  0001 C CNN
-F 3 "~" H 7700 3600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/585/MLCC-1837944.pdf" H 7700 3600 50  0001 C CNN
+F 4 "0.09" H 7700 3600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10B223KB8NNNC" H 7700 3600 50  0001 C CNN "Product"
 	1    7700 3600
 	-1   0    0    1   
 $EndComp
@@ -850,7 +888,9 @@ P 7700 1500
 F 0 "R16" V 7800 1700 50  0000 R CNN
 F 1 "10R 1%" V 7800 1500 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7630 1500 50  0001 C CNN
-F 3 "~" H 7700 1500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/447/Yageo_03_18_2021_PYu_RC_Group_51_RoHS_L_11-2199992.pdf" H 7700 1500 50  0001 C CNN
+F 4 "0.09" H 7700 1500 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/YAGEO/RC0603FR-1310RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xipFwCw7Ptc0%3D" H 7700 1500 50  0001 C CNN "Product"
 	1    7700 1500
 	-1   0    0    1   
 $EndComp
@@ -950,7 +990,9 @@ P 10650 5600
 F 0 "C11" V 10742 5646 50  0000 L CNN
 F 1 "10uF" V 10750 5350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10650 5600 50  0001 C CNN
-F 3 "~" H 10650 5600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/585/MLCC-1837944.pdf" H 10650 5600 50  0001 C CNN
+F 4 "0.10" H 10650 5600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC" H 10650 5600 50  0001 C CNN "Product"
 	1    10650 5600
 	1    0    0    -1  
 $EndComp
@@ -1059,7 +1101,9 @@ P 10450 5600
 F 0 "C10" V 10542 5646 50  0000 L CNN
 F 1 "0u1" V 10550 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10450 5600 50  0001 C CNN
-F 3 "~" H 10450 5600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 10450 5600 50  0001 C CNN
+F 4 "0.09" H 10450 5600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU" H 10450 5600 50  0001 C CNN "Product"
 	1    10450 5600
 	1    0    0    -1  
 $EndComp
@@ -1070,7 +1114,9 @@ P 10250 5600
 F 0 "C9" V 10342 5646 50  0000 L CNN
 F 1 "0u1" V 10350 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10250 5600 50  0001 C CNN
-F 3 "~" H 10250 5600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 10250 5600 50  0001 C CNN
+F 4 "0.09" H 10250 5600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU" H 10250 5600 50  0001 C CNN "Product"
 	1    10250 5600
 	1    0    0    -1  
 $EndComp
@@ -1103,7 +1149,9 @@ P 10050 5600
 F 0 "C8" V 10142 5646 50  0000 L CNN
 F 1 "0u1" V 10150 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 10050 5600 50  0001 C CNN
-F 3 "~" H 10050 5600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 10050 5600 50  0001 C CNN
+F 4 "0.09" H 10050 5600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU" H 10050 5600 50  0001 C CNN "Product"
 	1    10050 5600
 	1    0    0    -1  
 $EndComp
@@ -1114,7 +1162,9 @@ P 9850 5600
 F 0 "C7" V 9942 5646 50  0000 L CNN
 F 1 "0u1" V 9950 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9850 5600 50  0001 C CNN
-F 3 "~" H 9850 5600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 9850 5600 50  0001 C CNN
+F 4 "0.09" H 9850 5600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU" H 9850 5600 50  0001 C CNN "Product"
 	1    9850 5600
 	1    0    0    -1  
 $EndComp
@@ -1125,7 +1175,9 @@ P 9650 5600
 F 0 "C4" V 9742 5646 50  0000 L CNN
 F 1 "0u1" V 9750 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9650 5600 50  0001 C CNN
-F 3 "~" H 9650 5600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 9650 5600 50  0001 C CNN
+F 4 "0.09" H 9650 5600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU" H 9650 5600 50  0001 C CNN "Product"
 	1    9650 5600
 	1    0    0    -1  
 $EndComp
@@ -1136,7 +1188,9 @@ P 9450 5600
 F 0 "C3" V 9542 5646 50  0000 L CNN
 F 1 "0u1" V 9550 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9450 5600 50  0001 C CNN
-F 3 "~" H 9450 5600 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 9450 5600 50  0001 C CNN
+F 4 "0.09" H 9450 5600 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU" H 9450 5600 50  0001 C CNN "Product"
 	1    9450 5600
 	1    0    0    -1  
 $EndComp
@@ -1175,7 +1229,9 @@ P 8100 1500
 F 0 "R18" V 8200 1700 50  0000 R CNN
 F 1 "49R9 1%" V 8200 1500 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8030 1500 50  0001 C CNN
-F 3 "~" H 8100 1500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf" H 8100 1500 50  0001 C CNN
+F 4 "0.09" H 8100 1500 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D" H 8100 1500 50  0001 C CNN "Product"
 	1    8100 1500
 	-1   0    0    1   
 $EndComp
@@ -1186,7 +1242,9 @@ P 7900 1500
 F 0 "R17" V 8000 1700 50  0000 R CNN
 F 1 "49R9 1%" V 8000 1500 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7830 1500 50  0001 C CNN
-F 3 "~" H 7900 1500 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/315/AOA0000C304-1149620.pdf" H 7900 1500 50  0001 C CNN
+F 4 "0.09" H 7900 1500 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D" H 7900 1500 50  0001 C CNN "Product"
 	1    7900 1500
 	-1   0    0    1   
 $EndComp
@@ -1197,7 +1255,9 @@ P 7350 2250
 F 0 "C14" V 7442 2296 50  0000 L CNN
 F 1 "6n8" V 7450 2100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7350 2250 50  0001 C CNN
-F 3 "~" H 7350 2250 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7350 2250 50  0001 C CNN
+F 4 "0.09" H 7350 2250 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU" H 7350 2250 50  0001 C CNN "Product"
 	1    7350 2250
 	0    -1   -1   0   
 $EndComp
@@ -1216,7 +1276,9 @@ P 7350 2050
 F 0 "C13" V 7442 2096 50  0000 L CNN
 F 1 "6n8" V 7450 1900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7350 2050 50  0001 C CNN
-F 3 "~" H 7350 2050 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 7350 2050 50  0001 C CNN
+F 4 "0.09" H 7350 2050 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU" H 7350 2050 50  0001 C CNN "Product"
 	1    7350 2050
 	0    -1   -1   0   
 $EndComp
@@ -1388,4 +1450,15 @@ Wire Wire Line
 	7900 1100 7900 1350
 Wire Wire Line
 	7700 1100 7700 1350
+$Comp
+L Graphic:Logo_Open_Hardware_Small G2
+U 1 1 62537907
+P 6050 7550
+F 0 "G2" H 6050 7825 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6050 7325 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 6050 7550 50  0001 C CNN
+F 3 "~" H 6050 7550 50  0001 C CNN
+	1    6050 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
