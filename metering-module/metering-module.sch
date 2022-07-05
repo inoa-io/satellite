@@ -591,19 +591,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 2100 9050 2100
 $Comp
-L Connector:Screw_Terminal_01x08 J2
-U 1 1 61A443AD
-P 7350 4200
-F 0 "J2" H 7430 4192 50  0000 L CNN
-F 1 "South" H 7250 4600 50  0000 L CNN
-F 2 "footprints:PHOENIX_1727078" H 7350 4200 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/324/4/1727078-1437530.pdf" H 7350 4200 50  0001 C CNN
-F 4 "4.85" H 7350 4200 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078" H 7350 4200 50  0001 C CNN "Product"
-	1    7350 4200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x08 J1
 U 1 1 61A459FD
 P 5450 4300
@@ -938,8 +925,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 3900 7150 3900
 Wire Wire Line
-	7000 4000 7150 4000
-Wire Wire Line
 	9800 4100 10050 4100
 Wire Wire Line
 	10050 4200 9800 4200
@@ -1014,13 +999,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 4200 8550 4200
 Wire Wire Line
-	7000 4000 7000 3900
-Connection ~ 7000 3900
-Wire Wire Line
-	7100 4850 7100 4100
-Wire Wire Line
-	7100 4100 7150 4100
-Wire Wire Line
 	7150 4200 6950 4200
 Wire Wire Line
 	6950 4200 6950 5050
@@ -1077,46 +1055,23 @@ $EndComp
 Wire Wire Line
 	5750 5750 5750 5850
 Wire Wire Line
-	5750 7100 5750 7250
-Wire Wire Line
-	5900 7250 5750 7250
-Connection ~ 5750 7250
-Wire Wire Line
-	5750 7250 5750 7400
-Wire Wire Line
 	6200 7250 6400 7250
 Wire Wire Line
 	6400 7250 6400 5850
 Wire Wire Line
 	6400 5850 5750 5850
 Connection ~ 5750 5850
-Wire Wire Line
-	5750 5850 5750 5900
 NoConn ~ 9800 4700
 NoConn ~ 8300 4900
 NoConn ~ 8300 5000
 NoConn ~ 8300 4200
-Wire Wire Line
-	6250 6100 6550 6100
-Wire Wire Line
-	6250 6200 6550 6200
-Wire Wire Line
-	6550 6300 6250 6300
-Wire Wire Line
-	6250 6400 6550 6400
 NoConn ~ 6550 6500
 NoConn ~ 6550 6600
 NoConn ~ 6550 6700
 NoConn ~ 6550 6800
-Wire Wire Line
-	6550 6600 6250 6600
-Wire Wire Line
-	6550 6700 6250 6700
-Wire Wire Line
-	6550 6800 6250 6800
-Text GLabel 5100 6300 0    50   Input ~ 0
+Text GLabel 4900 6550 0    50   Input ~ 0
 I2C_SDA
-Text GLabel 5100 6200 0    50   Input ~ 0
+Text GLabel 4900 6450 0    50   Input ~ 0
 I2C_SCL
 Text GLabel 9800 4300 0    50   Input ~ 0
 I2C_SDA
@@ -1161,24 +1116,8 @@ Wire Wire Line
 	9800 4600 10050 4600
 Wire Wire Line
 	9800 4800 10050 4800
-Text GLabel 5100 6500 0    50   Input ~ 0
+Text GLabel 4900 6650 0    50   Input ~ 0
 S0_INT
-Wire Wire Line
-	5250 6700 5100 6700
-Wire Wire Line
-	5100 6700 5100 6800
-Wire Wire Line
-	5100 7250 5750 7250
-Wire Wire Line
-	5100 6800 5250 6800
-Connection ~ 5100 6800
-Wire Wire Line
-	5100 6800 5100 6900
-Wire Wire Line
-	5250 6900 5100 6900
-Connection ~ 5100 6900
-Wire Wire Line
-	5100 6900 5100 7250
 $Comp
 L Device:D_Zener D1
 U 1 1 62076EFE
@@ -1332,10 +1271,6 @@ Wire Wire Line
 	3850 5950 3850 5650
 Connection ~ 3850 5650
 Wire Wire Line
-	5100 6200 5250 6200
-Wire Wire Line
-	5100 6300 5250 6300
-Wire Wire Line
 	1450 5600 1450 5550
 Wire Wire Line
 	1450 5550 1500 5550
@@ -1377,23 +1312,6 @@ Wire Notes Line
 	1000 6250 1000 2750
 Wire Notes Line
 	1000 2750 3400 2750
-Wire Wire Line
-	5100 6500 5250 6500
-Wire Wire Line
-	6550 6500 6250 6500
-$Comp
-L Interface_Expansion:MCP23008-xSO U6
-U 1 1 61EB4389
-P 5750 6500
-F 0 "U6" H 5400 7200 50  0000 C CNN
-F 1 "MCP23008-xSO" H 5350 7100 50  0000 C CNN
-F 2 "Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm" H 5750 5450 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/268/21919b-65915.pdf" H 7050 5300 50  0001 C CNN
-F 4 "1.10" H 5750 6500 50  0001 C CNN "Price"
-F 5 "https://www.mouser.de/ProductDetail/Microchip-Technology/MCP23008-E-SO" H 5750 6500 50  0001 C CNN "Product"
-	1    5750 6500
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	3600 6250 4350 6250
 Wire Notes Line
@@ -1424,4 +1342,117 @@ Text Notes 4800 2900 0    50   ~ 0
 S0
 Text Notes 6200 5600 0    50   ~ 0
 I/O Controller
+$Comp
+L MCP23009-E_SS:MCP23009-E_SS U6
+U 1 1 62BF87F7
+P 5750 6450
+F 0 "U6" H 5400 7250 50  0000 C CNN
+F 1 "MCP23009-E_SS" H 5350 7150 50  0000 C CNN
+F 2 "SOP65P780X200-20N" H 5350 5900 50  0001 L BNN
+F 3 "https://www.mouser.de/datasheet/2/268/22121a-52412.pdf" H 5850 6300 50  0001 L BNN
+	1    5750 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 6100 6550 6100
+Wire Wire Line
+	6550 6200 6350 6200
+Wire Wire Line
+	6350 6300 6550 6300
+Wire Wire Line
+	6350 6400 6550 6400
+Wire Wire Line
+	5150 6100 5000 6100
+Wire Wire Line
+	5000 5850 5750 5850
+Wire Wire Line
+	6550 6500 6350 6500
+Wire Wire Line
+	6550 6600 6350 6600
+Wire Wire Line
+	6550 6700 6350 6700
+Wire Wire Line
+	6550 6800 6350 6800
+Wire Wire Line
+	4900 6450 5150 6450
+Wire Wire Line
+	4900 6550 5150 6550
+Wire Wire Line
+	4900 6650 5150 6650
+Wire Wire Line
+	5150 6800 5000 6800
+Wire Wire Line
+	5000 6800 5000 7250
+Wire Wire Line
+	5750 7400 5750 7250
+Connection ~ 5750 7250
+Wire Wire Line
+	5750 7250 5900 7250
+Wire Wire Line
+	5000 6800 5000 6350
+Wire Wire Line
+	5000 6350 5150 6350
+Connection ~ 5000 6800
+$Comp
+L Device:R R6
+U 1 1 62CD5A5B
+P 4700 7150
+F 0 "R6" H 4770 7196 50  0000 L CNN
+F 1 "0R" H 4770 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4630 7150 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf" H 4700 7150 50  0001 C CNN
+F 4 "0.08" H 4700 7150 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF" H 4700 7150 50  0001 C CNN "Product"
+	1    4700 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 7250 5750 7250
+Wire Wire Line
+	5000 6100 5000 5850
+Text GLabel 4900 6250 0    50   Input ~ 0
+IO_RESET
+Wire Wire Line
+	4900 6250 5150 6250
+$Comp
+L power:+3V3 #PWR0135
+U 1 1 62D387A4
+P 4700 6950
+F 0 "#PWR0135" H 4700 6800 50  0001 C CNN
+F 1 "+3V3" H 4715 7123 50  0000 C CNN
+F 2 "" H 4700 6950 50  0001 C CNN
+F 3 "" H 4700 6950 50  0001 C CNN
+	1    4700 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6950 4700 7000
+Text GLabel 4950 7350 2    50   Input ~ 0
+IO_RESET
+Wire Wire Line
+	4950 7350 4700 7350
+Wire Wire Line
+	4700 7300 4700 7350
+$Comp
+L Connector:Screw_Terminal_01x08 J2
+U 1 1 61A443AD
+P 7350 4200
+F 0 "J2" H 7430 4192 50  0000 L CNN
+F 1 "South" H 7250 4600 50  0000 L CNN
+F 2 "footprints:PHOENIX_1727078" H 7350 4200 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/324/4/1727078-1437530.pdf" H 7350 4200 50  0001 C CNN
+F 4 "4.85" H 7350 4200 50  0001 C CNN "Price"
+F 5 "https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078" H 7350 4200 50  0001 C CNN "Product"
+	1    7350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4000 7150 4000
+Wire Wire Line
+	7100 4000 7100 4850
+Wire Wire Line
+	6950 4200 6950 4100
+Wire Wire Line
+	6950 4100 7150 4100
+Connection ~ 6950 4200
 $EndSCHEMATC
