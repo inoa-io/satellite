@@ -1455,4 +1455,15 @@ Wire Wire Line
 Wire Wire Line
 	6950 4100 7150 4100
 Connection ~ 6950 4200
+$Comp
+L Graphic:Logo_Open_Hardware_Small G2
+U 1 1 62D8D89B
+P 10250 6250
+F 0 "G2" H 10250 6525 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10250 6025 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 10250 6250 50  0001 C CNN
+F 3 "~" H 10250 6250 50  0001 C CNN
+	1    10250 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

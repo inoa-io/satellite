@@ -50,4 +50,92 @@ Wire Wire Line
 	1250 1050 1250 1200
 Wire Wire Line
 	1250 1600 1250 1750
+$Comp
+L Battery_Management:LTC4055 U1
+U 1 1 62BC203A
+P 2600 4000
+F 0 "U1" H 2600 4667 50  0000 C CNN
+F 1 "LTC4055" H 2600 4576 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_4x4mm_P0.65mm_EP2.15x2.15mm" H 2600 3100 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/4055fb.pdf" H 2600 3500 50  0001 C CNN
+	1    2600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J1
+U 1 1 62BC31FF
+P 6100 3550
+F 0 "J1" H 6180 3542 50  0000 L CNN
+F 1 "Conn_01x14" H 6180 3451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 6100 3550 50  0001 C CNN
+F 3 "~" H 6100 3550 50  0001 C CNN
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 62BC3B30
+P 6100 5250
+F 0 "J2" H 6180 5242 50  0000 L CNN
+F 1 "Conn_01x14" H 6180 5151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 6100 5250 50  0001 C CNN
+F 3 "~" H 6100 5250 50  0001 C CNN
+	1    6100 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U2
+U 1 1 62BC6C63
+P 2200 6000
+F 0 "U2" H 2200 6242 50  0000 C CNN
+F 1 "MCP1700-3302E_SOT23" H 2200 6151 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2200 6225 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 2200 6000 50  0001 C CNN
+	1    2200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 62BC7A1D
+P 7400 2500
+F 0 "R1" H 7470 2546 50  0000 L CNN
+F 1 "27k" H 7470 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 7330 2500 50  0001 C CNN
+F 3 "~" H 7400 2500 50  0001 C CNN
+	1    7400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 62BC88BA
+P 8100 2500
+F 0 "R2" H 8170 2546 50  0000 L CNN
+F 1 "100k" H 8170 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 8030 2500 50  0001 C CNN
+F 3 "~" H 8100 2500 50  0001 C CNN
+	1    8100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 62BC92F7
+P 7400 3400
+F 0 "C1" H 7515 3446 50  0000 L CNN
+F 1 "100nF" H 7515 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 7438 3250 50  0001 C CNN
+F 3 "~" H 7400 3400 50  0001 C CNN
+	1    7400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 62BC986E
+P 8100 3400
+F 0 "C2" H 8215 3446 50  0000 L CNN
+F 1 "100uF" H 8215 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 8138 3250 50  0001 C CNN
+F 3 "~" H 8100 3400 50  0001 C CNN
+	1    8100 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
