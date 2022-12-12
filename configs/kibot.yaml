@@ -1,0 +1,35 @@
+kibot:
+  version: 1
+
+preflight:
+  filters:
+    - filter: 'Ignore PWR0105 Input Power pin not driven by any Output Power pins'
+      error: 'power_pin_not_driven'
+      regex:  'PWR0105'
+    - filter: 'Ignore PWR0101 Input Power pin not driven by any Output Power pins'
+      error: 'power_pin_not_driven'
+      regex:  'PWR0101'
+  run_erc: true
+  run_drc: true  
+  check_zone_fills: true
+  ignore_unconnected: true
+
+outputs:
+- name: basic_boardview
+  comment: Board View export
+  type: boardview
+  dir: Assembly
+- name: generic_bom_html
+  comment: Generic Bill of Materials in HTML format
+  type: bom
+  dir: BoM/Generic
+  options:
+    format: HTML
+    count_smd_tht: true
+- name: generic_bom_csv
+  comment: Generic Bill of Materials in CSV format
+  type: bom
+  dir: BoM/Generic
+  options:
+    format: CSV
+    count_smd_tht: true
