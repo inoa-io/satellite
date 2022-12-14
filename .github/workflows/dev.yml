@@ -19,7 +19,7 @@ jobs:
     - name: KiBot Panel Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
-        config: configs/kibot.yaml
-        dir: out
+        config: kibot.yaml
+        dir: out/panel-module
         schema: panel-module/panel-module.sch
         board: panel-module/panel-module.kicad_pcb

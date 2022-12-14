@@ -9,27 +9,55 @@ preflight:
     - filter: 'Ignore PWR0101 Input Power pin not driven by any Output Power pins'
       error: 'power_pin_not_driven'
       regex:  'PWR0101'
+    - filter: 'Ignore ATECC608A-SSHDA Input Power pin not driven by any Output Power pins'
+      error: 'power_pin_not_driven'
+      regex:  'ATECC608A'
+    - filter: 'Ignore ESP32-WROVER-IE-16MB Input Power pin not driven by any Output Power pins'
+      error: 'power_pin_not_driven'
+      regex:  'ESP32'
   run_erc: true
-  run_drc: true  
+  run_drc: true
   check_zone_fills: true
   ignore_unconnected: true
+  update_xml: true
 
 outputs:
 - name: basic_boardview
   comment: Board View export
   type: boardview
-  dir: Assembly
+  dir: assembly
+- name: Schematics PDF
+  comment: Schematics as PDF
+  type: pdf_sch_print
+  dir: schematics
 - name: generic_bom_html
   comment: Generic Bill of Materials in HTML format
   type: bom
-  dir: BoM/Generic
+  dir: bom
   options:
     format: HTML
     count_smd_tht: true
 - name: generic_bom_csv
   comment: Generic Bill of Materials in CSV format
   type: bom
-  dir: BoM/Generic
+  dir: bom
   options:
     format: CSV
     count_smd_tht: true
+- name: Costs
+  comment: Costs
+  type: kicost
+  dir: costs
+  options:
+    currency: EUR
+    number: 100
+- name: 3D Pic
+  comment: Rendered 3D image
+  type: render_3d
+  dir: 3d
+  options:
+    ray_tracing: true
+    rotate_x: 5
+    rotate_z: 5
+
+
