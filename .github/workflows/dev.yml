@@ -5,10 +5,14 @@ on:
     paths:
     - '**.sch'
     - '**.kicad_pcb'
+    - '**.yml'
+    - '**.yaml'
   pull_request:
     paths:
       - '**.sch'
       - '**.kicad_pcb'
+      - '**.yml'
+      - '**.yaml'
 
 jobs:
   build:
