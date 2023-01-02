@@ -23,13 +23,6 @@ jobs:
         dir: out/panel-module
         schema: panel-module/panel-module.sch
         board: panel-module/panel-module.kicad_pcb
-    - name: SoC Module
-      uses: INTI-CMNB/KiBot@v2_k6
-      with:
-        config: kibot.yaml
-        dir: out/soc-module
-        schema: soc-module/soc-module.sch
-        board: soc-module/soc-module.kicad_pcb
     - name: Ethernet Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
@@ -44,3 +37,10 @@ jobs:
         dir: out/metering-module
         schema: metering-module/metering-module.sch
         board: metering-module/metering-module.kicad_pcb
+    - name: SoC Module
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: kibot.yaml
+        dir: out/soc-module
+        schema: soc-module/soc-module.sch
+        board: soc-module/soc-module.kicad_pcb
