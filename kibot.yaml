@@ -78,13 +78,13 @@ outputs:
     format: CSV
     count_smd_tht: true
 
-- name: Costs
-  comment: Costs
-  type: kicost
-  dir: costs
-  options:
-    currency: EUR
-    number: 100
+#- name: Costs
+#  comment: Costs
+#  type: kicost
+#  dir: costs
+#  options:
+#    currency: EUR
+#    number: 100
 
 - name: 3D Pic
   comment: Rendered 3D image
