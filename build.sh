@@ -16,7 +16,7 @@ fi
 
 if [[ $# -ne 1 ]]; then
 	echo
-	echo "Usage: ./build.sh [metering-module|soc-module|ethernet-module|panel-module]"
+	echo "Usage: ./build.sh [metering-module|soc-module|ethernet-extension|panel-module]"
 	echo
 	exit 1
 fi
