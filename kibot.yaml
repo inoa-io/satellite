@@ -3,6 +3,12 @@ kibot:
 
 preflight:
   filters:
+    - filter: 'Ignore PWR0113 Input Power pin not driven by any Output Power pins'
+      error: 'power_pin_not_driven'
+      regex:  'PWR0113'
+    - filter: 'Ignore PWR0103 Input Power pin not driven by any Output Power pins'
+      error: 'power_pin_not_driven'
+      regex:  'PWR0103'
     - filter: 'Ignore PWR0132 Input Power pin not driven by any Output Power pins'
       error: 'power_pin_not_driven'
       regex:  'PWR0132'

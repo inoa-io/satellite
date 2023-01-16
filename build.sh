@@ -26,7 +26,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 rm -rf "out/$1"
 mkdir -p "out/$1"
 
-kibot -d out/$1 -e $1/$1.sch -b $1/$1.kicad_pcb -c kibot.yaml
+kibot -d out/$1 -e $1/$1.kicad_sch -b $1/$1.kicad_pcb -c kibot.yaml
 
 echo
 echo "Done"

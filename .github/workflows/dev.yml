@@ -29,7 +29,7 @@ jobs:
         dir: out/panel-module
         schema: panel-module/panel-module.kicad_sch
         board: panel-module/panel-module.kicad_pcb
-        verbose: 3
+        verbose: 0
     - name: Ethernet Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
@@ -37,7 +37,7 @@ jobs:
         dir: out/ethernet-extension
         schema: ethernet-extension/ethernet-extension.kicad_sch
         board: ethernet-extension/ethernet-extension.kicad_pcb
-        verbose: 3
+        verbose: 0
     - name: Metering Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
@@ -45,7 +45,7 @@ jobs:
         dir: out/metering-module
         schema: metering-module/metering-module.kicad_sch
         board: metering-module/metering-module.kicad_pcb
-        verbose: 3
+        verbose: 0
     - name: SoC Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
@@ -53,4 +53,4 @@ jobs:
         dir: out/soc-module
         schema: soc-module/soc-module.kicad_sch
         board: soc-module/soc-module.kicad_pcb
-        verbose: 3
+        verbose: 0
