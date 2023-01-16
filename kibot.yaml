@@ -52,9 +52,10 @@ preflight:
       error: 'power_pin_not_driven'
       regex:  'BA033CC0FP-E2'
   run_erc: true
+  erc_warnings: false
   run_drc: true
   check_zone_fills: true
-  ignore_unconnected: true
+  ignore_unconnected: false
   update_xml: true
 
 outputs:
