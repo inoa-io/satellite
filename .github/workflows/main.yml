@@ -16,28 +16,28 @@ jobs:
       with:
         config: kibot.yaml
         dir: out/panel-module
-        schema: panel-module/panel-module.sch
+        schema: panel-module/panel-module.kicad_sch
         board: panel-module/panel-module.kicad_pcb
     - name: SoC Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
         config: kibot.yaml
         dir: out/soc-module
-        schema: soc-module/soc-module.sch
+        schema: soc-module/soc-module.kicad_sch
         board: soc-module/soc-module.kicad_pcb
     - name: Ethernet Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
         config: kibot.yaml
         dir: out/ethernet-extension
-        schema: ethernet-extension/ethernet-extension.sch
+        schema: ethernet-extension/ethernet-extension.kicad_sch
         board: ethernet-extension/ethernet-extension.kicad_pcb
     - name: Metering Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
         config: kibot.yaml
         dir: out/metering-module
-        schema: metering-module/metering-module.sch
+        schema: metering-module/metering-module.kicad_sch
         board: metering-module/metering-module.kicad_pcb
     - name: upload results
       uses: actions/upload-artifact@v2
