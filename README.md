@@ -119,9 +119,10 @@ We use a DIN rail mounted casing in 2 FE width. See [Datasheet](./casing/rail/ap
 You will need:
 
 * Python >= 3.8
-* KiCad Export (see [installation instructions](https://github.com/nerdyscout/kicad-exports#installation))
+* [KiBot](https://github.com/INTI-CMNB/KiBot) (see [installation instructions](https://github.com/INTI-CMNB/KiBot#installation-on-ubuntu-or-debian))
 
-Clone this project and run `./build.sh`. You will get a selection of the possible modules to be built.
+
+Clone this project and run `./build.sh`. You will get a selection of the possible modules to be built. Tests will be executed and the build result is placed in the `out` folder.
 
 ### Project structure
 

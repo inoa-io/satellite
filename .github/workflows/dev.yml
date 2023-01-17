@@ -2,61 +2,53 @@ name: Dev
 
 on:
   push:
-    branches:
-      - 'feature/**'
-      - 'bugfix/**'
+    paths:
+    - '**.kicad_sch'
+    - '**.kicad_pcb'
+    - '**.yml'
+    - '**.yaml'
+  pull_request:
+    paths:
+      - '**.kicad_sch'
+      - '**.kicad_pcb'
+      - '**.yml'
+      - '**.yaml'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      # ~~~~~~~~~~~~~~~
-      # SoC Module
-      # ~~~~~~~~~~~~~~~
-      - name: KiCad::SoC-Module::Docs
-        uses: nerdyscout/kicad-exports@v2.2
-        with:
-          config: configs/ci.kibot.yaml
-          dir: out
-          schema: 'soc-module/soc-module.sch'
-          board: 'soc-module/soc-module.kicad_pcb'
-      # ~~~~~~~~~~~~~~~
-      # Ethernet Module
-      # ~~~~~~~~~~~~~~~
-      - name: KiCad::Ethernet-Module::Model
-        uses: nerdyscout/kicad-exports@v2.2
-        with:
-          config: configs/ci.kibot.yaml
-          dir: out
-          schema: 'ethernet-extension/ethernet-extension.sch'
-          board: 'ethernet-extension/ethernet-extension.kicad_pcb'
-      # ~~~~~~~~~~~~~~~
-      # Panel Module
-      # ~~~~~~~~~~~~~~~
-      - name: KiCad::Panel-Module::Model
-        uses: nerdyscout/kicad-exports@v2.2
-        with:
-          config: configs/ci.kibot.yaml
-          dir: out
-          schema: 'panel-module/panel-module.sch'
-          board: 'panel-module/panel-module.kicad_pcb'
-      # ~~~~~~~~~~~~~~~
-      # Metering Module
-      # ~~~~~~~~~~~~~~~
-      - name: KiCad::Metering-Module::Model
-        uses: nerdyscout/kicad-exports@v2.2
-        with:
-          config: configs/ci.kibot.yaml
-          dir: out
-          schema: 'metering-module/metering-module.sch'
-          board: 'metering-module/metering-module.kicad_pcb'
-      # ~~~~~~~~~~~~~~~
-      # Upload
-      # ~~~~~~~~~~~~~~~
-      - name: upload results
-        uses: actions/upload-artifact@v2
-        with:
-          name: out
-          path: out
+    - name: checkout
+      uses: actions/checkout@v3
+    - name: Panel Module
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: kibot.yaml
+        dir: out/panel-module
+        schema: panel-module/panel-module.kicad_sch
+        board: panel-module/panel-module.kicad_pcb
+        verbose: 0
+    - name: Ethernet Module
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: kibot.yaml
+        dir: out/ethernet-extension
+        schema: ethernet-extension/ethernet-extension.kicad_sch
+        board: ethernet-extension/ethernet-extension.kicad_pcb
+        verbose: 0
+    - name: Metering Module
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: kibot.yaml
+        dir: out/metering-module
+        schema: metering-module/metering-module.kicad_sch
+        board: metering-module/metering-module.kicad_pcb
+        verbose: 0
+    - name: SoC Module
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: kibot.yaml
+        dir: out/soc-module
+        schema: soc-module/soc-module.kicad_sch
+        board: soc-module/soc-module.kicad_pcb
+        verbose: 0
