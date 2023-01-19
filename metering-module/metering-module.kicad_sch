@@ -7,7 +7,7 @@
   (title_block
     (title "Electric Metering Module")
     (date "2022-02-09")
-    (rev "2.0")
+    (rev "2.1")
     (company "GrayC GmbH")
     (comment 1 "Fabian Schlegel")
     (comment 2 "5-24V Power Supply")
@@ -2138,7 +2138,6 @@
       )
     )
   )
-
 
   (junction (at 176.53 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 01caafb3-af8a-4642-870c-c290b286d040)
