@@ -1,0 +1,84 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Panel Module
+        uses: INTI-CMNB/KiBot@v2_k6
+        with:
+          config: electrics/kibot.yaml
+          dir: out/
+          schema: electrics/panel-module/panel-module.kicad_sch
+          board: electrics/panel-module/panel-module.kicad_pcb
+      - name: Ethernet Module
+        uses: INTI-CMNB/KiBot@v2_k6
+        with:
+          config: electrics/kibot.yaml
+          dir: out/
+          schema: electrics/ethernet-extension/ethernet-extension.kicad_sch
+          board: electrics/ethernet-extension/ethernet-extension.kicad_pcb
+      - name: Metering Module
+        uses: INTI-CMNB/KiBot@v2_k6
+        with:
+          config: electrics/kibot.yaml
+          dir: out/
+          schema: electrics/metering-module/metering-module.kicad_sch
+          board: electrics/metering-module/metering-module.kicad_pcb
+      - name: SoC Module
+        uses: INTI-CMNB/KiBot@v2_k6
+        with:
+          config: electrics/kibot.yaml
+          dir: out/
+          schema: electrics/soc-module/soc-module.kicad_sch
+          board: electrics/soc-module/soc-module.kicad_pcb
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+      - run: pip install mkdocs-material 
+      - run: cp -r out/3d docs/generated
+      - run: cp -r out/bom docs/generated
+      - run: cp -r out/schematics docs/generated
+      - run: mkdocs build
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: './site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
