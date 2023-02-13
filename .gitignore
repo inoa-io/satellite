@@ -22,7 +22,10 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
+# Build files
+.cache/
 out/
+**/*-backups/
+**/*.bak
+docs/generated/
+site/

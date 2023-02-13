@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/fabian/projects/grayc/inoa/satellite/electrics/panel-module/panel-module.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Satellite Panel</title>
+        <company>GrayC GmbH</company>
+        <rev>2.0</rev>
+        <date>Date2</date>
+        <source>panel-module.kicad_sch</source>
+        <comment number="1" value="Fabian Schlegel"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Front Panel Module with Setup / Reset Buttons and Status LEDs"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2u2</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.07</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Taiyo-Yuden/TMK316BJ225KD-T</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.07"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Taiyo-Yuden/TMK316BJ225KD-T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000622f8d63</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000622f9c9b</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Power</value>
+      <footprint>footprints:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_With_Cover</footprint>
+      <fields>
+        <field name="Manf#">LTST-C150GKT</field>
+        <field name="Price">0.06</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Lite-On/LTST-C150GKT</field>
+        <field name="part-num">LTST-C150GKT</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Price" value="0.06"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Lite-On/LTST-C150GKT"/>
+      <property name="Manf#" value="LTST-C150GKT"/>
+      <property name="part-num" value="LTST-C150GKT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d805e2</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Status</value>
+      <footprint>footprints:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_With_Cover</footprint>
+      <fields>
+        <field name="Manf#">LTST-C150GKT</field>
+        <field name="Price">0.06</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Lite-On/LTST-C150GKT</field>
+        <field name="part-num">LTST-C150GKT</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Price" value="0.06"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Lite-On/LTST-C150GKT"/>
+      <property name="Manf#" value="LTST-C150GKT"/>
+      <property name="part-num" value="LTST-C150GKT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c0ad7d</tstamps>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <footprint>images:grayc-logo-negative</footprint>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="Price">0</field>
+        <field name="Product">N/A</field>
+      </fields>
+      <libsource lib="grayc-logo-negative" part="LOGO" description=""/>
+      <property name="Price" value="0"/>
+      <property name="Product" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006225c2ad</tstamps>
+    </comp>
+    <comp ref="G2">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>Symbol:OSHW-Logo2_7.3x6mm_SilkScreen</footprint>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062515d78</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>Wifi</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="Product">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Price" value="0"/>
+      <property name="Product" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c12fbc</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>LoRa</value>
+      <footprint>MountingHole:MountingHole_6.4mm_M6</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="Product">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Price" value="0"/>
+      <property name="Product" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062442453</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>East</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="Product">N/A</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="0"/>
+      <property name="Product" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d75c2e</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>West</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="Product">N/A</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="0"/>
+      <property name="Product" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d76995</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Display</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0</field>
+        <field name="Product">N/A</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="0"/>
+      <property name="Product" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006228a373</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA</field>
+        <field name="manf#">RCG1206220RJNEA</field>
+        <field name="part-num">RCG1206220RJNEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA"/>
+      <property name="Price" value="0.08"/>
+      <property name="manf#" value="RCG1206220RJNEA"/>
+      <property name="part-num" value="RCG1206220RJNEA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d80882</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA</field>
+        <field name="part-num">RCG1206220RJNEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.08"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA"/>
+      <property name="part-num" value="RCG1206220RJNEA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006283af0e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA</field>
+        <field name="manf#">RCG1206220RJNEA</field>
+        <field name="part-num">RCG1206220RJNEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.08"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA"/>
+      <property name="manf#" value="RCG1206220RJNEA"/>
+      <property name="part-num" value="RCG1206220RJNEA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c0ad83</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA</field>
+        <field name="part-num">RCG1206220RJNEA</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.08"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA"/>
+      <property name="part-num" value="RCG1206220RJNEA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006283b7bd</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Setup</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="Price">0.47</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/CK/PTS645SK43SMTR92LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Price" value="0.47"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/CK/PTS645SK43SMTR92LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061d84670</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Reset</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="Price">0.47</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/CK/PTS645SK43SMTR92LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Price" value="0.47"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/CK/PTS645SK43SMTR92LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="panel-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061c05e1f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="grayc-logo-negative" part="LOGO">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="grayc-logo-negative">
+      <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/panel-module/../libraries/images/grayc-logo-negative.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="I2C_SCL">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="4" name="I2C_SDA">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Panel_Reset">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Panel_Setup">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Panel_Status">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(J1-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(J1-Pad7)">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(J1-Pad8)">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(J1-Pad9)">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(J1-Pad10)">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(J1-Pad12)">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(J1-Pad13)">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J1-Pad14)">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J2-Pad10)">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J2-Pad11)">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J2-Pad12)">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J2-Pad13)">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

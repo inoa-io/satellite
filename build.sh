@@ -14,21 +14,46 @@ if [[ ! $(which kibot) ]]; then
 	exit 1
 fi
 
-if [[ $# -ne 1 ]]; then
+if [[ ! $(which mkdocs) ]]; then
 	echo
-	echo "Usage: ./build.sh [metering-module|soc-module|ethernet-extension|panel-module]"
+	echo "No mkdocs command found. Please follow these installation instructions:"
+	echo
+	echo "pip install mkdocs"
+	echo "pip install mkdocs-techdocs-core"
+	echo "pip install mkdocs-material"
 	echo
 	exit 1
 fi
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-rm -rf "out/$1"
-mkdir -p "out/$1"
+run_kibot() {
+	kibot -d out/ -e electrics/$1/$1.kicad_sch -b electrics/$1/$1.kicad_pcb -c electrics/kibot.yaml
+}
 
-kibot -d out/$1 -e $1/$1.kicad_sch -b $1/$1.kicad_pcb -c kibot.yaml
+rm -rf "out/"
+mkdir -p "out/"
+rm -rf "docs/generated"
+mkdir -p "docs/generated"
+
+# run_kibot debug-module
+# run_kibot development-board
+# run_kibot development-board-ligth
+run_kibot ethernet-extension
+# run_kibot lora-module
+run_kibot metering-module
+# run_kibot nbiot-extension
+run_kibot panel-module
+# run_kibot smart-meter-module
+run_kibot soc-module
+# run_kibot tenement-module
+
+cp -r out/3d docs/generated
+cp -r out/bom docs/generated
+cp -r out/schematics docs/generated
+
+mkdocs build
 
 echo
 echo "Done"
-echo "Please find the results in: out/$1"
 echo

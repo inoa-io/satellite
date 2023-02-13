@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/fabian/workdir/lora-module/lora-module.sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 5.1.9+dfsg1-1~bpo10+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Electric Metering Module</title>
+        <company>GrayC GmbH</company>
+        <rev>2.0</rev>
+        <date>Date2</date>
+        <source>lora-module.sch</source>
+        <comment number="1" value="Fabian Schlegel"/>
+        <comment number="2" value="5-24V Power Supply"/>
+        <comment number="3" value="2x RS485, 2x S0, 2x Relay Driver"/>
+        <comment number="4" value="Electric Metering Module with RS485, S0, Relay Drivers"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U4">
+      <value>MAX3486</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</datasheet>
+      <fields>
+        <field name="Price">3.71</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX3486" description="True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6192C1B1</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>BA033CC0FP-E2</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/348/baxxdd0-e-1873983.pdf</datasheet>
+      <fields>
+        <field name="Price">0.97</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2</field>
+      </fields>
+      <libsource lib="BA033CC0FP-E2" part="BA033CC0FP-E2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6192F73F</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>25V/1A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/Bourns_SF_1206HIA_M_datasheet-1892140.pdf</datasheet>
+      <fields>
+        <field name="Price">0.93</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6193041A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/115/ds30217-71027.pdf</datasheet>
+      <fields>
+        <field name="Price">0.25</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61931275</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61931725</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF/35V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61933997</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61933D85</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619F107C</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MAX3486</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</datasheet>
+      <fields>
+        <field name="Price">3.71</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX3486" description="True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A0E1CB</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A0E1D1</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>South</value>
+      <footprint>footprints:PHOENIX_1727078</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/324/4/1727078-1437530.pdf</datasheet>
+      <fields>
+        <field name="Price">4.85</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x08" description="Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A443AD</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>West</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/181/M20-999-1218971.pdf</datasheet>
+      <fields>
+        <field name="Price">0.45</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Harwin/M20-9991446</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A75369</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>East</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/181/M20-999-1218971.pdf</datasheet>
+      <fields>
+        <field name="Price">0.45</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Harwin/M20-9991446</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A769CA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>25V</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/80/CPDU_Series_HF__RevF396351-2505940.pdf</datasheet>
+      <fields>
+        <field name="Price">0.40</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62076EFE</tstamp>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <footprint>images:grayc-logo-negative</footprint>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="Price">N/A</field>
+        <field name="Product">N/A</field>
+      </fields>
+      <libsource lib="grayc-logo-negative" part="LOGO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621EAB94</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>RFM95W-868S2</value>
+      <footprint>footprints:XCVR_RFM69HW-868S2</footprint>
+      <datasheet>https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf</datasheet>
+      <libsource lib="RF_Module" part="RFM95W-868S2" description="Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623522BD</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623B54D2</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>LoRa SMA</value>
+      <footprint>footprints:LINX_CONSMA002</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623D3AC1</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/MLC-777442.pdf</datasheet>
+      <fields>
+        <field name="Price">0.32</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62410F8D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624133E2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP23008-xSO</value>
+      <footprint>Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf</datasheet>
+      <libsource lib="Interface_Expansion" part="MCP23008-xSO" description="8-bit I/O expander, I2C, interrupts, SOIC-18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6239DBCB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RJ12</value>
+      <footprint>footprints:CUI_CRJ030-G-TH</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/670/crj030_g_th-2474792.pdf</datasheet>
+      <fields>
+        <field name="Price">1.32</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/CUI-Devices/CRJ030-G-TH?qs=iLbezkQI%252BsgYr%2F1HS1ljzg%3D%3D</field>
+      </fields>
+      <libsource lib="Connector" part="RJ12" description="RJ connector, 6P6C (6 positions 6 connected)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624036A5</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>13V/2A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/Bourns_SF_1206HIA_M_datasheet-1892140.pdf</datasheet>
+      <fields>
+        <field name="Price">0.93</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624407F2</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>13V</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/80/CPDU_Series_HF__RevF396351-2505940.pdf</datasheet>
+      <fields>
+        <field name="Price">0.40</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6244153C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/115/ds30217-71027.pdf</datasheet>
+      <fields>
+        <field name="Price">0.25</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624426A1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/54/cr-1858361.pdf</datasheet>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62445F41</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf</datasheet>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625FEF84</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6248AA88</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62496129</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6249669D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625B22AA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625B302F</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625B3B0F</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>LoRa I-PEX</value>
+      <footprint>footprints:IPEX_20449-001E-03</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62646F27</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>Antenna</value>
+      <footprint>MountingHole:MountingHole_3.7mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6251DD1A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BA033CC0FP-E2" part="BA033CC0FP-E2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BA033CC0FP-E2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Input" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Output" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="6P6C">
+      <aliases>
+        <alias>RJ12</alias>
+        <alias>RJ18</alias>
+        <alias>RJ25</alias>
+      </aliases>
+      <description>RJ connector, 6P6C (6 positions 6 connected), RJ12/RJ18/RJ25</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>6P6C*</fp>
+        <fp>RJ12*</fp>
+        <fp>RJ18*</fp>
+        <fp>RJ25*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">6P6C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x08">
+      <description>Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SB120">
+      <aliases>
+        <alias>SB130</alias>
+        <alias>SB140</alias>
+        <alias>SB150</alias>
+        <alias>SB160</alias>
+        <alias>1N5817</alias>
+        <alias>1N5818</alias>
+        <alias>1N5819</alias>
+      </aliases>
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.diodes.com/_files/datasheets/ds23022.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SB120</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="MCP23008-xSO">
+      <description>8-bit I/O expander, I2C, interrupts, SOIC-18</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MCP23008-MCP23S08-Data-Sheet-20001919F.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x11.6mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23008-xSO</field>
+        <field name="Footprint">Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="input"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A1" type="input"/>
+        <pin num="5" name="A0" type="input"/>
+        <pin num="6" name="~RESET" type="input"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="INT" type="output"/>
+        <pin num="9" name="VSS" type="power_in"/>
+        <pin num="10" name="GP0" type="BiDi"/>
+        <pin num="11" name="GP1" type="BiDi"/>
+        <pin num="12" name="GP2" type="BiDi"/>
+        <pin num="13" name="GP3" type="BiDi"/>
+        <pin num="14" name="GP4" type="BiDi"/>
+        <pin num="15" name="GP5" type="BiDi"/>
+        <pin num="16" name="GP6" type="BiDi"/>
+        <pin num="17" name="GP7" type="BiDi"/>
+        <pin num="18" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="MAX481E">
+      <aliases>
+        <alias>MAX483E</alias>
+        <alias>MAX485E</alias>
+        <alias>MAX487E</alias>
+        <alias>MAX1487E</alias>
+        <alias>MAX3485</alias>
+        <alias>MAX3483</alias>
+        <alias>MAX3486</alias>
+      </aliases>
+      <description>Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX481E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~RE" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="BiDi"/>
+        <pin num="7" name="B" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="RF_Module" part="RFM95W-868S2">
+      <aliases>
+        <alias>RFM95W-915S2</alias>
+        <alias>RFM96W-315S2</alias>
+        <alias>RFM96W-433S2</alias>
+        <alias>RFM97W-868S2</alias>
+        <alias>RFM97W-915S2</alias>
+        <alias>RFM98W-315S2</alias>
+        <alias>RFM98W-433S2</alias>
+        <alias>RFM69HCW</alias>
+      </aliases>
+      <description>Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16</description>
+      <docs>https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf</docs>
+      <footprints>
+        <fp>HOPERF*RFM9XW*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFM95W-868S2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="MISO" type="output"/>
+        <pin num="3" name="MOSI" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="NSS" type="input"/>
+        <pin num="6" name="RESET" type="BiDi"/>
+        <pin num="7" name="DIO5" type="BiDi"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="ANT" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="DIO3" type="BiDi"/>
+        <pin num="12" name="DIO4" type="BiDi"/>
+        <pin num="13" name="3.3V" type="power_in"/>
+        <pin num="14" name="DIO0" type="BiDi"/>
+        <pin num="15" name="DIO1" type="BiDi"/>
+        <pin num="16" name="DIO2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="grayc-logo-negative" part="LOGO">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BA033CC0FP-E2">
+      <uri>/home/fabian/workdir/lora-module/../libraries/symbols/BA033CC0FP-E2.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>/usr/share/kicad/library/Interface_Expansion.lib</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>/usr/share/kicad/library/Interface_UART.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>/usr/share/kicad/library/RF_Module.lib</uri>
+    </library>
+    <library logical="grayc-logo-negative">
+      <uri>/home/fabian/workdir/lora-module/../libraries/images/grayc-logo-negative.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="2" name="Net-(D4-Pad1)">
+      <node ref="D5" pin="2"/>
+      <node ref="F2" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="J1" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J5-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="U7" pin="9"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="6" name="VCC">
+      <node ref="J2" pin="2"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="9" name="RS485_0_A">
+      <node ref="J1" pin="1"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="10" name="LoRa_DIO5">
+      <node ref="U7" pin="7"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="11" name="LoRa_DIO4">
+      <node ref="U7" pin="12"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="12" name="LoRa_DIO3">
+      <node ref="U1" pin="14"/>
+      <node ref="U7" pin="11"/>
+    </net>
+    <net code="13" name="LoRa_DIO2">
+      <node ref="U7" pin="16"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="14" name="LoRa_DIO1">
+      <node ref="U7" pin="15"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="15" name="LoRa_Reset">
+      <node ref="U1" pin="16"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="16" name="LoRa_CS">
+      <node ref="U7" pin="5"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="17" name="LoRa_DIO0">
+      <node ref="U1" pin="12"/>
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="18" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="19" name="GND1">
+      <node ref="R2" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="20" name="VBUS">
+      <node ref="J2" pin="5"/>
+      <node ref="F2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="22" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J4-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="26" name="Net-(J4-Pad11)">
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="27" name="Net-(J4-Pad10)">
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="28" name="Net-(J4-Pad9)">
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="29" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="30" name="SPI_MOSI">
+      <node ref="U7" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="31" name="I2C_Int">
+      <node ref="U1" pin="8"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="32" name="SPI_CLK">
+      <node ref="R9" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="33" name="GNDPWR">
+      <node ref="J5" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J4" pin="14"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="34" name="SPI_MISO">
+      <node ref="R3" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J3-Pad8)">
+      <node ref="R6" pin="1"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="36" name="Net-(J3-Pad5)">
+      <node ref="R3" pin="1"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="37" name="+3V3">
+      <node ref="U4" pin="8"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="38" name="RS485_0_B">
+      <node ref="U5" pin="7"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="39" name="GND">
+      <node ref="C7" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U7" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U7" pin="10"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="40" name="I2C_SDA">
+      <node ref="U1" pin="2"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="41" name="I2C_SCL">
+      <node ref="J4" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="42" name="RS485_0_TXE">
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="43" name="RS485_0_RX">
+      <node ref="U5" pin="1"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="44" name="RS485_0_TX">
+      <node ref="J3" pin="10"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="45" name="Net-(J3-Pad14)">
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="46" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="47" name="Net-(J3-Pad11)">
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="48" name="RS485_1_A">
+      <node ref="J2" pin="7"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="49" name="RS485_1_TX">
+      <node ref="J4" pin="13"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="50" name="RS485_1_TXE">
+      <node ref="J4" pin="12"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="51" name="RS485_1_B">
+      <node ref="J2" pin="8"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="52" name="RS485_1_RX">
+      <node ref="U4" pin="1"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="54" name="Net-(J3-Pad13)">
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="55" name="Net-(J3-Pad12)">
+      <node ref="J3" pin="12"/>
+    </net>
+  </nets>
+</export>

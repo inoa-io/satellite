@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/../libraries/footprints")(options "")(descr ""))
+  (lib (name "images")(type "KiCad")(uri "${KIPRJMOD}/../libraries/images")(options "")(descr ""))
+  (lib (name "wmbus")(type "KiCad")(uri "${KIPRJMOD}/wmbus.pretty")(options "")(descr ""))
+)

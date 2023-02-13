@@ -14,33 +14,44 @@ jobs:
     - name: Panel Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
-        config: kibot.yaml
-        dir: out/panel-module
-        schema: panel-module/panel-module.kicad_sch
-        board: panel-module/panel-module.kicad_pcb
-    - name: SoC Module
-      uses: INTI-CMNB/KiBot@v2_k6
-      with:
-        config: kibot.yaml
-        dir: out/soc-module
-        schema: soc-module/soc-module.kicad_sch
-        board: soc-module/soc-module.kicad_pcb
+        config: electrics/kibot.yaml
+        dir: out/
+        schema: electrics/panel-module/panel-module.kicad_sch
+        board: electrics/panel-module/panel-module.kicad_pcb
     - name: Ethernet Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
-        config: kibot.yaml
-        dir: out/ethernet-extension
-        schema: ethernet-extension/ethernet-extension.kicad_sch
-        board: ethernet-extension/ethernet-extension.kicad_pcb
+        config: electrics/kibot.yaml
+        dir: out/
+        schema: electrics/ethernet-extension/ethernet-extension.kicad_sch
+        board: electrics/ethernet-extension/ethernet-extension.kicad_pcb
     - name: Metering Module
       uses: INTI-CMNB/KiBot@v2_k6
       with:
-        config: kibot.yaml
-        dir: out/metering-module
-        schema: metering-module/metering-module.kicad_sch
-        board: metering-module/metering-module.kicad_pcb
-    - name: upload results
-      uses: actions/upload-artifact@v2
+        config: electrics/kibot.yaml
+        dir: out/
+        schema: electrics/metering-module/metering-module.kicad_sch
+        board: electrics/metering-module/metering-module.kicad_pcb
+    - name: SoC Module
+      uses: INTI-CMNB/KiBot@v2_k6
       with:
-        name: out
-        path: out
+        config: electrics/kibot.yaml
+        dir: out/
+        schema: electrics/soc-module/soc-module.kicad_sch
+        board: electrics/soc-module/soc-module.kicad_pcb
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.x
+    - name: Cache
+      uses: actions/cache@v2
+      with:
+        key: ${{ github.ref }}
+        path: .cache
+    - run: pip install mkdocs-material 
+    - run: cp -r out/3d docs/generated
+    - run: cp -r out/bom docs/generated
+    - run: cp -r out/schematics docs/generated
+    - run: mkdocs gh-deploy --force
+
+
