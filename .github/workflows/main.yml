@@ -52,6 +52,6 @@ jobs:
     - run: cp -r out/3d docs/generated
     - run: cp -r out/bom docs/generated
     - run: cp -r out/schematics docs/generated
-    - run: mkdocs gh-deploy --force
+    - run: mkdocs build
 
 
