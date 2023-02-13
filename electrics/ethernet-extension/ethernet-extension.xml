@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/fabian/projects/grayc/inoa/satellite/electrics/ethernet-extension/ethernet-extension.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Inoa Satelite Ethernet Extension</title>
+        <company>GrayC GmbH</company>
+        <rev>2.0</rev>
+        <date>Date2</date>
+        <source>ethernet-extension.kicad_sch</source>
+        <comment number="1" value="Fabian Schlegel"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="W5500 EThernet Chip"/>
+        <comment number="4" value="Ethernet Communication Module for Satellite"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618c2d69</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>18pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618c09e1</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006253921d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006253845c</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061972060</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4u7</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A475MQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A475MQ8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061972a73</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000625376fd</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000625369e1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a65044</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a65410</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.10</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.10"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a657ea</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a0c9e2</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>6n8</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006191c64d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>6n8</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006191bbc4</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10B223KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10B223KB8NNNC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006194bb3e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1nF 2kV</value>
+      <footprint>Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">1.21</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1812C103KGRACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="1.21"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1812C103KGRACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618ee648</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ac1ff0</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061ac31fe</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062112c7f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>CDNBS08-SLVU2.8-4</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.bourns.com/pdfs/CDNBS08-SLVU28-4.pdf</datasheet>
+      <fields>
+        <field name="Price">1.68</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CDNBS08-SLVU28-4</field>
+      </fields>
+      <libsource lib="Power_Protection" part="CDNBS08-SLVU2.8-4" description="Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOIC-8"/>
+      <property name="Products" value=""/>
+      <property name="Price" value="1.68"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CDNBS08-SLVU28-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618ba70d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Price">0.12</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Panjit/1N4148WS_R1_00001</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Price" value="0.12"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Panjit/1N4148WS_R1_00001"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006210ca6a</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>120R@100MHz</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/987/Laird_10092020_Laird_MCP_Catalog_EMI_Filtering_and-1947796.pdf</datasheet>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Laird-Performance-Materials/LI0805H121R-10</field>
+      </fields>
+      <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
+      <property name="Price" value="0.08"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Laird-Performance-Materials/LI0805H121R-10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fad33db-cce3-44fe-9ec3-efd4064be104</tstamps>
+    </comp>
+    <comp ref="G1">
+      <value>LOGO</value>
+      <footprint>footprints:grayc-logo-negative</footprint>
+      <datasheet>N/A</datasheet>
+      <fields>
+        <field name="Price">0</field>
+        <field name="Product">N/A</field>
+      </fields>
+      <libsource lib="grayc-logo-negative" part="LOGO" description=""/>
+      <property name="Price" value="0"/>
+      <property name="Product" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000621fc104</tstamps>
+    </comp>
+    <comp ref="G2">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>Symbol:OSHW-Logo2_7.3x6mm_SilkScreen</footprint>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062537907</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Wuerth_7499010121A</value>
+      <footprint>Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</footprint>
+      <datasheet>http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf</datasheet>
+      <fields>
+        <field name="Price">5.81</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Wurth-Elektronik/7499010121A</field>
+      </fields>
+      <libsource lib="Connector" part="Wuerth_7499010121A" description="LAN Transformer Jack, RJ45, 10/100 BaseT"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Wurth-Elektronik/7499010121A"/>
+      <property name="Price" value="5.81"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006199c464</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>East</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">2.40</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="2.40"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000619f1f30</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>West</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">2.40</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="2.40"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006196598f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618b9da8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618b930b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618d6ba6</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618db467</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618db669</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062215b45</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618dbd82</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CMP0603-FX-1004ELF?qs=sGAEpiMZZMtlubZbdhIBIIPWN1VQSu3wmAar35e6bQc%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CMP0603-FX-1004ELF?qs=sGAEpiMZZMtlubZbdhIBIIPWN1VQSu3wmAar35e6bQc%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a15e6e</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>12k4 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-1242ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RK7FuIR85iNw%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-1242ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RK7FuIR85iNw%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618dc3f0</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>82R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a00f6b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>82R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061a01dc7</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10R 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/YAGEO/RC0603FR-1310RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xipFwCw7Ptc0%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/YAGEO/RC0603FR-1310RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xipFwCw7Ptc0%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006194b466</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>49R9 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061987457</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>49R9 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.09</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.09"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061987ce2</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006210db53</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>W5500</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf</datasheet>
+      <fields>
+        <field name="Price">3.44</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/WIZnet/W5500</field>
+      </fields>
+      <libsource lib="Interface_Ethernet" part="W5500" description="10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48"/>
+      <property name="Price" value="3.44"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/WIZnet/W5500"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618414b2</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>25MHz</value>
+      <footprint>Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering</footprint>
+      <fields>
+        <field name="Price">0.98</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/ECS/ECS-250-18-23A-TR</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Price" value="0.98"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/ECS/ECS-250-18-23A-TR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061843d8e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Wuerth_7499010121A">
+      <description>LAN Transformer Jack, RJ45, 10/100 BaseT</description>
+      <docs>http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf</docs>
+      <footprints>
+        <fp>RJ45*Wuerth*7499010121A*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Wuerth_7499010121A</field>
+        <field name="Footprint">Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</field>
+        <field name="Datasheet">http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TD+" type="passive"/>
+        <pin num="2" name="TCT" type="passive"/>
+        <pin num="3" name="TD-" type="passive"/>
+        <pin num="4" name="RD+" type="passive"/>
+        <pin num="5" name="RCT" type="passive"/>
+        <pin num="6" name="RD-" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+        <pin num="9" name="" type="passive"/>
+        <pin num="10" name="" type="passive"/>
+        <pin num="11" name="" type="passive"/>
+        <pin num="12" name="" type="passive"/>
+        <pin num="SH" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="FerriteBead">
+      <description>Ferrite bead</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FerriteBead</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Interface_Ethernet" part="W5500">
+      <description>10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48</description>
+      <docs>http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W5500</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+        <field name="Datasheet">http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXN" type="output"/>
+        <pin num="2" name="TXP" type="output"/>
+        <pin num="3" name="AGND" type="power_in"/>
+        <pin num="4" name="AVDD" type="power_in"/>
+        <pin num="5" name="RXN" type="input"/>
+        <pin num="6" name="RXP" type="input"/>
+        <pin num="7" name="DNC" type="no_connect"/>
+        <pin num="8" name="AVDD" type="passive"/>
+        <pin num="9" name="AGND" type="passive"/>
+        <pin num="10" name="EXRES1" type="passive"/>
+        <pin num="11" name="AVDD" type="passive"/>
+        <pin num="12" name="NC" type="no_connect"/>
+        <pin num="13" name="NC" type="no_connect"/>
+        <pin num="14" name="AGND" type="passive"/>
+        <pin num="15" name="AVDD" type="passive"/>
+        <pin num="16" name="AGND" type="passive"/>
+        <pin num="17" name="AVDD" type="passive"/>
+        <pin num="18" name="VBG" type="passive"/>
+        <pin num="19" name="AGND" type="passive"/>
+        <pin num="20" name="TOCAP" type="passive"/>
+        <pin num="21" name="AVDD" type="passive"/>
+        <pin num="22" name="1V2O" type="output"/>
+        <pin num="23" name="RSVD" type="input"/>
+        <pin num="24" name="SPDLED" type="output"/>
+        <pin num="25" name="LINKLED" type="output"/>
+        <pin num="26" name="DUPLED" type="output"/>
+        <pin num="27" name="ACTLED" type="output"/>
+        <pin num="28" name="VDD" type="power_in"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="XI/CLKIN" type="input"/>
+        <pin num="31" name="XO" type="output"/>
+        <pin num="32" name="~{SCS}" type="input"/>
+        <pin num="33" name="SCLK" type="input"/>
+        <pin num="34" name="MISO" type="output"/>
+        <pin num="35" name="MOSI" type="input"/>
+        <pin num="36" name="~{INT}" type="input"/>
+        <pin num="37" name="~{RST}" type="input"/>
+        <pin num="38" name="RSVD" type="input"/>
+        <pin num="39" name="RSVD" type="input"/>
+        <pin num="40" name="RSVD" type="input"/>
+        <pin num="41" name="RSVD" type="input"/>
+        <pin num="42" name="RSVD" type="input"/>
+        <pin num="43" name="PMODE2" type="input"/>
+        <pin num="44" name="PMODE1" type="input"/>
+        <pin num="45" name="PMODE0" type="input"/>
+        <pin num="46" name="NC" type="no_connect"/>
+        <pin num="47" name="NC" type="no_connect"/>
+        <pin num="48" name="AGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="CDNBS08-SLVU2.8-4">
+      <description>Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOIC-8</description>
+      <docs>https://www.bourns.com/pdfs/CDNBS08-SLVU28-4.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CDNBS08-SLVU2.8-4</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.bourns.com/pdfs/CDNBS08-SLVU28-4.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TVS1" type="passive"/>
+        <pin num="2" name="TVS2" type="passive"/>
+        <pin num="3" name="TVS1" type="passive"/>
+        <pin num="4" name="TVS2" type="passive"/>
+        <pin num="5" name="TVS1" type="passive"/>
+        <pin num="6" name="TVS2" type="passive"/>
+        <pin num="7" name="TVS1" type="passive"/>
+        <pin num="8" name="TVS2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="grayc-logo-negative" part="LOGO">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Ethernet">
+      <uri>/usr/share/kicad/symbols//Interface_Ethernet.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/symbols//Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="grayc-logo-negative">
+      <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/ethernet-extension/../libraries/images/grayc-logo-negative.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3VA">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="AVDD" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="AVDD" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="AVDD" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="AVDD" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="AVDD" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="AVDD" pintype="passive"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="10" pintype="passive"/>
+      <node ref="J1" pin="12" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="AGND" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="AGND" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="AGND" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="AGND" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="AGND" pintype="passive"/>
+    </net>
+    <net code="4" name="GNDPWR">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="J1" pin="8" pintype="passive"/>
+      <node ref="J1" pin="SH" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="5" name="LAN_CS">
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="~{SCS}" pintype="input"/>
+    </net>
+    <net code="6" name="LAN_Int">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="~{INT}" pintype="input"/>
+    </net>
+    <net code="7" name="LAN_Reset">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="~{RST}" pintype="input"/>
+    </net>
+    <net code="8" name="LED_ACT">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="ACTLED" pintype="output"/>
+    </net>
+    <net code="9" name="LED_LINK">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="LINKLED" pintype="output"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="XI/CLKIN" pintype="input"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="XO" pintype="output"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="1V2O" pintype="output"/>
+    </net>
+    <net code="13" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="TOCAP" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad9)">
+      <node ref="J1" pin="9" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(J1-Pad11)">
+      <node ref="J1" pin="11" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="PMODE2" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="PMODE1" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="PMODE0" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="RSVD" pintype="input"/>
+    </net>
+    <net code="20" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="EXRES1" pintype="passive"/>
+    </net>
+    <net code="21" name="RCT">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="RCT" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="RD+">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="TVS1" pintype="passive"/>
+      <node ref="D1" pin="6" pinfunction="TVS2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="RD+" pintype="passive"/>
+    </net>
+    <net code="23" name="RD-">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="D1" pin="4" pinfunction="TVS2" pintype="passive"/>
+      <node ref="D1" pin="5" pinfunction="TVS1" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="RD-" pintype="passive"/>
+    </net>
+    <net code="24" name="RXN">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="RXN" pintype="input"/>
+    </net>
+    <net code="25" name="RXP">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="RXP" pintype="input"/>
+    </net>
+    <net code="26" name="SPI_CLK">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="27" name="SPI_MISO">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="28" name="SPI_MOSI">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="29" name="TCT">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="TCT" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="TD+">
+      <node ref="D1" pin="2" pinfunction="TVS2" pintype="passive"/>
+      <node ref="D1" pin="7" pinfunction="TVS1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="TD+" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TXP" pintype="output"/>
+    </net>
+    <net code="31" name="TD-">
+      <node ref="D1" pin="1" pinfunction="TVS1" pintype="passive"/>
+      <node ref="D1" pin="8" pinfunction="TVS2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="TD-" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="TXN" pintype="output"/>
+    </net>
+    <net code="32" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J2-Pad11)">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J2-Pad12)">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J2-Pad13)">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J3-Pad9)">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J3-Pad10)">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J3-Pad13)">
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J3-Pad14)">
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="VBG" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-Pad24)">
+      <node ref="U1" pin="24" pinfunction="SPDLED" pintype="output+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="DUPLED" pintype="output+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-Pad38)">
+      <node ref="U1" pin="38" pinfunction="RSVD" pintype="input+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-Pad39)">
+      <node ref="U1" pin="39" pinfunction="RSVD" pintype="input+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad40)">
+      <node ref="U1" pin="40" pinfunction="RSVD" pintype="input+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-Pad41)">
+      <node ref="U1" pin="41" pinfunction="RSVD" pintype="input+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-Pad42)">
+      <node ref="U1" pin="42" pinfunction="RSVD" pintype="input+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-Pad46)">
+      <node ref="U1" pin="46" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-Pad47)">
+      <node ref="U1" pin="47" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

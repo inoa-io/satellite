@@ -1,0 +1,14 @@
+site_name: 'Inoa Satellite Gateway'
+theme:
+  name: 'material'
+nav:
+  - Home: 'index.md'
+  - 'User Guide':
+    - 'Electrical Installation': user-guide/electrical-installation.md
+  - 'Technical Documentation':
+    - 'Electric Metering Module': technical-guide/metering-module.md
+    - 'SoC Module': technical-guide/soc-module.md
+    - 'Ethernet Module': technical-guide/ethernet-module.md
+    - 'Panel Module': technical-guide/panel-module.md
+  - 'Developer Guide':
+    - 'Getting Started': developer-guide/getting-started.md
