@@ -41,13 +41,13 @@ jobs:
         board: electrics/soc-module/soc-module.kicad_pcb
     - name: Install Python
       uses: actions/setup-python@v4
-        with:
-          python-version: 3.x
+      with:
+        python-version: 3.x
     - name: Cache
       uses: actions/cache@v2
-        with:
-          key: ${{ github.ref }}
-          path: .cache
+      with:
+        key: ${{ github.ref }}
+        path: .cache
     - run: pip install mkdocs-material 
     - run: cp -r out/3d docs/generated
     - run: cp -r out/bom docs/generated
