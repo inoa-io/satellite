@@ -1,0 +1,42 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Price,Product,Products
+1,"Unpolarized capacitor, small symbol",C_Small,C1 C2,18pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,~,0.09,https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A,
+2,"Unpolarized capacitor, small symbol",C_Small,C16,1nF 2kV,C_1812_4532Metric_Pad1.57x3.40mm_HandSolder,1, ,~,1.21,https://www.mouser.de/ProductDetail/KEMET/C1812C103KGRACTU,
+3,"Unpolarized capacitor, small symbol",C_Small,C13 C14,6n8,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,~,0.09,https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU,
+4,"Unpolarized capacitor, small symbol",C_Small,C5 C12 C17,10nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,3, ,~,0.09,https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A,
+5,"Unpolarized capacitor, small symbol",C_Small,C15,22nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,~,0.09,https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10B223KB8NNNC,
+6,"Unpolarized capacitor, small symbol",C_Small,C3 C4 C7 C8 C9 C10 C18 C19,0u1,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,8, ,~,0.09,https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU,
+7,"Unpolarized capacitor, small symbol",C_Small,C6,4u7,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,~,0.09,https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A475MQ8NNNC,
+8,"Unpolarized capacitor, small symbol",C_Small,C11,10uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,~,0.10,https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC,
+9,"100V 0.15A standard switching diode, DO-35",1N4148,D2,1N4148,D_SOD-323_HandSoldering,1, ,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf,0.12,https://www.mouser.de/ProductDetail/Panjit/1N4148WS_R1_00001,
+10,"Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOIC-8",CDNBS08-SLVU2.8-4,D1,CDNBS08-SLVU2.8-4,SOIC-8_3.9x4.9mm_P1.27mm,1, ,https://www.bourns.com/pdfs/CDNBS08-SLVU28-4.pdf,1.68,https://www.mouser.de/ProductDetail/Bourns/CDNBS08-SLVU28-4,
+11,Ferrite bead,FerriteBead,FB1,120R@100MHz,L_0805_2012Metric,1, ,https://www.mouser.de/datasheet/2/987/Laird_10092020_Laird_MCP_Catalog_EMI_Filtering_and-1947796.pdf,0.08,https://www.mouser.de/ProductDetail/Laird-Performance-Materials/LI0805H121R-10,
+12,,LOGO,G1,LOGO,grayc-logo-negative,1, ,N/A,0,N/A,
+13,"Open Hardware logo, small",Logo_Open_Hardware_Small,G2,Logo_Open_Hardware_Small,OSHW-Logo2_7.3x6mm_SilkScreen,1, ,~,,,
+14,"Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x14,J2 J3,East,PinHeader_1x14_P2.54mm_Vertical,2, ,~,2.40,https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D,
+15,"LAN Transformer Jack, RJ45, 10/100 BaseT",Wuerth_7499010121A,J1,Wuerth_7499010121A,RJ45_Wuerth_7499010121A_Horizontal,1, ,http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf,5.81,https://www.mouser.de/ProductDetail/Wurth-Elektronik/7499010121A,
+16,Resistor,R,R16,10R 1%,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,~,0.09,https://www.mouser.de/ProductDetail/YAGEO/RC0603FR-1310RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xipFwCw7Ptc0%3D,
+17,Resistor,R,R17 R18,49R9 1%,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,~,0.09,https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D,
+18,Resistor,R,R14 R15,82R 1%,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,~,0.09,https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D,
+19,Resistor,R,R1 R2,330R,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,~,0.09,https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D,
+20,Resistor,R,R3 R4 R5 R6 R7 R19,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,6, ,~,,https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D,
+21,Resistor,R,R9,12k4 1%,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,~,0.09,https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-1242ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RK7FuIR85iNw%3D,
+22,Resistor,R,R8,1M,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,~,,https://www.mouser.de/ProductDetail/Bourns/CMP0603-FX-1004ELF?qs=sGAEpiMZZMtlubZbdhIBIIPWN1VQSu3wmAar35e6bQc%3D,
+23,"10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48",W5500,U1,W5500,LQFP-48_7x7mm_P0.5mm,1, ,http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf,3.44,https://www.mouser.de/ProductDetail/WIZnet/W5500,
+24,Two pin crystal,Crystal,Y1,25MHz,Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering,1, ,~,0.98,https://www.mouser.de/ProductDetail/ECS/ECS-250-18-23A-TR,
+
+
+
+
+
+Project info:
+Schematic:,ethernet-extension
+Variant:,default
+Revision:,2.0
+Date:,2021-11-11
+KiCad Version:,6.0.10+dfsg-1~bpo11+1
+Statistics:
+Component Groups:,24
+Component Count:,44 (39 SMD/ 4 THT)
+Fitted Components:,44 (39 SMD/ 4 THT)
+Number of PCBs:,1
+Total Components:,44

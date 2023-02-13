@@ -1,0 +1,37 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Price,Product
+1,Unpolarized capacitor,C,C1 C2 C3 C4 C5 C6 C7,100nF / 35V,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,7, ,~,0.24,https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D
+2,"40V 1A Schottky Barrier Rectifier Diode, DO-41",1N5819,D2,1N5819,D_SOD-323_HandSoldering,1, ,http://www.vishay.com/docs/88525/1n5817.pdf,0.25,https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D
+3,Zener diode,D_Zener,D1,25V,D_SOD-523,1, ,~,0.40,https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D
+4,"200V 0.25A Switching Diode, High Voltage, MicroMELF",BAV303,D3 D4,BAV303,D_MicroMELF,2, ,http://www.vishay.com/docs/85545/bav300.pdf,0.20,https://www.mouser.de/ProductDetail/Vishay-Semiconductors/BAV303-TR?qs=7qbm%252BEMa92zC5P%252BxWlWw9w%3D%3D
+5,Bidirectional transient-voltage-suppression diode,D_TVS,D7 D8,D_TVS,D_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2, ,~,0.32,https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D
+6,Fuse,Fuse,F1,25V/1A,Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,1, ,~,0.93,https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2
+7,,LOGO,G1,LOGO,grayc-logo-negative,1, ,,,
+8,"Open Hardware logo, small",Logo_Open_Hardware_Small,G2,Logo_Open_Hardware_Small,OSHW-Logo2_7.3x6mm_SilkScreen,1, ,~,,
+9,"Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Screw_Terminal_01x08,J1 J2,North,PHOENIX_1727078,2, ,~,4.85,https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078
+10,"Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x14,J3 J4,West,PinHeader_1x14_P2.54mm_Vertical,2, ,~,0.45,https://www.mouser.de/ProductDetail/Harwin/M20-9991446
+11,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23",MMBT3904,Q1 Q2,MMBT3904,SOT-23,2, ,https://www.onsemi.com/pub/Collateral/2N3903-D.PDF,0.09,https://www.mouser.de/ProductDetail/Nexperia/MMBT3904215
+12,Resistor,R,R6,0R,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1, ,~,0.08,https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF
+13,Resistor,R,R1 R2 R10 R11,220R,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,4, ,~,0.08,https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R
+14,Resistor,R,R3 R4,1k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,2, ,~,0.10,https://www.mouser.de/ProductDetail/KOA-Speer/RK73B2BTTDD102J
+15,Resistor,R,R5 R8 R9,10k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,3, ,~,0.08,https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF
+16,,BA033CC0FP-E2,U3,BA033CC0FP-E2,TO-252-3_TabPin2,1, ,https://www.mouser.de/datasheet/2/348/baxxdd0-e-1873983.pdf,0.97,https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2
+17,"DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4",LTV-817S,U1 U2,LTV-817S,SMDIP-4_W9.53mm,2, ,http://www.us.liteon.com/downloads/LTV-817-827-847.PDF,0.40,https://www.mouser.de/ProductDetail/Lite-On/LTV-817S
+18,"True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8",MAX3486,U4 U5,MAX3486,SOIC-8_3.9x4.9mm_P1.27mm,2, ,https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf,3.71,https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D
+19,,MCP23009-E_SS,U6,MCP23009-E_SS,SOP65P780X200-20N,1, ,https://www.mouser.de/datasheet/2/268/22121a-52412.pdf,,
+
+
+
+
+
+Project info:
+Schematic:,metering-module
+Variant:,default
+Revision:,2.1
+Date:,2022-02-09
+KiCad Version:,6.0.10+dfsg-1~bpo11+1
+Statistics:
+Component Groups:,19
+Component Count:,38 (31 SMD/ 6 THT)
+Fitted Components:,38 (31 SMD/ 6 THT)
+Number of PCBs:,1
+Total Components:,38

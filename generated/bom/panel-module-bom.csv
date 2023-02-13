@@ -1,0 +1,30 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Price,Product,Manf#,part-num
+1,Unpolarized capacitor,C,C2,0u1,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1, ,~,,,,
+2,Unpolarized capacitor,C,C1,2u2,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1, ,~,0.07,https://www.mouser.de/ProductDetail/Taiyo-Yuden/TMK316BJ225KD-T,,
+3,Light emitting diode,LED,D1,Power,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_With_Cover,1, ,~,0.06,https://www.mouser.de/ProductDetail/Lite-On/LTST-C150GKT,LTST-C150GKT,LTST-C150GKT
+4,Light emitting diode,LED,D2,Status,LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder_With_Cover,1, ,~,0.06,https://www.mouser.de/ProductDetail/Lite-On/LTST-C150GKT,LTST-C150GKT,LTST-C150GKT
+5,,LOGO,G1,LOGO,grayc-logo-negative,1, ,N/A,0,N/A,,
+6,"Open Hardware logo, small",Logo_Open_Hardware_Small,G2,Logo_Open_Hardware_Small,OSHW-Logo2_7.3x6mm_SilkScreen,1, ,~,,,,
+7,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J4,Display,PinHeader_1x04_P2.54mm_Vertical,1, ,~,0,N/A,,
+8,"Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x14,J1 J2,East,PinSocket_1x14_P2.54mm_Vertical,2, ,~,0,N/A,,
+9,Resistor,R,R1 R3,220R,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,2, ,~,0.08,https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA,RCG1206220RJNEA,RCG1206220RJNEA
+10,Resistor,R,R2 R4,1k,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,2, ,~,0.08,https://www.mouser.de/ProductDetail/Vishay-Draloric/RCG1206220RJNEA,,RCG1206220RJNEA
+11,"Push button switch, generic, two pins",SW_Push,SW2,Reset,SW_SPST_PTS645,1, ,~,0.47,https://www.mouser.de/ProductDetail/CK/PTS645SK43SMTR92LFS,,
+12,"Push button switch, generic, two pins",SW_Push,SW1,Setup,SW_SPST_PTS645,1, ,~,0.47,https://www.mouser.de/ProductDetail/CK/PTS645SK43SMTR92LFS,,
+
+
+
+
+
+Project info:
+Schematic:,panel-module
+Variant:,default
+Revision:,2.0
+Date:,2022-02-08
+KiCad Version:,6.0.10+dfsg-1~bpo11+1
+Statistics:
+Component Groups:,12
+Component Count:,15 (10 SMD/ 4 THT)
+Fitted Components:,15 (10 SMD/ 4 THT)
+Number of PCBs:,1
+Total Components:,15
