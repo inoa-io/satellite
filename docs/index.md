@@ -25,9 +25,13 @@ The Satellite comes with a stacked design allowing to interchange the modules on
 
 This allows quick and cheap adjustment of single devices, ensures extendability, keeps costs low and offers replacement of defect modules with spare parts.
 
+![Satellite Module Layers](assets/images/satellite_layers_side.jpg)
+
 The Satellite consists of up to 4 levels (level 1 is the bottom). Level 3 is an optional level and may be left out.
 
 * Level 1 holds the power supply and metering / control peripheries.
 * Level 2 is the main module for the micro controller
 * Level 3 is the network / communication level (Ethernet, NB IoT, LoRa, ...)
 * Level 4 is meant for the user panel or other external I/O interfaces
+
+![Satellite Module Layers](assets/images/satellite_layers_top.jpg)

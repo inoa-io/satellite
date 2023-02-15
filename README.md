@@ -4,7 +4,7 @@
 
 The Inoa Satellite is a lightweight and secure gateway for your fuse box or industrial environment.
 
-![./docs/images/inoa-satellite.png](./docs/images/inoa-satellite.png)
+![./docs/assets/images/satellite.jpg](./docs/assets/images/satellite.jpg)
 
 ## Why?
 
