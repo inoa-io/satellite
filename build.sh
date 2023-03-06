@@ -28,6 +28,9 @@ fi
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 run_kibot() {
+	echo
+	echo "Building $1..."
+	echo
 	kibot -d out/ -e electrics/$1/$1.kicad_sch -b electrics/$1/$1.kicad_pcb -c electrics/kibot.yaml
 }
 

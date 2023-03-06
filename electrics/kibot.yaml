@@ -5,7 +5,7 @@ preflight:
   filters:
     - filter: 'Ignore Input Power pin not driven by any Output Power pins'
       error: 'power_pin_not_driven'
-      regex:  'PWR.*'
+      regex:  '.*'
     - filter: 'Ignore ATECC608A-SSHDA Input Power pin not driven by any Output Power pins'
       error: 'power_pin_not_driven'
       regex:  'ATECC608A'
@@ -35,7 +35,7 @@ preflight:
 
 outputs:
 
-- name: basic_boardview
+- name: Boardview
   comment: Board View export
   type: boardview
   dir: assembly
@@ -47,6 +47,25 @@ outputs:
   comment: Schematics as SVG
   type: svg_sch_print
   dir: schematics
+- name: PCB Print TOP
+  comment: PCB Picture TOP side
+  type: svg_pcb_print
+  dir: pcb
+  layers:
+  - 'F.Cu'
+  options:
+    plot_sheet_reference: false
+    separated: false
+- name: PCB Print BOT
+  comment: PCB Picture BOT side
+  type: svg_pcb_print
+  dir: pcb
+  layers:
+  - 'B.Cu'
+  options:
+    plot_sheet_reference: false
+    separated: false
+    mirror: true
 
 - name: generic_bom_html
   comment: Generic Bill of Materials in HTML format
@@ -80,3 +99,8 @@ outputs:
     ray_tracing: true
     rotate_x: 3
     rotate_z: -3
+
+#- name: Presentation
+#  comment: Project presentation HTML
+#  type: kikit_present
+#  dir: html
