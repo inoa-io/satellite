@@ -28,12 +28,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.08</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj6tIJRuySv4mnVhZeDkx3gA%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value="0.08"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj6tIJRuySv4mnVhZeDkx3gA%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -43,12 +45,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.08</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj6tIJRuySv4mnVhZeDkx3gA%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value="0.08"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj6tIJRuySv4mnVhZeDkx3gA%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -58,12 +62,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.08</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj6tIJRuySv4mnVhZeDkx3gA%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value="0.08"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj6tIJRuySv4mnVhZeDkx3gA%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -73,12 +79,14 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.08</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj6tIJRuySv4mnVhZeDkx3gA%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Price" value="0.08"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M5RACTU?qs=sGAEpiMZZMsh%252B1woXyUXj6tIJRuySv4mnVhZeDkx3gA%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -107,12 +115,14 @@
       <footprint>footprints:GCT_MEM2061-01-188-00-A_REVA</footprint>
       <datasheet>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</datasheet>
       <fields>
-        <field name="Price">2.19</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=LZSZKJVF%252B2WTDKp%252BR7IYAQ%3D%3D</field>
+        <field name="manf#">MEM2061-01-188-00-A</field>
+        <field name="mouser#">640-MEM20610118800A</field>
       </fields>
       <libsource lib="Connector" part="Micro_SD_Card_Det_Hirose_DM3AT" description="Micro SD Card Socket with card detection pins"/>
-      <property name="Price" value="2.19"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=LZSZKJVF%252B2WTDKp%252BR7IYAQ%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="MEM2061-01-188-00-A"/>
+      <property name="mouser#" value="640-MEM20610118800A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -122,12 +132,14 @@
       <value>East</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Price">1.10</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Samtec/TSW-114-08-T-S?qs=rU5fayqh%252BE0UYy2JFyXftg%3D%3D</field>
+        <field name="manf#">801-87-014-53-001101</field>
+        <field name="mouser#">437-8018701453001101</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Price" value="1.10"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Samtec/TSW-114-08-T-S?qs=rU5fayqh%252BE0UYy2JFyXftg%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="801-87-014-53-001101"/>
+      <property name="mouser#" value="437-8018701453001101"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -137,12 +149,14 @@
       <value>West</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Price">1.10</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Samtec/TSW-114-08-T-S?qs=rU5fayqh%252BE0UYy2JFyXftg%3D%3D</field>
+        <field name="manf#">801-87-014-53-001101</field>
+        <field name="mouser#">437-8018701453001101</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Price" value="1.10"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Samtec/TSW-114-08-T-S?qs=rU5fayqh%252BE0UYy2JFyXftg%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="801-87-014-53-001101"/>
+      <property name="mouser#" value="437-8018701453001101"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -152,12 +166,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.47</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.47"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -167,12 +183,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.47</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.47"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -182,12 +200,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.47</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D"/>
-      <property name="Price" value="0.47"/>
+      <property name="Product" value=""/>
+      <property name="Price" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -197,12 +217,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.47</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.47"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -212,12 +234,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.47</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.47"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -227,12 +251,14 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.47</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.47"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KOA-Speer/RN73H2BTTD1002F100?qs=egkD4cx1ihTb7AhpW1EERA%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -241,13 +267,9 @@
     <comp ref="SW1">
       <value>Prog</value>
       <footprint>footprints:SW4SMD_63X161LS</footprint>
-      <fields>
-        <field name="Price">0.48</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/CK/KMR231NGLFS?qs=%2Fha2pyFadug3C1LnpDTh3GC1%2FP5lYycwloRiMj1YBj0YTOPG2eMzYg%3D%3D</field>
-      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <property name="Price" value="0.48"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/CK/KMR231NGLFS?qs=%2Fha2pyFadug3C1LnpDTh3GC1%2FP5lYycwloRiMj1YBj0YTOPG2eMzYg%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -256,13 +278,9 @@
     <comp ref="SW2">
       <value>Reset</value>
       <footprint>footprints:SW4SMD_63X161LS</footprint>
-      <fields>
-        <field name="Price">0.48</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/CK/KMR231NGLFS?qs=%2Fha2pyFadug3C1LnpDTh3GC1%2FP5lYycwloRiMj1YBj0YTOPG2eMzYg%3D%3D</field>
-      </fields>
       <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <property name="Price" value="0.48"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/CK/KMR231NGLFS?qs=%2Fha2pyFadug3C1LnpDTh3GC1%2FP5lYycwloRiMj1YBj0YTOPG2eMzYg%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -273,12 +291,14 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf</datasheet>
       <fields>
-        <field name="Price">0.84</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Microchip-Technology/ATECC608A-SSHDA-B?qs=wd5RIQLrsJj8ay8%2FHpTWlw%3D%3D</field>
+        <field name="manf#">ATECC608A-SSHDA-B</field>
+        <field name="mouser#">556-ATECC608ASSHDAB</field>
       </fields>
       <libsource lib="Security" part="ATECC608A-SSHDA" description="Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, SOIC-8"/>
-      <property name="Price" value="0.84"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Microchip-Technology/ATECC608A-SSHDA-B?qs=wd5RIQLrsJj8ay8%2FHpTWlw%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="ATECC608A-SSHDA-B"/>
+      <property name="mouser#" value="556-ATECC608ASSHDAB"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -289,12 +309,14 @@
       <footprint>footprints:ESP32-WROVER</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/891/esp32_wrover_e_esp32_wrover_ie_datasheet_en-1855913.pdf</datasheet>
       <fields>
-        <field name="Price">3.26</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Espressif-Systems/ESP32-WROVER-IEM213EH2864UH3Q0?qs=sGAEpiMZZMu3sxpa5v1qrgqRbH4gaXhhJoRXauER4Ss%3D</field>
+        <field name="manf#">ESP32-WROVER-IE-N16R8</field>
+        <field name="mouser#">356-ESP32WRVIE2864UC</field>
       </fields>
       <libsource lib="esp32-wrover-ie-16mb" part="ESP32-WROVER-IE-16MB" description=""/>
-      <property name="Price" value="3.26"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Espressif-Systems/ESP32-WROVER-IEM213EH2864UH3Q0?qs=sGAEpiMZZMu3sxpa5v1qrgqRbH4gaXhhJoRXauER4Ss%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="ESP32-WROVER-IE-N16R8"/>
+      <property name="mouser#" value="356-ESP32WRVIE2864UC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soc-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

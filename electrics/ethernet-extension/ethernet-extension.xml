@@ -28,12 +28,14 @@
       <value>18pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A</field>
+        <field name="manf#">06035A180JAT4A</field>
+        <field name="mouser#">581-06035A180JAT4A</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="06035A180JAT4A"/>
+      <property name="mouser#" value="581-06035A180JAT4A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -43,12 +45,14 @@
       <value>18pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A</field>
+        <field name="manf#">06035A180JAT4A</field>
+        <field name="mouser#">581-06035A180JAT4A</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06035A180JAT4A"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="06035A180JAT4A"/>
+      <property name="mouser#" value="581-06035A180JAT4A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -58,12 +62,14 @@
       <value>0u1</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -73,12 +79,14 @@
       <value>0u1</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -88,12 +96,14 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A</field>
+        <field name="manf#">06031C103K4T2A</field>
+        <field name="mouser#">581-06031C103K4T2A</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="06031C103K4T2A"/>
+      <property name="mouser#" value="581-06031C103K4T2A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -103,12 +113,14 @@
       <value>4u7</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A475MQ8NNNC</field>
+        <field name="manf#">CL10A475MQ8NNNC</field>
+        <field name="mouser#">187-CL10A475MQ8NNNC</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A475MQ8NNNC"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CL10A475MQ8NNNC"/>
+      <property name="mouser#" value="187-CL10A475MQ8NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -118,12 +130,14 @@
       <value>0u1</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -133,12 +147,14 @@
       <value>0u1</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -148,12 +164,14 @@
       <value>0u1</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -163,12 +181,14 @@
       <value>0u1</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -178,12 +198,14 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.10</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC</field>
+        <field name="manf#">CL10A106MQ8NNNC</field>
+        <field name="mouser#">187-CL10A106MQ8NNNC</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.10"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10A106MQ8NNNC"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CL10A106MQ8NNNC"/>
+      <property name="mouser#" value="187-CL10A106MQ8NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -193,12 +215,14 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A</field>
+        <field name="manf#">06031C103K4T2A</field>
+        <field name="mouser#">581-06031C103K4T2A</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="06031C103K4T2A"/>
+      <property name="mouser#" value="581-06031C103K4T2A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -208,12 +232,14 @@
       <value>6n8</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU</field>
+        <field name="manf#">C0603C682K5RACTU</field>
+        <field name="mouser#">80-C0603C682K5R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C682K5RACTU"/>
+      <property name="mouser#" value="80-C0603C682K5R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -223,12 +249,14 @@
       <value>6n8</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU</field>
+        <field name="manf#">C0603C682K5RACTU</field>
+        <field name="mouser#">80-C0603C682K5R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C682K5RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C682K5RACTU"/>
+      <property name="mouser#" value="80-C0603C682K5R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -238,12 +266,14 @@
       <value>22nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10B223KB8NNNC</field>
+        <field name="manf#">CL10B223KB8NNNC</field>
+        <field name="mouser#">187-CL10B223KB8NNNC</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Samsung-Electro-Mechanics/CL10B223KB8NNNC"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CL10B223KB8NNNC"/>
+      <property name="mouser#" value="187-CL10B223KB8NNNC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -253,12 +283,14 @@
       <value>1nF 2kV</value>
       <footprint>Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder</footprint>
       <fields>
-        <field name="Price">1.21</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1812C103KGRACTU</field>
+        <field name="manf#">C1812C103KGRACTU</field>
+        <field name="mouser#">80-C1812C103KGR</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="1.21"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1812C103KGRACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C1812C103KGRACTU"/>
+      <property name="mouser#" value="80-C1812C103KGR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -268,12 +300,14 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A</field>
+        <field name="manf#">06031C103K4T2A</field>
+        <field name="mouser#">581-06031C103K4T2A</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Kyocera-AVX/06031C103K4T2A"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="06031C103K4T2A"/>
+      <property name="mouser#" value="581-06031C103K4T2A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -283,12 +317,14 @@
       <value>0u1</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -298,12 +334,14 @@
       <value>0u1</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C0603C104M4RACTU"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -314,13 +352,15 @@
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.bourns.com/pdfs/CDNBS08-SLVU28-4.pdf</datasheet>
       <fields>
-        <field name="Price">1.68</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CDNBS08-SLVU28-4</field>
+        <field name="manf#">CDNBS08-SLVU2.8-4</field>
+        <field name="mouser#">652-CDNBS08SLVU2.8-4</field>
       </fields>
       <libsource lib="Power_Protection" part="CDNBS08-SLVU2.8-4" description="Quad bidirectional transil, Suppressor for ESD protection, 5V Standoff, 4 Channels, SOIC-8"/>
       <property name="Products" value=""/>
-      <property name="Price" value="1.68"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CDNBS08-SLVU28-4"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CDNBS08-SLVU2.8-4"/>
+      <property name="mouser#" value="652-CDNBS08SLVU2.8-4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -331,12 +371,14 @@
       <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
       <fields>
-        <field name="Price">0.12</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Panjit/1N4148WS_R1_00001</field>
+        <field name="manf#">1N4148WS_R1_00001</field>
+        <field name="mouser#">241-1N4148WSR100001</field>
       </fields>
       <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
-      <property name="Price" value="0.12"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Panjit/1N4148WS_R1_00001"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="1N4148WS_R1_00001"/>
+      <property name="mouser#" value="241-1N4148WSR100001"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -347,12 +389,14 @@
       <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/987/Laird_10092020_Laird_MCP_Catalog_EMI_Filtering_and-1947796.pdf</datasheet>
       <fields>
-        <field name="Price">0.08</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Laird-Performance-Materials/LI0805H121R-10</field>
+        <field name="manf#">MG2029-121Y</field>
+        <field name="mouser#">652-MG2029-121Y</field>
       </fields>
       <libsource lib="Device" part="FerriteBead" description="Ferrite bead"/>
-      <property name="Price" value="0.08"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Laird-Performance-Materials/LI0805H121R-10"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="MG2029-121Y"/>
+      <property name="mouser#" value="652-MG2029-121Y"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -362,13 +406,9 @@
       <value>LOGO</value>
       <footprint>footprints:grayc-logo-negative</footprint>
       <datasheet>N/A</datasheet>
-      <fields>
-        <field name="Price">0</field>
-        <field name="Product">N/A</field>
-      </fields>
       <libsource lib="grayc-logo-negative" part="LOGO" description=""/>
-      <property name="Price" value="0"/>
-      <property name="Product" value="N/A"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -388,12 +428,14 @@
       <footprint>Connector_RJ:RJ45_Wuerth_7499010121A_Horizontal</footprint>
       <datasheet>http://katalog.we-online.de/pbs/datasheet/7499010121A.pdf</datasheet>
       <fields>
-        <field name="Price">5.81</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Wurth-Elektronik/7499010121A</field>
+        <field name="manf#">7499010121A</field>
+        <field name="mouser#">710-7499010121A</field>
       </fields>
       <libsource lib="Connector" part="Wuerth_7499010121A" description="LAN Transformer Jack, RJ45, 10/100 BaseT"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Wurth-Elektronik/7499010121A"/>
-      <property name="Price" value="5.81"/>
+      <property name="Product" value=""/>
+      <property name="Price" value=""/>
+      <property name="manf#" value="7499010121A"/>
+      <property name="mouser#" value="710-7499010121A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -403,12 +445,14 @@
       <value>East</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Price">2.40</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D</field>
+        <field name="manf#">801-87-014-53-001101</field>
+        <field name="mouser#">437-8018701453001101</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Price" value="2.40"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="801-87-014-53-001101"/>
+      <property name="mouser#" value="437-8018701453001101"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -418,12 +462,14 @@
       <value>West</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
       <fields>
-        <field name="Price">2.40</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D</field>
+        <field name="manf#">801-87-014-53-001101</field>
+        <field name="mouser#">437-8018701453001101</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Price" value="2.40"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Preci-dip/801-87-014-53-001101?qs=q5BRkYolQ3jOfgO2THlSuw%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="801-87-014-53-001101"/>
+      <property name="mouser#" value="437-8018701453001101"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -433,12 +479,14 @@
       <value>330R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D</field>
+        <field name="manf#">CR0603-FX-3300ELF</field>
+        <field name="mouser#">652-CR0603FX-3300ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603-FX-3300ELF"/>
+      <property name="mouser#" value="652-CR0603FX-3300ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -448,12 +496,14 @@
       <value>330R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D</field>
+        <field name="manf#">CR0603-FX-3300ELF</field>
+        <field name="mouser#">652-CR0603FX-3300ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-3300ELF?qs=sGAEpiMZZMtlubZbdhIBIBP%2FNPA7vNyo1V2n6vGFya4%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603-FX-3300ELF"/>
+      <property name="mouser#" value="652-CR0603FX-3300ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -463,10 +513,13 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -476,10 +529,13 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -489,10 +545,13 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -502,10 +561,13 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -515,10 +577,13 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -528,10 +593,13 @@
       <value>1M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CMP0603-FX-1004ELF?qs=sGAEpiMZZMtlubZbdhIBIIPWN1VQSu3wmAar35e6bQc%3D</field>
+        <field name="manf#">CMP0603-FX-1004ELF</field>
+        <field name="mouser#">652-CMP0603-FX-1004L</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CMP0603-FX-1004ELF?qs=sGAEpiMZZMtlubZbdhIBIIPWN1VQSu3wmAar35e6bQc%3D"/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CMP0603-FX-1004ELF"/>
+      <property name="mouser#" value="652-CMP0603-FX-1004L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -541,12 +609,14 @@
       <value>12k4 1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-1242ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RK7FuIR85iNw%3D</field>
+        <field name="manf#">CR0603-FX-1242ELF</field>
+        <field name="mouser#">652-CR0603FX-1242ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603-FX-1242ELF?qs=sGAEpiMZZMvdGkrng054t%252BRNGJdg958RK7FuIR85iNw%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603-FX-1242ELF"/>
+      <property name="mouser#" value="652-CR0603FX-1242ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -556,12 +626,14 @@
       <value>82R 1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D</field>
+        <field name="manf#">ERJ-3EKF82R0V</field>
+        <field name="mouser#">667-ERJ-3EKF82R0V</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="ERJ-3EKF82R0V"/>
+      <property name="mouser#" value="667-ERJ-3EKF82R0V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -571,12 +643,14 @@
       <value>82R 1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D</field>
+        <field name="manf#">ERJ-3EKF82R0V</field>
+        <field name="mouser#">667-ERJ-3EKF82R0V</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF82R0V?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xuQoTw12ed5E%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="ERJ-3EKF82R0V"/>
+      <property name="mouser#" value="667-ERJ-3EKF82R0V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -586,12 +660,14 @@
       <value>10R 1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/YAGEO/RC0603FR-1310RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xipFwCw7Ptc0%3D</field>
+        <field name="manf#">RC0603FR-1310RL</field>
+        <field name="mouser#">603-RC0603FR-1310RL</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/YAGEO/RC0603FR-1310RL?qs=sGAEpiMZZMvdGkrng054t8AJgcdMkx7xipFwCw7Ptc0%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="RC0603FR-1310RL"/>
+      <property name="mouser#" value="603-RC0603FR-1310RL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -601,12 +677,14 @@
       <value>49R9 1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D</field>
+        <field name="manf#">ERJ-3EKF49R9V</field>
+        <field name="mouser#">667-ERJ-3EKF49R9V</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="ERJ-3EKF49R9V"/>
+      <property name="mouser#" value="667-ERJ-3EKF49R9V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -616,12 +694,14 @@
       <value>49R9 1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Price">0.09</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D</field>
+        <field name="manf#">ERJ-3EKF49R9V</field>
+        <field name="mouser#">667-ERJ-3EKF49R9V</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.09"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Panasonic/ERJ-3EKF49R9V?qs=sGAEpiMZZMvdGkrng054t8ugkoYZivkg42gffUETYkU%3D"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="ERJ-3EKF49R9V"/>
+      <property name="mouser#" value="667-ERJ-3EKF49R9V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -631,10 +711,13 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D</field>
+        <field name="manf#">CR0603AFX-1002EAS</field>
+        <field name="mouser#">652-CR0603AFX1002EAS</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR0603AFX-1002EAS?qs=sGAEpiMZZMtlubZbdhIBIJFGDp18fIDT%252B6rJRZixye4%3D"/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="CR0603AFX-1002EAS"/>
+      <property name="mouser#" value="652-CR0603AFX1002EAS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -645,12 +728,14 @@
       <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
       <datasheet>http://wizwiki.net/wiki/lib/exe/fetch.php/products:w5500:w5500_ds_v109e.pdf</datasheet>
       <fields>
-        <field name="Price">3.44</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/WIZnet/W5500</field>
+        <field name="manf#">W5500</field>
+        <field name="mouser#">950-W5500</field>
       </fields>
       <libsource lib="Interface_Ethernet" part="W5500" description="10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48"/>
-      <property name="Price" value="3.44"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/WIZnet/W5500"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="W5500"/>
+      <property name="mouser#" value="950-W5500"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -660,12 +745,14 @@
       <value>25MHz</value>
       <footprint>Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm_HandSoldering</footprint>
       <fields>
-        <field name="Price">0.98</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/ECS/ECS-250-18-23A-TR</field>
+        <field name="manf#">ECS-250-18-23A-TR</field>
+        <field name="mouser#">520-250-18-23A</field>
       </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
-      <property name="Price" value="0.98"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/ECS/ECS-250-18-23A-TR"/>
+      <property name="Price" value=""/>
+      <property name="Product" value=""/>
+      <property name="manf#" value="ECS-250-18-23A-TR"/>
+      <property name="mouser#" value="520-250-18-23A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ethernet-extension.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
