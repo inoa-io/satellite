@@ -83,13 +83,13 @@ outputs:
     format: CSV
     count_smd_tht: true
 
-#- name: Costs
-#  comment: Costs
-#  type: kicost
-#  dir: costs
-#  options:
-#    currency: EUR
-#    number: 100
+- name: Costs
+  comment: Costs
+  type: kicost
+  dir: costs
+  options:
+    currency: EUR
+    number: 100
 
 - name: 3D Pic
   comment: Rendered 3D image
@@ -99,8 +99,3 @@ outputs:
     ray_tracing: true
     rotate_x: 3
     rotate_z: -3
-
-#- name: Presentation
-#  comment: Project presentation HTML
-#  type: kikit_present
-#  dir: html
