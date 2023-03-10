@@ -25,7 +25,7 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>100nF / 35V</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
       <fields>
         <field name="Price">0.24</field>
@@ -151,10 +151,14 @@
       <fields>
         <field name="Price">0.25</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D</field>
+        <field name="manf#">PMEG4010CEAX</field>
+        <field name="mouser#">771-PMEG4010CEAX</field>
       </fields>
       <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
       <property name="Price" value="0.25"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D"/>
+      <property name="manf#" value="PMEG4010CEAX"/>
+      <property name="mouser#" value="771-PMEG4010CEAX"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -167,10 +171,14 @@
       <fields>
         <field name="Price">0.20</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Semiconductors/BAV303-TR?qs=7qbm%252BEMa92zC5P%252BxWlWw9w%3D%3D</field>
+        <field name="manf#">BAV303-TR3</field>
+        <field name="mouser#">78-BAV303-TR3</field>
       </fields>
       <libsource lib="Diode" part="BAV303" description="200V 0.25A Switching Diode, High Voltage, MicroMELF"/>
       <property name="Price" value="0.20"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Semiconductors/BAV303-TR?qs=7qbm%252BEMa92zC5P%252BxWlWw9w%3D%3D"/>
+      <property name="manf#" value="BAV303-TR3"/>
+      <property name="mouser#" value="78-BAV303-TR3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -183,10 +191,14 @@
       <fields>
         <field name="Price">0.20</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Semiconductors/BAV303-TR?qs=7qbm%252BEMa92zC5P%252BxWlWw9w%3D%3D</field>
+        <field name="manf#">BAV303-TR3</field>
+        <field name="mouser#">78-BAV303-TR3</field>
       </fields>
       <libsource lib="Diode" part="BAV303" description="200V 0.25A Switching Diode, High Voltage, MicroMELF"/>
       <property name="Price" value="0.20"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Semiconductors/BAV303-TR?qs=7qbm%252BEMa92zC5P%252BxWlWw9w%3D%3D"/>
+      <property name="manf#" value="BAV303-TR3"/>
+      <property name="mouser#" value="78-BAV303-TR3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -198,10 +210,14 @@
       <fields>
         <field name="Price">0.32</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D</field>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
       </fields>
       <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
       <property name="Price" value="0.32"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -213,10 +229,14 @@
       <fields>
         <field name="Price">0.32</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D</field>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
       </fields>
       <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
       <property name="Price" value="0.32"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -228,32 +248,18 @@
       <fields>
         <field name="Price">0.93</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2</field>
+        <field name="manf#">TR/3216FF1-R</field>
+        <field name="mouser#">504-TR/3216FF1-R</field>
       </fields>
       <libsource lib="Device" part="Fuse" description="Fuse"/>
       <property name="Price" value="0.93"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2"/>
+      <property name="manf#" value="TR/3216FF1-R"/>
+      <property name="mouser#" value="504-TR/3216FF1-R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006193041a</tstamps>
-    </comp>
-    <comp ref="G1">
-      <value>LOGO</value>
-      <footprint>images:grayc-logo-negative</footprint>
-      <libsource lib="grayc-logo-negative" part="LOGO" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="metering-module.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000621eab94</tstamps>
-    </comp>
-    <comp ref="G2">
-      <value>Logo_Open_Hardware_Small</value>
-      <footprint>Symbol:OSHW-Logo2_7.3x6mm_SilkScreen</footprint>
-      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="metering-module.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000062d8d89b</tstamps>
     </comp>
     <comp ref="J1">
       <value>North</value>
@@ -261,10 +267,14 @@
       <fields>
         <field name="Price">4.85</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078</field>
+        <field name="manf#">20020327-D081B01LF</field>
+        <field name="mouser#">649-220327-D081B01LF</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x08" description="Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Price" value="4.85"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078"/>
+      <property name="manf#" value="20020327-D081B01LF"/>
+      <property name="mouser#" value="649-220327-D081B01LF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -276,10 +286,14 @@
       <fields>
         <field name="Price">4.85</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078</field>
+        <field name="manf#">20020327-D081B01LF</field>
+        <field name="mouser#">649-220327-D081B01LF</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x08" description="Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Price" value="4.85"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Phoenix-Contact/1727078"/>
+      <property name="manf#" value="20020327-D081B01LF"/>
+      <property name="mouser#" value="649-220327-D081B01LF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -322,10 +336,14 @@
       <fields>
         <field name="Price">0.09</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Nexperia/MMBT3904215</field>
+        <field name="manf#">MMBT3904</field>
+        <field name="mouser#">771-MMBT3904T/R</field>
       </fields>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
       <property name="Price" value="0.09"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Nexperia/MMBT3904215"/>
+      <property name="manf#" value="MMBT3904"/>
+      <property name="mouser#" value="771-MMBT3904T/R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -338,10 +356,14 @@
       <fields>
         <field name="Price">0.09</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Nexperia/MMBT3904215</field>
+        <field name="manf#">MMBT3904</field>
+        <field name="mouser#">771-MMBT3904T/R</field>
       </fields>
       <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
       <property name="Price" value="0.09"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Nexperia/MMBT3904215"/>
+      <property name="manf#" value="MMBT3904"/>
+      <property name="mouser#" value="771-MMBT3904T/R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -353,10 +375,14 @@
       <fields>
         <field name="Price">0.08</field>
         <field name="Product">https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R</field>
+        <field name="manf#">CR0603-FX-2200ELF</field>
+        <field name="mouser#">652-CR0603FX-2200ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.08"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R"/>
+      <property name="manf#" value="CR0603-FX-2200ELF"/>
+      <property name="mouser#" value="652-CR0603FX-2200ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -368,10 +394,14 @@
       <fields>
         <field name="Price">0.08</field>
         <field name="Product">https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R</field>
+        <field name="manf#">CR0603-FX-2200ELF</field>
+        <field name="mouser#">652-CR0603FX-2200ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.08"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R"/>
+      <property name="manf#" value="CR0603-FX-2200ELF"/>
+      <property name="mouser#" value="652-CR0603FX-2200ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -383,10 +413,14 @@
       <fields>
         <field name="Price">0.10</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KOA-Speer/RK73B2BTTDD102J</field>
+        <field name="manf#">CR1206-FX-1001ELF</field>
+        <field name="mouser#">652-CR1206FX-1001ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.10"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KOA-Speer/RK73B2BTTDD102J"/>
+      <property name="manf#" value="CR1206-FX-1001ELF"/>
+      <property name="mouser#" value="652-CR1206FX-1001ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -398,10 +432,14 @@
       <fields>
         <field name="Price">0.10</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KOA-Speer/RK73B2BTTDD102J</field>
+        <field name="manf#">CR1206-FX-1001ELF</field>
+        <field name="mouser#">652-CR1206FX-1001ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.10"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KOA-Speer/RK73B2BTTDD102J"/>
+      <property name="manf#" value="CR1206-FX-1001ELF"/>
+      <property name="mouser#" value="652-CR1206FX-1001ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -413,29 +451,18 @@
       <fields>
         <field name="Price">0.08</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.08"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000061931725</tstamps>
-    </comp>
-    <comp ref="R6">
-      <value>0R</value>
-      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
-      <fields>
-        <field name="Price">0.08</field>
-        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Price" value="0.08"/>
-      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="metering-module.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000062cd5a5b</tstamps>
     </comp>
     <comp ref="R8">
       <value>10k</value>
@@ -443,10 +470,14 @@
       <fields>
         <field name="Price">0.08</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.08"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -458,10 +489,14 @@
       <fields>
         <field name="Price">0.08</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.08"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -473,10 +508,14 @@
       <fields>
         <field name="Price">0.08</field>
         <field name="Product">https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R</field>
+        <field name="manf#">CR0603-FX-2200ELF</field>
+        <field name="mouser#">652-CR0603FX-2200ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.08"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R"/>
+      <property name="manf#" value="CR0603-FX-2200ELF"/>
+      <property name="mouser#" value="652-CR0603FX-2200ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -488,10 +527,14 @@
       <fields>
         <field name="Price">0.08</field>
         <field name="Product">https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R</field>
+        <field name="manf#">CR0603-FX-2200ELF</field>
+        <field name="mouser#">652-CR0603FX-2200ELF</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Price" value="0.08"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R"/>
+      <property name="manf#" value="CR0603-FX-2200ELF"/>
+      <property name="mouser#" value="652-CR0603FX-2200ELF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -513,10 +556,14 @@
       <fields>
         <field name="Price">0.40</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Lite-On/LTV-817S</field>
+        <field name="manf#">LTV-817S</field>
+        <field name="mouser#">859-LTV-817S</field>
       </fields>
       <libsource lib="Isolator" part="LTV-817S" description="DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"/>
       <property name="Price" value="0.40"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Lite-On/LTV-817S"/>
+      <property name="manf#" value="LTV-817S"/>
+      <property name="mouser#" value="859-LTV-817S"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -529,10 +576,14 @@
       <fields>
         <field name="Price">0.40</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Lite-On/LTV-817S</field>
+        <field name="manf#">LTV-817S</field>
+        <field name="mouser#">859-LTV-817S</field>
       </fields>
       <libsource lib="Isolator" part="LTV-817S" description="DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"/>
       <property name="Price" value="0.40"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Lite-On/LTV-817S"/>
+      <property name="manf#" value="LTV-817S"/>
+      <property name="mouser#" value="859-LTV-817S"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -545,10 +596,14 @@
       <fields>
         <field name="Price">0.97</field>
         <field name="Product">https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2</field>
+        <field name="manf#">BA033CC0FP-E2</field>
+        <field name="mouser#">755-BA033CC0FP-E2</field>
       </fields>
       <libsource lib="BA033CC0FP-E2" part="BA033CC0FP-E2" description=""/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2"/>
       <property name="Price" value="0.97"/>
+      <property name="manf#" value="BA033CC0FP-E2"/>
+      <property name="mouser#" value="755-BA033CC0FP-E2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -561,10 +616,14 @@
       <fields>
         <field name="Price">3.71</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D</field>
+        <field name="manf#">MAX3486EESA+</field>
+        <field name="mouser#">700-MAX3486EESA</field>
       </fields>
       <libsource lib="Interface_UART" part="MAX3486" description="True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"/>
       <property name="Price" value="3.71"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D"/>
+      <property name="manf#" value="MAX3486EESA+"/>
+      <property name="mouser#" value="700-MAX3486EESA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -577,10 +636,14 @@
       <fields>
         <field name="Price">3.71</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D</field>
+        <field name="manf#">MAX3486EESA+</field>
+        <field name="mouser#">700-MAX3486EESA</field>
       </fields>
       <libsource lib="Interface_UART" part="MAX3486" description="True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"/>
       <property name="Price" value="3.71"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D"/>
+      <property name="manf#" value="MAX3486EESA+"/>
+      <property name="mouser#" value="700-MAX3486EESA"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -590,7 +653,13 @@
       <value>MCP23009-E_SS</value>
       <footprint>SOP65P780X200-20N</footprint>
       <datasheet>https://www.mouser.de/datasheet/2/268/22121a-52412.pdf</datasheet>
+      <fields>
+        <field name="manf#">MCP23009-E/SS</field>
+        <field name="mouser#">579-MCP23009-E/SS</field>
+      </fields>
       <libsource lib="MCP23009-E_SS" part="MCP23009-E_SS" description=""/>
+      <property name="manf#" value="MCP23009-E/SS"/>
+      <property name="mouser#" value="579-MCP23009-E/SS"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -938,13 +1007,13 @@
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="Output" pintype="power_out"/>
       <node ref="U4" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U6" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="6" pinfunction="~{RESET}" pintype="input"/>
     </net>
     <net code="2" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -989,200 +1058,196 @@
       <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U6" pin="4" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="7" name="IO_RESET">
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U6" pin="6" pinfunction="~{RESET}" pintype="input"/>
-    </net>
-    <net code="8" name="Net-(C1-Pad1)">
+    <net code="7" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="Input" pintype="power_in"/>
     </net>
-    <net code="9" name="Net-(D1-Pad1)">
+    <net code="8" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(D7-Pad1)">
+    <net code="9" name="Net-(D7-Pad1)">
       <node ref="D7" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(D8-Pad1)">
+    <net code="10" name="Net-(D8-Pad1)">
       <node ref="D8" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(Q1-Pad1)">
+    <net code="11" name="Net-(Q1-Pad1)">
       <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(Q2-Pad1)">
+    <net code="12" name="Net-(Q2-Pad1)">
       <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(R1-Pad1)">
+    <net code="13" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(R2-Pad1)">
+    <net code="14" name="Net-(R2-Pad1)">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="2" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(R3-Pad2)">
+    <net code="15" name="Net-(R3-Pad2)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="3" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(R4-Pad2)">
+    <net code="16" name="Net-(R4-Pad2)">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pintype="passive"/>
     </net>
-    <net code="18" name="RS485_0_A">
+    <net code="17" name="RS485_0_A">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U5" pin="6" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="19" name="RS485_0_B">
+    <net code="18" name="RS485_0_B">
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U5" pin="7" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="20" name="RS485_0_RX">
+    <net code="19" name="RS485_0_RX">
       <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U5" pin="1" pinfunction="RO" pintype="output"/>
     </net>
-    <net code="21" name="RS485_0_TX">
+    <net code="20" name="RS485_0_TX">
       <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="U5" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="22" name="RS485_0_TXE">
+    <net code="21" name="RS485_0_TXE">
       <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="U5" pin="2" pinfunction="~{RE}" pintype="input"/>
       <node ref="U5" pin="3" pinfunction="DE" pintype="input"/>
     </net>
-    <net code="23" name="RS485_1_A">
+    <net code="22" name="RS485_1_A">
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="24" name="RS485_1_B">
+    <net code="23" name="RS485_1_B">
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U4" pin="7" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="25" name="RS485_1_RX">
+    <net code="24" name="RS485_1_RX">
       <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U4" pin="1" pinfunction="RO" pintype="output"/>
     </net>
-    <net code="26" name="RS485_1_TX">
+    <net code="25" name="RS485_1_TX">
       <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="27" name="RS485_1_TXE">
+    <net code="26" name="RS485_1_TXE">
       <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="~{RE}" pintype="input"/>
       <node ref="U4" pin="3" pinfunction="DE" pintype="input"/>
     </net>
-    <net code="28" name="Relay_0">
+    <net code="27" name="Relay_0">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="29" name="Relay_1">
+    <net code="28" name="Relay_1">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="30" name="S0_0">
+    <net code="29" name="S0_0">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U6" pin="8" pinfunction="GP0" pintype="bidirectional"/>
     </net>
-    <net code="31" name="S0_1">
+    <net code="30" name="S0_1">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U6" pin="9" pinfunction="GP1" pintype="bidirectional"/>
     </net>
-    <net code="32" name="S0_INT">
+    <net code="31" name="S0_INT">
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U6" pin="7" pinfunction="INT" pintype="output"/>
     </net>
-    <net code="33" name="SW0">
+    <net code="32" name="SW0">
       <node ref="U1" pin="1" pintype="passive"/>
       <node ref="U6" pin="13" pinfunction="GP3" pintype="bidirectional"/>
     </net>
-    <net code="34" name="SW1">
+    <net code="33" name="SW1">
       <node ref="U2" pin="1" pintype="passive"/>
       <node ref="U6" pin="12" pinfunction="GP2" pintype="bidirectional"/>
     </net>
-    <net code="35" name="VCC">
+    <net code="34" name="VCC">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="36" name="VS">
+    <net code="35" name="VS">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="U1" pin="4" pintype="passive"/>
       <node ref="U2" pin="4" pintype="passive"/>
     </net>
-    <net code="37" name="unconnected-(J3-Pad2)">
+    <net code="36" name="unconnected-(J3-Pad2)">
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(J3-Pad5)">
+    <net code="37" name="unconnected-(J3-Pad5)">
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(J3-Pad7)">
+    <net code="38" name="unconnected-(J3-Pad7)">
       <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(J3-Pad8)">
+    <net code="39" name="unconnected-(J3-Pad8)">
       <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(J3-Pad11)">
+    <net code="40" name="unconnected-(J3-Pad11)">
       <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(J3-Pad12)">
+    <net code="41" name="unconnected-(J3-Pad12)">
       <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(J3-Pad13)">
+    <net code="42" name="unconnected-(J3-Pad13)">
       <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(J3-Pad14)">
+    <net code="43" name="unconnected-(J3-Pad14)">
       <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(J4-Pad2)">
+    <net code="44" name="unconnected-(J4-Pad2)">
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(J4-Pad4)">
+    <net code="45" name="unconnected-(J4-Pad4)">
       <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(J4-Pad5)">
+    <net code="46" name="unconnected-(J4-Pad5)">
       <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(J4-Pad7)">
+    <net code="47" name="unconnected-(J4-Pad7)">
       <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(J4-Pad8)">
+    <net code="48" name="unconnected-(J4-Pad8)">
       <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(J4-Pad9)">
+    <net code="49" name="unconnected-(J4-Pad9)">
       <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(J4-Pad10)">
+    <net code="50" name="unconnected-(J4-Pad10)">
       <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(J4-Pad11)">
+    <net code="51" name="unconnected-(J4-Pad11)">
       <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U6-Pad14)">
+    <net code="52" name="unconnected-(U6-Pad14)">
       <node ref="U6" pin="14" pinfunction="GP4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U6-Pad15)">
+    <net code="53" name="unconnected-(U6-Pad15)">
       <node ref="U6" pin="15" pinfunction="GP5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U6-Pad16)">
+    <net code="54" name="unconnected-(U6-Pad16)">
       <node ref="U6" pin="16" pinfunction="GP6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U6-Pad17)">
+    <net code="55" name="unconnected-(U6-Pad17)">
       <node ref="U6" pin="17" pinfunction="GP7" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
