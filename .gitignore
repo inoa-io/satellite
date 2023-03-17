@@ -23,6 +23,20 @@ fp-info-cache
 *.dsn
 *.ses
 
+# Generated files
+electrics/mieterstrom-module/mieterstrom-module.xml
+electrics/panel-module/panel-module.xml
+electrics/soc-module/soc-module.xml
+electrics/ethernet-extension/ethernet-extension.xml
+electrics/debug-module/debug-module.xml
+electrics/development-board/development-board.xml
+electrics/development-board-ligth/development-board-ligth.xml
+electrics/lora-module/lora-module.xml
+electrics/metering-module/metering-module.xml
+electrics/nbiot-extension/nbiot-extension.xml
+electrics/smart-meter-module/smart-meter-module.xml
+electrics/tenement-module/tenement-module.xml
+
 # Build files
 .cache/
 out/
