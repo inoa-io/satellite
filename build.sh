@@ -45,6 +45,7 @@ mkdir -p "docs/generated"
 run_kibot ethernet-extension
 # run_kibot lora-module
 run_kibot metering-module
+run_kibot mieterstrom-module
 # run_kibot nbiot-extension
 run_kibot panel-module
 # run_kibot smart-meter-module
