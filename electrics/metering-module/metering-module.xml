@@ -30,10 +30,14 @@
       <fields>
         <field name="Price">0.24</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
       <property name="Price" value="0.24"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -45,10 +49,14 @@
       <fields>
         <field name="Price">0.24</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Price" value="0.24"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -60,10 +68,14 @@
       <fields>
         <field name="Price">0.24</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Price" value="0.24"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -75,10 +87,14 @@
       <fields>
         <field name="Price">0.24</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Price" value="0.24"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -90,10 +106,14 @@
       <fields>
         <field name="Price">0.24</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Price" value="0.24"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -105,10 +125,14 @@
       <fields>
         <field name="Price">0.24</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Price" value="0.24"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -120,10 +144,14 @@
       <fields>
         <field name="Price">0.24</field>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Price" value="0.24"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -135,10 +163,14 @@
       <fields>
         <field name="Price">0.40</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D</field>
+        <field name="manf#">CPDU24V</field>
+        <field name="mouser#">750-CPDU24V</field>
       </fields>
       <libsource lib="Device" part="D_Zener" description="Zener diode"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D"/>
       <property name="Price" value="0.40"/>
+      <property name="manf#" value="CPDU24V"/>
+      <property name="mouser#" value="750-CPDU24V"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -305,10 +337,14 @@
       <fields>
         <field name="Price">0.45</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Harwin/M20-9991446</field>
+        <field name="manf#">M20-9991446</field>
+        <field name="mouser#">651-1935200</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Price" value="0.45"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Harwin/M20-9991446"/>
+      <property name="manf#" value="M20-9991446"/>
+      <property name="mouser#" value="651-1935200"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -320,10 +356,14 @@
       <fields>
         <field name="Price">0.45</field>
         <field name="Product">https://www.mouser.de/ProductDetail/Harwin/M20-9991446</field>
+        <field name="manf#">M20-9991446</field>
+        <field name="mouser#">651-1935200</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Price" value="0.45"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/Harwin/M20-9991446"/>
+      <property name="manf#" value="M20-9991446"/>
+      <property name="mouser#" value="651-1935200"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="metering-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
