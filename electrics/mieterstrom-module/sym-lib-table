@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "grayc-logo-negative")(type "Legacy")(uri "${KIPRJMOD}/../libraries/images/grayc-logo-negative.lib")(options "")(descr ""))
+  (lib (name "BA033CC0FP-E2")(type "Legacy")(uri "${KIPRJMOD}/../libraries/symbols/BA033CC0FP-E2.lib")(options "")(descr ""))
+)

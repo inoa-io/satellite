@@ -10,5 +10,6 @@ nav:
     - 'SoC Module': technical-guide/soc-module.md
     - 'Ethernet Module': technical-guide/ethernet-module.md
     - 'Panel Module': technical-guide/panel-module.md
+    - 'Mieterstrom Module': technical-guide/mieterstrom-module.md
   - 'Developer Guide':
     - 'Getting Started': developer-guide/getting-started.md

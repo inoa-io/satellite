@@ -48,3 +48,10 @@ jobs:
         dir: out/
         schema: electrics/soc-module/soc-module.kicad_sch
         board: electrics/soc-module/soc-module.kicad_pcb
+    - name: Mieterstrom Module
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: electrics/kibot.yaml
+        dir: out/
+        schema: electrics/mieterstrom-module/mieterstrom-module.kicad_sch
+        board: electrics/mieterstrom-module/mieterstrom-module.kicad_pcb
