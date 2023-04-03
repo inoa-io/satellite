@@ -39,6 +39,7 @@ electrics/tenement-module/tenement-module.xml
 
 # Build files
 .cache/
+.kidiff/
 out/
 **/*-backups/
 **/*.bak
