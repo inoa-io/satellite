@@ -10,6 +10,35 @@ All Satellite "Rail" models are meant to be mounted on a DIN rail at indoor site
 
 All models uses internal micro SD cards as file storage. You can insert an SD card of your choice by opening the case popping the 4 latches out with a screw driver. The card can be inserted at the upper side of the PCB "sandwitch".
 
+## Tenant Electricity Model
+
+The metering model is able to connect to 2 different RS485 topolgies (e.g. ModBus) running on different baud rates. It is also fitted with 2 digital inputs (e.g. S0).
+
+Please find to pin out below:
+
+![Satellite Gateway Pins](../assets/images/satellite_me_pins.jpg)
+
+| Pin | Purpose       | Description                                            |
+|-----|---------------|--------------------------------------------------------|
+| 1   | +5-24V        | Power supply positive 5 to 24 volts, >=3W              |
+| 2   | Ground        | Power supply ground                                    |
+| 3   | S0 1 +        | S0 interface                                           |
+| 4   | S0 1 -        | S0 interface                                           |
+| 5   | S0 2 +        | S0 interface                                           |
+| 6   | S0 2 -        | S0 interface                                           |
+| 7   | RS485 1-B     | RS485 1 "B" line                                       |
+| 8   | RS485 1-A     | RS485 1 "A" line                                       |
+| 9   | RS485 1-GND   | RS485 1 Ground line (shield)                           |
+| 10  | RS485 2-B     | RS485 2 "B" line                                       |
+| 11  | RS485 2-A     | RS485 2 "A" line                                       |
+| 12  | RS485 2-GND   | RS485 2 Ground line (shield)                           |
+
+Connect Pin 1 and 2 to a power supply delivering 5 to 24 volts. Be aware that the best efficency is achieved with 5 volts. Higher voltages will lead to higher thermal loss. The power supply must be rated for at least 3W.
+
+Connect the RS485 pins as described in the table. Be sure to connect the shield of the RS485 topologies to ground pin to avoid stability problems. The Satellite does **not** have internal termination resistors!
+
+The S0 pins should be connected to a S0 device, reed contact, incremental wind sensor, and any other device that uses a simple switch inside.
+
 ## Electric Metring Model
 
 The metering model is able to connect to 2 different RS485 topolgies (e.g. ModBus) running on different baud rates. It is also able to drive 2 relays and to connect to 2 digital inputs (e.g. S0).

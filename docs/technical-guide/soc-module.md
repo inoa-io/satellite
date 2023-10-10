@@ -11,6 +11,7 @@ The SoC module is the heart of the satellite and home of the microprocessor, fla
 * 16 MB flash
 * µSD Card slot for external storage
 * HSM (ATECC608)
+* RTC (DS3231)
 
 ## Schematics
 
