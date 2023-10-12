@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/fabian/projects/grayc/inoa/satellite/electrics/m-bus-module/m-bus-module.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>M-Bus Metering Module</title>
+        <company>GrayC GmbH</company>
+        <rev>1.0</rev>
+        <date>Date2</date>
+        <source>m-bus-module.kicad_sch</source>
+        <comment number="1" value="Fabian Schlegel"/>
+        <comment number="2" value="5-24V Power Supply"/>
+        <comment number="3" value="1x RS485, 2x S0, 1x M-Bus"/>
+        <comment number="4" value="Electric Metering Module with RS485, S0, M-Bus"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/">
+      <title_block>
+        <title>M-Bus Master Interface</title>
+        <company>GrayC GmbH</company>
+        <rev>1.0</rev>
+        <date>Date2</date>
+        <source>m-bus.kicad_sch</source>
+        <comment number="1" value="Fabian Schlegel"/>
+        <comment number="2" value="36V Bus Level / 3.3V UART Level"/>
+        <comment number="3" value=""/>
+        <comment number="4" value="M-Bus to UART Level Shifter"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d512d14-3ca4-4934-b506-eb07d268c7dc</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>345a9ac1-be31-400b-9c5d-4af388112d4b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>939bb0a1-244e-4741-90f1-d06027d85c51</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b11964f-5943-49c9-bbf0-08d035779463</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7112d2ae-7915-4f1a-aae6-e71244f669d8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>25V</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D</field>
+        <field name="manf#">CPDU24V</field>
+        <field name="mouser#">750-CPDU24V</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D"/>
+      <property name="Price" value=""/>
+      <property name="manf#" value="CPDU24V"/>
+      <property name="mouser#" value="750-CPDU24V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a76c0baf-6e69-4f8d-a142-018c46047833</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D</field>
+        <field name="manf#">PMEG4010CEAX</field>
+        <field name="mouser#">771-PMEG4010CEAX</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D"/>
+      <property name="manf#" value="PMEG4010CEAX"/>
+      <property name="mouser#" value="771-PMEG4010CEAX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c55033c-55b9-4835-9ab8-f334f8a3ffed</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D</field>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b4dab82-e313-4c7a-b63b-b5f6b48d648b</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>D_TVS</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D</field>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b664cd6-f39e-4636-850d-30ba11a608d8</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>25V/1A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2</field>
+        <field name="manf#">TR/3216FF1-R</field>
+        <field name="mouser#">504-TR/3216FF1-R</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2"/>
+      <property name="manf#" value="TR/3216FF1-R"/>
+      <property name="mouser#" value="504-TR/3216FF1-R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11d75bf4-5480-4a2f-baa3-58a51cac0470</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>North</value>
+      <footprint>footprints:PHOENIX_1935200</footprint>
+      <fields>
+        <field name="manf#">1935200</field>
+        <field name="mouser#">651-1935200</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x06" description="Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="1935200"/>
+      <property name="mouser#" value="651-1935200"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff012375-f793-4fe2-bcc9-8296a751529f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>South</value>
+      <footprint>footprints:PHOENIX_1935200</footprint>
+      <fields>
+        <field name="manf#">1935200</field>
+        <field name="mouser#">651-1935200</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x06" description="Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="1935200"/>
+      <property name="mouser#" value="651-1935200"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39b35647-9c10-42d5-a442-8bdae0385f69</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>West</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Harwin/M20-9991446</field>
+        <field name="manf#">M20-9991446</field>
+        <field name="mouser#">855-M20-9991446</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Harwin/M20-9991446"/>
+      <property name="manf#" value="M20-9991446"/>
+      <property name="mouser#" value="855-M20-9991446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbdd084c-3cde-4340-9de6-6f6ca3f79e91</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>East</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Harwin/M20-9991446</field>
+        <field name="manf#">M20-9991446</field>
+        <field name="mouser#">855-M20-9991446</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Harwin/M20-9991446"/>
+      <property name="manf#" value="M20-9991446"/>
+      <property name="mouser#" value="855-M20-9991446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08601885-ffd0-426c-9b07-2dc479593fb1</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46c31fef-8b6d-4892-b7d6-1b9818ed82f5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>572f678c-7489-4a0c-81c3-6f024e0707be</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R</field>
+        <field name="manf#">CR0603-FX-2200ELF</field>
+        <field name="mouser#">652-CR0603FX-2200ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R"/>
+      <property name="manf#" value="CR0603-FX-2200ELF"/>
+      <property name="mouser#" value="652-CR0603FX-2200ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c908cdd7-5bf2-4e04-ae66-bd89b22bab8d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1ea7795-8403-4edb-b959-1b29f77ed16f</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R</field>
+        <field name="manf#">CR0603-FX-2200ELF</field>
+        <field name="mouser#">652-CR0603FX-2200ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R"/>
+      <property name="manf#" value="CR0603-FX-2200ELF"/>
+      <property name="mouser#" value="652-CR0603FX-2200ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e2d784c-b1ea-4086-bef2-82018cbe1d69</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BA033CC0FP-E2</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/348/baxxdd0-e-1873983.pdf</datasheet>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2</field>
+        <field name="manf#">BA033CC0FP-E2</field>
+        <field name="mouser#">755-BA033CC0FP-E2</field>
+      </fields>
+      <libsource lib="BA033CC0FP-E2" part="BA033CC0FP-E2" description=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2"/>
+      <property name="Price" value=""/>
+      <property name="manf#" value="BA033CC0FP-E2"/>
+      <property name="mouser#" value="755-BA033CC0FP-E2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83fee08f-7316-4ff9-a4fd-e9a9372f4d8f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MAX3486</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</datasheet>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D</field>
+        <field name="manf#">MAX3486EESA+</field>
+        <field name="mouser#">700-MAX3486EESA</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX3486" description="True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"/>
+      <property name="Price" value=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D"/>
+      <property name="manf#" value="MAX3486EESA+"/>
+      <property name="mouser#" value="700-MAX3486EESA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18406746-0f9d-4d88-9ef2-8423e08576f0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>1ea7c432-6819-4e5a-8408-874a185950ff</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>2628ad9e-cd26-4392-a0a4-322c996d157b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>bfd6ac5c-42ff-44fe-a8f7-7f930bd312ce</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <fields>
+        <field name="manf#">EDK476M050S9HAA</field>
+        <field name="mouser#">80-EDK476M050S9HAA</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="manf#" value="EDK476M050S9HAA"/>
+      <property name="mouser#" value="80-EDK476M050S9HAA"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>32044169-2061-48ab-a1a5-d57cf63ad538</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M6RACTU</field>
+        <field name="mouser#">80-C1206C104M6R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M6RACTU"/>
+      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>3b62aab5-3dad-4878-bb61-8347576648c7</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BZT52C12-7-F</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/BZT52C12-7-F?qs=Qx62u%2Fq8dKJfMs49T6NTpw%3D%3D</field>
+        <field name="manf#">BZT52C12-7-F</field>
+        <field name="mouser#">621-BZT52C12-F</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Diodes-Incorporated/BZT52C12-7-F?qs=Qx62u%2Fq8dKJfMs49T6NTpw%3D%3D"/>
+      <property name="manf#" value="BZT52C12-7-F"/>
+      <property name="mouser#" value="621-BZT52C12-F"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>fdca6387-603e-4dd5-bcc4-2d9408d66d4d</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BZT52C12-7-F</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/BZT52C12-7-F?qs=Qx62u%2Fq8dKJfMs49T6NTpw%3D%3D</field>
+        <field name="manf#">BZT52C12-7-F</field>
+        <field name="mouser#">621-BZT52C12-F</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Diodes-Incorporated/BZT52C12-7-F?qs=Qx62u%2Fq8dKJfMs49T6NTpw%3D%3D"/>
+      <property name="manf#" value="BZT52C12-7-F"/>
+      <property name="mouser#" value="621-BZT52C12-F"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>d71193ed-515d-4a4b-9c49-fdef35bcef29</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BZT52C2V7-7-F</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/BZT52C2V7-7-F?qs=q5A1k7NyoAXOHAOt4UgESQ%3D%3D</field>
+        <field name="manf#">BZT52C2V7-7-F</field>
+        <field name="mouser#">621-BZT52C2V7-F</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Diodes-Incorporated/BZT52C2V7-7-F?qs=q5A1k7NyoAXOHAOt4UgESQ%3D%3D"/>
+      <property name="manf#" value="BZT52C2V7-7-F"/>
+      <property name="mouser#" value="621-BZT52C2V7-F"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>a7581f90-592f-41f0-9ea6-a76cbab1f428</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC856B-13-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC860-D.pdf</datasheet>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/BC856B-13-F?qs=GWgl%252BsiMZr%2F2r4POaCbFlA%3D%3D</field>
+        <field name="manf#">BC856B-13-F</field>
+        <field name="mouser#">621-BC856B-13-F</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC856" description="0.1A Ic, 65V Vce, PNP Transistor, SOT-23"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Diodes-Incorporated/BC856B-13-F?qs=GWgl%252BsiMZr%2F2r4POaCbFlA%3D%3D"/>
+      <property name="manf#" value="BC856B-13-F"/>
+      <property name="mouser#" value="621-BC856B-13-F"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>883f275c-69e2-4505-a07a-68b225a4d6fc</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC846B-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</datasheet>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/BC846B-7-F?qs=oVWkMaT70e6bHZc%2FL953XQ%3D%3D</field>
+        <field name="manf#">BC846B-7-F</field>
+        <field name="mouser#">621-BC846B-7-F</field>
+      </fields>
+      <libsource lib="Transistor_BJT" part="BC846" description="0.1A Ic, 65V Vce, NPN Transistor, SOT-23"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Diodes-Incorporated/BC846B-7-F?qs=oVWkMaT70e6bHZc%2FL953XQ%3D%3D"/>
+      <property name="manf#" value="BC846B-7-F"/>
+      <property name="mouser#" value="621-BC846B-7-F"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>d0787fdb-a0f5-413f-973c-ae8628223614</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>FDN5618P</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Siliconix/SI2309CDS-T1-BE3?qs=CiayqK2gdcLpUzX1sAvcCA%3D%3D</field>
+        <field name="manf#">SI2309CDS-T1-BE3</field>
+        <field name="mouser#">78-SI2309CDS-T1-BE3</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Siliconix/SI2309CDS-T1-BE3?qs=CiayqK2gdcLpUzX1sAvcCA%3D%3D"/>
+      <property name="manf#" value="SI2309CDS-T1-BE3"/>
+      <property name="mouser#" value="78-SI2309CDS-T1-BE3"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>c3fb18b5-f62e-4710-a327-e1875daaecc3</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1002F25</field>
+        <field name="mouser#">660-RN73H1TD1002F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1002F25"/>
+      <property name="mouser#" value="660-RN73H1TD1002F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>9c848201-34d9-439b-9c70-61d5f2ee0102</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1002F25</field>
+        <field name="mouser#">660-RN73H1TD1002F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1002F25"/>
+      <property name="mouser#" value="660-RN73H1TD1002F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>1346e865-6487-435e-a050-bcfd8cb598e5</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1003F25</field>
+        <field name="mouser#">660-RN73H1JTD1003F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1003F25"/>
+      <property name="mouser#" value="660-RN73H1JTD1003F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>3035cc61-5fd5-4d11-812c-cdca8da66811</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1001B25</field>
+        <field name="mouser#">660-RN73H1JTD1001B25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1001B25"/>
+      <property name="mouser#" value="660-RN73H1JTD1001B25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>89c045f5-50eb-4f6f-b8a4-9134ac268641</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1002F25</field>
+        <field name="mouser#">660-RN73H1TD1002F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1002F25"/>
+      <property name="mouser#" value="660-RN73H1TD1002F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>5e0ce630-5c50-493a-978d-2670d8883f1f</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>180k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1803F25</field>
+        <field name="mouser#">660-RN73H1JTD1803F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1803F25"/>
+      <property name="mouser#" value="660-RN73H1JTD1803F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>975f84e9-dc03-4771-8523-c1a21eb4809a</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>180k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1803F25</field>
+        <field name="mouser#">660-RN73H1JTD1803F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1803F25"/>
+      <property name="mouser#" value="660-RN73H1JTD1803F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>6abe2460-5a3b-467f-8fc7-0238d1febb04</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1001B25</field>
+        <field name="mouser#">660-RN73H1JTD1001B25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1001B25"/>
+      <property name="mouser#" value="660-RN73H1JTD1001B25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>52f54a5a-70f6-4687-8b4b-f4399d33e8cb</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1002F25</field>
+        <field name="mouser#">660-RN73H1TD1002F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1002F25"/>
+      <property name="mouser#" value="660-RN73H1TD1002F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>cc293cde-799f-43e2-bcdf-4a13b2938b87</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1003F25</field>
+        <field name="mouser#">660-RN73H1JTD1003F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1003F25"/>
+      <property name="mouser#" value="660-RN73H1JTD1003F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>653a3992-1303-4194-9a73-8e88cf637607</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD4701F100</field>
+        <field name="mouser#">660-RN73H1JT4701F100</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD4701F100"/>
+      <property name="mouser#" value="660-RN73H1JT4701F100"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>d00c25f7-9a6c-455e-964f-afaef373a0bb</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1002F25</field>
+        <field name="mouser#">660-RN73H1TD1002F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1002F25"/>
+      <property name="mouser#" value="660-RN73H1TD1002F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>84dcfc5f-3ab9-419a-aee5-d7b1f03520ff</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1003F25</field>
+        <field name="mouser#">660-RN73H1JTD1003F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1003F25"/>
+      <property name="mouser#" value="660-RN73H1JTD1003F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>50b954cc-5aa7-49b0-a29e-c43a069d1d3b</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1001B25</field>
+        <field name="mouser#">660-RN73H1JTD1001B25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1001B25"/>
+      <property name="mouser#" value="660-RN73H1JTD1001B25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>30e4f62e-1ae7-4dc6-981a-375a813fad9a</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1003F25</field>
+        <field name="mouser#">660-RN73H1JTD1003F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1003F25"/>
+      <property name="mouser#" value="660-RN73H1JTD1003F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>19bfaeeb-ed2b-4b68-ab83-4993a0033084</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD2002B10</field>
+        <field name="mouser#">660-RN73H1JTD2002B10</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD2002B10"/>
+      <property name="mouser#" value="660-RN73H1JTD2002B10"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>22451217-1b85-4edd-8dab-b485c381d01c</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD2002B10</field>
+        <field name="mouser#">660-RN73H1JTD2002B10</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD2002B10"/>
+      <property name="mouser#" value="660-RN73H1JTD2002B10"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>cdafaad6-50d4-4030-95cc-fc2ca04085f6</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1000F50</field>
+        <field name="mouser#">660-RN73H1JTD1000F50</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1000F50"/>
+      <property name="mouser#" value="660-RN73H1JTD1000F50"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>fea8b10d-4e18-4ef3-bfdb-fb9292bbfeda</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD1003F25</field>
+        <field name="mouser#">660-RN73H1JTD1003F25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD1003F25"/>
+      <property name="mouser#" value="660-RN73H1JTD1003F25"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>516a4ad5-314a-4bee-a7d3-404e591c8af0</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>20k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">RN73H1JTTD2002B10</field>
+        <field name="mouser#">660-RN73H1JTD2002B10</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RN73H1JTTD2002B10"/>
+      <property name="mouser#" value="660-RN73H1JTD2002B10"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>4786a709-7a88-426f-bf99-e2de0f50ec1a</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>VOM452T</value>
+      <footprint>inoa:SOIC127P700X230-5N</footprint>
+      <fields>
+        <field name="MANUFACTURER">VISHAY</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Semiconductors/VOM452T?qs=bpQgg4VtUStg0gs%252B4asVTQ%3D%3D</field>
+        <field name="manf#">VOM452T</field>
+        <field name="mouser#">782-VOM452T</field>
+      </fields>
+      <libsource lib="VOM452T" part="VOM452T" description=""/>
+      <property name="MANUFACTURER" value="VISHAY"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Semiconductors/VOM452T?qs=bpQgg4VtUStg0gs%252B4asVTQ%3D%3D"/>
+      <property name="manf#" value="VOM452T"/>
+      <property name="mouser#" value="782-VOM452T"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>9264f94a-6159-4409-9686-bd52f43959a8</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>VOM452T</value>
+      <footprint>inoa:SOIC127P700X230-5N</footprint>
+      <fields>
+        <field name="MANUFACTURER">VISHAY</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Vishay-Semiconductors/VOM452T?qs=bpQgg4VtUStg0gs%252B4asVTQ%3D%3D</field>
+        <field name="manf#">VOM452T</field>
+        <field name="mouser#">782-VOM452T</field>
+      </fields>
+      <libsource lib="VOM452T" part="VOM452T" description=""/>
+      <property name="MANUFACTURER" value="VISHAY"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Vishay-Semiconductors/VOM452T?qs=bpQgg4VtUStg0gs%252B4asVTQ%3D%3D"/>
+      <property name="manf#" value="VOM452T"/>
+      <property name="mouser#" value="782-VOM452T"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>c198d08d-aaed-44f2-a35a-1e605a38dd05</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MC33072ADR2G</value>
+      <footprint>inoa:SOIC127P600X175-8N</footprint>
+      <fields>
+        <field name="manf#">LM258ADT</field>
+        <field name="mouser#">511-LM258ADT</field>
+      </fields>
+      <libsource lib="Device" part="Opamp_Dual" description="Dual operational amplifier"/>
+      <property name="manf#" value="LM258ADT"/>
+      <property name="mouser#" value="511-LM258ADT"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>fabcba44-1a5c-420d-9268-20b21a6b7346 dde76bbd-df1d-48a1-a420-8cde7a1cb0fd a9382fd7-4036-4abd-bdc6-e5f4e285bc5e</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LM4040DIM3-5.0/NOPB</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</datasheet>
+      <fields>
+        <field name="manf#">LM4040DIM3-5.0/NOPB</field>
+        <field name="mouser#">926-LM4040DIM350NOPB</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="LM4040DBZ-5" description="5.000V Precision Micropower Shunt Voltage Reference, SOT-23"/>
+      <property name="manf#" value="LM4040DIM3-5.0/NOPB"/>
+      <property name="mouser#" value="926-LM4040DIM350NOPB"/>
+      <property name="Sheetname" value="M-Bus"/>
+      <property name="Sheetfile" value="m-bus.kicad_sch"/>
+      <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
+      <tstamps>17de1496-4a9e-4b59-8056-a1d8757fb6b9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BA033CC0FP-E2" part="BA033CC0FP-E2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BA033CC0FP-E2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Input" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Output" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x06">
+      <description>Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Opamp_Dual">
+      <description>Dual operational amplifier</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*2.95x2.8mm*P0.65mm*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>VSSOP*P0.5mm*</fp>
+        <fp>TO?99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Opamp_Dual</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Interface_UART" part="MAX3486">
+      <description>True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX3486</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~{RE}" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="LM4040DBZ-5">
+      <description>5.000V Precision Micropower Shunt Voltage Reference, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4040DBZ-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm4040-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC846">
+      <description>0.1A Ic, 65V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC846</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC856">
+      <description>0.1A Ic, 65V Vce, PNP Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC860-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC856</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC860-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VOM452T" part="VOM452T">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VOM452T</field>
+        <field name="Footprint">SOIC127P700X230-5N</field>
+        <field name="MANUFACTURER">VISHAY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="grayc-logo-negative" part="LOGO">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>/usr/share/kicad/symbols//Interface_UART.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/usr/share/kicad/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="VOM452T">
+      <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/m-bus-module/../libraries/symbols/VOM452T.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Output" pintype="power_out"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="6" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pintype="passive"/>
+    </net>
+    <net code="3" name="M-Bus-1">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="M-Bus-2">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pintype="passive"/>
+      <node ref="U4" pin="3" pintype="passive"/>
+      <node ref="U4" pin="4" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="5" name="MBus_RX">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="MBus_TX">
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Input" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pintype="power_in"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U5" pin="7" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(R18-Pad1)">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="28" name="RS485_A">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="RS485_B">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="RS485_RX">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="31" name="RS485_TX">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="32" name="RS485_TXE">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="~{RE}" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="DE" pintype="input"/>
+    </net>
+    <net code="33" name="S0_0">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="S0_1">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="VBUS+">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="36" name="VCC">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J3-Pad7)">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J3-Pad8)">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J3-Pad11)">
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J3-Pad12)">
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J3-Pad14)">
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J4-Pad5)">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J4-Pad6)">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J4-Pad7)">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J4-Pad8)">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J4-Pad9)">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J4-Pad10)">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J4-Pad11)">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J4-Pad12)">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

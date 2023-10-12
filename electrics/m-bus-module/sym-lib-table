@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "VOM452T")(type "KiCad")(uri "${KIPRJMOD}/../libraries/symbols/VOM452T.kicad_sym")(options "")(descr ""))
+  (lib (name "MC33072DR2")(type "KiCad")(uri "${KIPRJMOD}/../libraries/symbols/MC33072DR2.kicad_sym")(options "")(descr ""))
+)
