@@ -8,7 +8,7 @@ The Mieterstrom module is dedicated to be used for interacting with electric met
 
 It is a base module on level 1 of the stack. Its features are:
 
-* 4V-24V power input
+* 5V-24V power input
 * 2x RS485 interface (ModBus RTU meters)
 * 2x pulse interface (S0 meters)
 * PE / Shield pins for bus topologies

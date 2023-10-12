@@ -39,6 +39,37 @@ Connect the RS485 pins as described in the table. Be sure to connect the shield 
 
 The S0 pins should be connected to a S0 device, reed contact, incremental wind sensor, and any other device that uses a simple switch inside.
 
+## M-Bus Model
+
+The M-Bus model is able to connect to a RS485 topolgy (e.g. ModBus) and also acts as M-Bus master. It is also fitted with 2 digital inputs (e.g. S0).
+
+Please find to pin out below:
+
+![Satellite Gateway Pins](../assets/images/satellite_me_pins.jpg)
+
+| Pin | Purpose       | Description                                            |
+|-----|---------------|--------------------------------------------------------|
+| 1   | +5-24V        | Power supply positive 5 to 24 volts, >=3W              |
+| 2   | Ground        | Power supply ground                                    |
+| 3   | S0 1 +        | S0 interface                                           |
+| 4   | S0 1 -        | S0 interface                                           |
+| 5   | S0 2 +        | S0 interface                                           |
+| 6   | S0 2 -        | S0 interface                                           |
+| 7   | RS485 1-B     | RS485 1 "B" line                                       |
+| 8   | RS485 1-A     | RS485 1 "A" line                                       |
+| 9   | M-Bus M-      | M-Bus negative bus line                                |
+| 10  | M-Bus M+      | M-Bus positive bus line                                |
+| 11  | M-Bus DC-     | M-Bus power supply 9-30V (-)                           |
+| 12  | M-Bus DC+     | M-Bus power supply 9-30V (+)                           |
+
+Connect Pin 1 and 2 to a power supply delivering 5 to 24 volts. Be aware that the best efficency is achieved with 5 volts. Higher voltages will lead to higher thermal loss. The power supply must be rated for at least 3W.
+
+Connect the RS485 pins as described in the table. Be sure to connect the shield of the RS485 topologies to ground pin to avoid stability problems. The Satellite does **not** have internal termination resistors!
+
+The S0 pins should be connected to a S0 device, reed contact, incremental wind sensor, and any other device that uses a simple switch inside.
+
+Pin 9 and 10 acts as M-Bus data line. Connect the M-Bus power supply to pin 11 and 12. Be sure to use the correct polarity! The power supply drives the M-Bus, so choose a fitting one depending on the number of connected meters.
+
 ## Electric Metring Model
 
 The metering model is able to connect to 2 different RS485 topolgies (e.g. ModBus) running on different baud rates. It is also able to drive 2 relays and to connect to 2 digital inputs (e.g. S0).
