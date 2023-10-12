@@ -39,18 +39,12 @@ mkdir -p "out/"
 rm -rf "docs/generated"
 mkdir -p "docs/generated"
 
-# run_kibot debug-module
-# run_kibot development-board
-# run_kibot development-board-ligth
 run_kibot ethernet-extension
-# run_kibot lora-module
 run_kibot metering-module
 run_kibot mieterstrom-module
-# run_kibot nbiot-extension
 run_kibot panel-module
-# run_kibot smart-meter-module
 run_kibot soc-module
-# run_kibot tenement-module
+run_kibot m-bus-module
 
 cp -r out/3d docs/generated
 cp -r out/bom docs/generated

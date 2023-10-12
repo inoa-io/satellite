@@ -11,5 +11,6 @@ nav:
     - 'Ethernet Module': technical-guide/ethernet-module.md
     - 'Panel Module': technical-guide/panel-module.md
     - 'Mieterstrom Module': technical-guide/mieterstrom-module.md
+    - 'M-Bus Module': technical-guide/mbus-module.md
   - 'Developer Guide':
     - 'Getting Started': developer-guide/getting-started.md
