@@ -49,6 +49,7 @@ run_kibot m-bus-module
 cp -r out/3d docs/generated
 cp -r out/bom docs/generated
 cp -r out/schematics docs/generated
+cp -r out/pcb docs/generated
 
 mkdocs build
 

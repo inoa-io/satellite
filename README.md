@@ -4,17 +4,20 @@
 
 The Inoa Satellite is a lightweight and secure gateway for your fuse box or industrial environment.
 
+Please see our [Project Pages](https://inoa-io.github.io/satellite/) for details.
+
 ![./docs/assets/images/satellite.jpg](./docs/assets/images/satellite.jpg)
 
 ## Why?
 
 There is a huge amount of IoT gateways out there, but none of these fulfill completely all of our design goals:
+
 * Usage in a rough industrial environment
 * Hardware driven security (HSM)
-* Cheap hardware to be able to finance a huge fleet of devices
-* Low energy consumption due to possible battery driven usage
+* Inexpensive hardware to be able to finance a huge fleet of devices
+* Low energy consumption
 * Fuse box casing (DIN rail)
-* Small (2 FE / 36mm) to allow mounting in existing fuse boxes
+* Small (2 FE / 36 mm) to allow mounting in existing fuse boxes
 * Extendable design to be future proof
 * Modular design to adapt hardware to use cases and keep costs low
 
@@ -23,8 +26,9 @@ There is a huge amount of IoT gateways out there, but none of these fulfill comp
 We use [KiCad](https://www.kicad.org/) for our PCB designs, [Parts Community](https://b2b.partcommunity.com/) and [SnapEDA](https://www.snapeda.com/) for symbols, footprints, models 'n stuff...
 
 To meet our design goals, we decided to:
-* Use the ESP32-WROVER-IE module with 16MB Flash and 8MB RAM
-* Use the ATECC608A chip as HSM
+
+* Use the ESP32
+* Use the ATECC family of chips as HSM
 * Choose industrial proof parts, shielding and ESD protection
 * Pick a certified DIN rail casing
 * Cut the design to several stacked modules
@@ -35,7 +39,7 @@ To meet our design goals, we decided to:
 
 The Satellite comes with a stacked design allowing to interchange the modules on each level of the stack to fit the needs of its planned duty.
 
-This allows quick and cheap adjustment of single devices, ensures extendability, keeps costs low and offers replacement of defect modules with spare parts.
+This allows quick and cheap adjustment of single devices, ensures expandability, keeps costs low and offers replacement of defect modules with spare parts.
 
 The Satellite consists of up to 4 levels (level 1 is the bottom). Level 3 is an optional level and may be left out.
 
@@ -56,15 +60,13 @@ The electric metering module is dedicated to be used for interacting with electr
 * 2x pulse interface (S0, Photoelectric barrier, ...)
 * 2x relay driver
 
-![./docs/images/electric-metering-module.png](./docs/images/electric-metering-module.png)
-
 #### Current Loop Metering Module
 
 _**Coming soon**_
 
 #### MBus / WMBus Metering Module
 
-The M-Bus module is dedicated to be used for interacting with different meters via RS485 or M-Bus. The module acts as M-Bus master, but a separate power supply is needed. Because the size of this power supply depends on the amount of connected meters, we decided to give the ability to chooese a fitting, external power supply.
+The M-Bus module is dedicated to be used for interacting with different meters via RS485 or M-Bus. The module acts as M-Bus master, but a separate power supply is needed. Because the size of this power supply depends on the amount of connected meters, we decided to give the ability to choose a fitting, external power supply.
 
 The M-Bus module is a base module on level 1 of the stack. Its features are:
 
@@ -72,7 +74,7 @@ The M-Bus module is a base module on level 1 of the stack. Its features are:
 * 1x M-Bus interface
 * 1x RS485 interface (ModBus RTU meters)
 * 2x pulse interface (S0 meters)
-* PE / Shield pins for bus topologies
+* PE / Shield pins for bus connections
 
 ### SoC Module
 
@@ -84,17 +86,13 @@ The SoC module is the heart of the satellite and home of the microprocessor, fla
 * µSD Card slot for external storage
 * HSM (ATECC608)
 
-![./docs/images/soc-module.png](./docs/images/soc-module.png)
-
 ### Ethernet Module
 
-The ethernet module connects the Satellite to ethernet. It is a network module on level 3 of the stack. Its features are:
+The Ethernet module connects the Satellite to Ethernet. It is a network module on level 3 of the stack. Its features are:
 
-* W5500 ethernet chip (MAC+PHY)
+* W5500 Ethernet chip (MAC+PHY)
 * ESD protection
 * Shielded RJ45 plug
-
-![./docs/images/ethernet-module.png](./docs/images/ethernet-module.png)
 
 ### NB IoT Module
 
@@ -114,8 +112,6 @@ The panel module is the "user interface" and home of all user input output devic
 * RS232 Debug interface
 * External WiFi antenna (optional)
 
-![./docs/images/panel-module.png](./docs/images/panel-module.png)
-
 ## Casings
 
 We use a DIN rail mounted casing in 2 FE width. See [Datasheet](./casing/rail/apra_rail_Leiterkartengroessen_PCB_Dimensions_de_en.pdf) for details.
@@ -129,7 +125,6 @@ You will need:
 * Python >= 3.8
 * [KiBot](https://github.com/INTI-CMNB/KiBot) (see [installation instructions](https://github.com/INTI-CMNB/KiBot#installation-on-ubuntu-or-debian))
 
-
 Clone this project and run `./build.sh`. You will get a selection of the possible modules to be built. Tests will be executed and the build result is placed in the `out` folder.
 
 ### Project structure
@@ -140,7 +135,7 @@ Clone this project and run `./build.sh`. You will get a selection of the possibl
 | ./configs            | KiCad-Export configuration                 |
 | ./development-board  | Design for the development board           |
 | ./docs               | Documentation                              |
-| ./ethernet-extension | Design for the ethernet module             |
+| ./ethernet-extension | Design for the Ethernet module             |
 | ./libraries          | Electric symbols, footprints and 3D models |
 | ./metering-module    | Design for the metering module             |
 | ./nbiot-extension    | Design for the NB IoT module               |
@@ -169,9 +164,9 @@ Clone this project and run `./build.sh`. You will get a selection of the possibl
 
 #### Tracks / Vias / Grids
 
-Dispite of the low energy consumption of the MCU itself, we are planning with a maximum current of 1A to be future proof for extra extensions that have a higher energy demand (LoRa, NB IoT, ...).
+Despite of the low energy consumption of the MCU itself, we are planning with a maximum current of 1A to be future proof for extra extensions that have a higher energy demand (LoRa, NB IoT, ...).
 
-We choosed two different of track widths for main power and for data lines (0.25mm / 0.5 mm) and planned a minimum temperature of 0°C. See the table below.
+We chose two different of track widths for main power and for data lines (0.25 mm / 0.5 mm) and planned a minimum temperature of 0°C. See the table below.
 
 | Track (mm) | Track (mil) | 10°  | 20°  | 30°  | 40°  | 50°  | 60°  |
 |------------|-------------|------|------|------|------|------|------|
@@ -182,9 +177,9 @@ We choosed two different of track widths for main power and for data lines (0.25
 | 0.5mm      | 20mil       | 1.3A | 1.8A | 2.2A | 2.5A | 2.8A | 3.1A |
 | 0.6mm      | 24mil       | 1.4A | 2.0A | 2.4A | 2.8A | 3.1A | 3.4A |
 
-We choosed a 0.1mm grid for all PCB designs, because our casings and mechanics are also measured in millimeters.
+We chose a 0.1mm grid for all PCB designs, because our casings and mechanics are also measured in millimeters.
 
-We choosed 0.8mm 0.4mm vias.
+We chose 0.8mm 0.4mm vias.
 
 ## Pin Out
 
@@ -193,7 +188,7 @@ We choosed 0.8mm 0.4mm vias.
 | 1       | East 1        | GND       | Ground               |
 | 2       | West 1        | 3V3       | Power supply         |
 | 3       | West 2        | EN3       | Reset                |
-| 4       | West 3        | I36       | I2C Interupt         |
+| 4       | West 3        | I36       | I2C Interrupt        |
 | 5       | West 4        | I39       | UART 1 RX            |
 | 6       | West 5        | I34       | SPI 2 MISO           |
 | 7       | West 6        | I35       | UART 2 RX            |
@@ -201,7 +196,7 @@ We choosed 0.8mm 0.4mm vias.
 | 9       | West 8        | IO33      | SPI 2 CLK            |
 | 10      | West 9        | IO25      | UART 1 TXE           |
 | 11      | West 10       | IO26      | UART 1 TX            |
-| 12      | West 11       | IO27      | SPI 2 CS (Eth)       |
+| 12      | West 11       | IO27      | SPI 2 CS (Ethernet)  |
 | 13      | West 12       | IO14      | Ethernet Reset       |
 | 14      | West 13       | IO12      |                      |
 | 15      | NC            | GND       | Ground               |
@@ -215,7 +210,7 @@ We choosed 0.8mm 0.4mm vias.
 | 23      | East 13       | IO15      | UART 2 TX            |
 | 24      | East 12       | IO2       | UART 2 TXE           |
 | 25      | East 11       | IO0       | Setup Button         |
-| 26      | East 10       | IO4       | Ethernet Interupt    |
+| 26      | East 10       | IO4       | Ethernet Interrupt   |
 | 27      | NC            | NC        | Internal Flash / RAM |
 | 28      | NC            | NC        | Internal Flash / RAM |
 | 29      | East 9        | IO5       | SPI 1 CS (SD)        |

@@ -8,11 +8,11 @@ Please find the installation instructions for your specific model below.
 
 All Satellite "Rail" models are meant to be mounted on a DIN rail at indoor sites. For outdoor usage please refer to the Satellite "Probe" models.
 
-All models uses internal micro SD cards as file storage. You can insert an SD card of your choice by opening the case popping the 4 latches out with a screw driver. The card can be inserted at the upper side of the PCB "sandwitch".
+All models uses internal micro SD cards as file storage. You can insert an SD card of your choice by opening the case popping the 4 latches out with a screw driver. The card can be inserted at the upper side of the PCB "sandwich".
 
 ## Tenant Electricity Model
 
-The metering model is able to connect to 2 different RS485 topolgies (e.g. ModBus) running on different baud rates. It is also fitted with 2 digital inputs (e.g. S0).
+The metering model is able to connect to 2 different RS485 buses (e.g. ModBus) running on different baud rates. It is also fitted with 2 digital inputs (e.g. S0).
 
 Please find to pin out below:
 
@@ -33,15 +33,15 @@ Please find to pin out below:
 | 11  | RS485 2-A     | RS485 2 "A" line                                       |
 | 12  | RS485 2-GND   | RS485 2 Ground line (shield)                           |
 
-Connect Pin 1 and 2 to a power supply delivering 5 to 24 volts. Be aware that the best efficency is achieved with 5 volts. Higher voltages will lead to higher thermal loss. The power supply must be rated for at least 3W.
+Connect Pin 1 and 2 to a power supply delivering 5 to 24 volts. Be aware that the best efficiency is achieved with 5 volts. Higher voltages will lead to higher thermal loss. The power supply must be rated for at least 3W.
 
-Connect the RS485 pins as described in the table. Be sure to connect the shield of the RS485 topologies to ground pin to avoid stability problems. The Satellite does **not** have internal termination resistors!
+Connect the RS485 pins as described in the table. Be sure to connect the shield of the RS485 buses to ground pin to avoid stability problems. The Satellite does **not** have internal termination resistors!
 
 The S0 pins should be connected to a S0 device, reed contact, incremental wind sensor, and any other device that uses a simple switch inside.
 
 ## M-Bus Model
 
-The M-Bus model is able to connect to a RS485 topolgy (e.g. ModBus) and also acts as M-Bus master. It is also fitted with 2 digital inputs (e.g. S0).
+The M-Bus model is able to connect to a RS485 bus (e.g. ModBus) and also acts as M-Bus master. It is also fitted with 2 digital inputs (e.g. S0).
 
 Please find to pin out below:
 
@@ -62,17 +62,17 @@ Please find to pin out below:
 | 11  | M-Bus DC-     | M-Bus power supply 9-30V (-)                           |
 | 12  | M-Bus DC+     | M-Bus power supply 9-30V (+)                           |
 
-Connect Pin 1 and 2 to a power supply delivering 5 to 24 volts. Be aware that the best efficency is achieved with 5 volts. Higher voltages will lead to higher thermal loss. The power supply must be rated for at least 3W.
+Connect Pin 1 and 2 to a power supply delivering 5 to 24 volts. Be aware that the best efficiency is achieved with 5 volts. Higher voltages will lead to higher thermal loss. The power supply must be rated for at least 3W.
 
-Connect the RS485 pins as described in the table. Be sure to connect the shield of the RS485 topologies to ground pin to avoid stability problems. The Satellite does **not** have internal termination resistors!
+Connect the RS485 pins as described in the table. Be sure to connect the shield of the RS485 bus to ground pin to avoid stability problems. The Satellite does **not** have internal termination resistors!
 
 The S0 pins should be connected to a S0 device, reed contact, incremental wind sensor, and any other device that uses a simple switch inside.
 
 Pin 9 and 10 acts as M-Bus data line. Connect the M-Bus power supply to pin 11 and 12. Be sure to use the correct polarity! The power supply drives the M-Bus, so choose a fitting one depending on the number of connected meters.
 
-## Electric Metring Model
+## Electric Metering Model
 
-The metering model is able to connect to 2 different RS485 topolgies (e.g. ModBus) running on different baud rates. It is also able to drive 2 relays and to connect to 2 digital inputs (e.g. S0).
+The metering model is able to connect to 2 different RS485 buses (e.g. ModBus) running on different baud rates. It is also able to drive 2 relays and to connect to 2 digital inputs (e.g. S0).
 
 Please find to pin out below:
 
@@ -104,9 +104,9 @@ Please find to pin out below:
 | 22  | I²C SDA       | External I²C                                           |
 | >22 | Do not use    | Do not use (future use for internal SD)                |
 
-Connect Pin 1 and 2 to a power supply delivering 5 to 24 volts. Be aware that the best efficency is achieved with 5 volts. Higher voltages will lead to higher thermal loss. The power supply must be rated for at least 3W.
+Connect Pin 1 and 2 to a power supply delivering 5 to 24 volts. Be aware that the best efficiency is achieved with 5 volts. Higher voltages will lead to higher thermal loss. The power supply must be rated for at least 3W.
 
-Connect the RS485 pins as described in the table. Be sure to connect the shield of the RS485 topologies to pin 3 or 4 to avoid stability problems. The Satellite does **not** have internal termination resistors!
+Connect the RS485 pins as described in the table. Be sure to connect the shield of the RS485 bus to pin 3 or 4 to avoid stability problems. The Satellite does **not** have internal termination resistors!
 
 The S0 pins should be connected to a S0 device, reed contact, incremental wind sensor, and any other device that uses a simple switch inside.
 
@@ -118,4 +118,4 @@ All Satellite models can be debugged using an USB to UART adapter like the FT232
 
 Use a terminal tool of your choice, e.g. [GTKTerm](https://github.com/Jeija/gtkterm). Set the baud rate to 115200 and the bit configuration to 8N1.
 
-Please refer to the devolper guide for further information about dealing with the debug console!
+Please refer to the developer guide for further information about dealing with the debug console!
