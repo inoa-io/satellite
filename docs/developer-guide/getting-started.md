@@ -19,7 +19,7 @@ Run `mkdocs serve` to see this documentation.
 | ./configs            | KiCad-Export configuration                 |
 | ./development-board  | Design for the development board           |
 | ./docs               | Documentation                              |
-| ./ethernet-extension | Design for the ethernet module             |
+| ./ethernet-extension | Design for the Ethernet module             |
 | ./libraries          | Electric symbols, footprints and 3D models |
 | ./metering-module    | Design for the metering module             |
 | ./nbiot-extension    | Design for the NB IoT module               |
@@ -48,9 +48,9 @@ Run `mkdocs serve` to see this documentation.
 
 ### Tracks / Vias / Grids
 
-Dispite of the low energy consumption of the MCU itself, we are planning with a maximum current of 1A to be future proof for extra extensions that have a higher energy demand (LoRa, NB IoT, ...).
+Despite of the low energy consumption of the MCU itself, we are planning with a maximum current of 1A to be future proof for extra extensions that have a higher energy demand (LoRa, NB IoT, ...).
 
-We choosed two different of track widths for main power and for data lines (0.25mm / 0.5 mm) and planned a minimum temperature of 0°C. See the table below.
+We chose two different of track widths for main power and for data lines (0.25mm / 0.5 mm) and planned a minimum temperature of 0°C. See the table below.
 
 | Track (mm) | Track (mil) | 10°  | 20°  | 30°  | 40°  | 50°  | 60°  |
 |------------|-------------|------|------|------|------|------|------|
@@ -61,9 +61,9 @@ We choosed two different of track widths for main power and for data lines (0.25
 | 0.5mm      | 20mil       | 1.3A | 1.8A | 2.2A | 2.5A | 2.8A | 3.1A |
 | 0.6mm      | 24mil       | 1.4A | 2.0A | 2.4A | 2.8A | 3.1A | 3.4A |
 
-We choosed a 0.1mm grid for all PCB designs, because our casings and mechanics are also measured in millimeters.
+We chose a 0.1mm grid for all PCB designs, because our casings and mechanics are also measured in millimeters.
 
-We choosed 0.8mm 0.4mm vias.
+We chose 0.8mm 0.4mm vias.
 
 ## Pin Out
 
@@ -72,7 +72,7 @@ We choosed 0.8mm 0.4mm vias.
 | 1       | East 1        | GND       | Ground               |
 | 2       | West 1        | 3V3       | Power supply         |
 | 3       | West 2        | EN3       | Reset                |
-| 4       | West 3        | I36       | I2C Interupt         |
+| 4       | West 3        | I36       | I2C Interrupt        |
 | 5       | West 4        | I39       | UART 1 RX            |
 | 6       | West 5        | I34       | SPI 2 MISO           |
 | 7       | West 6        | I35       | UART 2 RX            |
@@ -80,7 +80,7 @@ We choosed 0.8mm 0.4mm vias.
 | 9       | West 8        | IO33      | SPI 2 CLK            |
 | 10      | West 9        | IO25      | UART 1 TXE           |
 | 11      | West 10       | IO26      | UART 1 TX            |
-| 12      | West 11       | IO27      | SPI 2 CS (Eth)       |
+| 12      | West 11       | IO27      | SPI 2 CS (Ethernet)  |
 | 13      | West 12       | IO14      | Ethernet Reset       |
 | 14      | West 13       | IO12      |                      |
 | 15      | NC            | GND       | Ground               |
@@ -94,7 +94,7 @@ We choosed 0.8mm 0.4mm vias.
 | 23      | East 13       | IO15      | UART 2 TX            |
 | 24      | East 12       | IO2       | UART 2 TXE           |
 | 25      | East 11       | IO0       | Setup Button         |
-| 26      | East 10       | IO4       | Ethernet Interupt    |
+| 26      | East 10       | IO4       | Ethernet Interrupt   |
 | 27      | NC            | NC        | Internal Flash / RAM |
 | 28      | NC            | NC        | Internal Flash / RAM |
 | 29      | East 9        | IO5       | SPI 1 CS (SD)        |

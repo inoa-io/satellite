@@ -19,11 +19,11 @@ It features an ESP32 MPU with 240MHz dual core, 8MB Ram, 16MB program flash and 
 * Extendable design to be future proof
 * Modular design to adapt hardware to use cases and keep costs low
 
-## Modular Desgin
+## Modular Design
 
 The Satellite comes with a stacked design allowing to interchange the modules on each level of the stack to fit the needs of its planned duty.
 
-This allows quick and cheap adjustment of single devices, ensures extendability, keeps costs low and offers replacement of defect modules with spare parts.
+This allows quick and cheap adjustment of single devices, ensures expandability, keeps costs low and offers replacement of defect modules with spare parts.
 
 ![Satellite Module Layers](assets/images/satellite_layers_side.jpg)
 

@@ -46,6 +46,13 @@ jobs:
         dir: out/
         schema: electrics/mieterstrom-module/mieterstrom-module.kicad_sch
         board: electrics/mieterstrom-module/mieterstrom-module.kicad_pcb
+    - name: M-Bus Module
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: electrics/kibot.yaml
+        dir: out/
+        schema: electrics/m-bus-module/m-bus-module.kicad_sch
+        board: electrics/m-bus-module/m-bus-module.kicad_pcb
     - name: Install Python
       uses: actions/setup-python@v4
       with:
@@ -59,6 +66,5 @@ jobs:
     - run: cp -r out/3d docs/generated
     - run: cp -r out/bom docs/generated
     - run: cp -r out/schematics docs/generated
+    - run: cp -r out/pcb docs/generated
     - run: mkdocs build
-
-

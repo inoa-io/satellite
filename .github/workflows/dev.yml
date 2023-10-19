@@ -55,3 +55,10 @@ jobs:
         dir: out/
         schema: electrics/mieterstrom-module/mieterstrom-module.kicad_sch
         board: electrics/mieterstrom-module/mieterstrom-module.kicad_pcb
+    - name: M-Bus Module
+      uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        config: electrics/kibot.yaml
+        dir: out/
+        schema: electrics/m-bus-module/m-bus-module.kicad_sch
+        board: electrics/m-bus-module/m-bus-module.kicad_pcb
