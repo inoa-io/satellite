@@ -1,9 +1,0 @@
-(sym_lib_table
-  (lib (name BA033CC0FP-E2)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/BA033CC0FP-E2.lib)(options "")(descr ""))
-  (lib (name 1727078)(type Legacy)(uri ${KIPRJMOD}/../libraries/symbols/1727078.lib)(options "")(descr ""))
-  (lib (name grayc-logo-negative)(type Legacy)(uri ${KIPRJMOD}/../libraries/images/grayc-logo-negative.lib)(options "")(descr ""))
-  (lib (name 20449-001E-03)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/20449-001E-03.lib)(options "")(descr ""))
-  (lib (name 20279-001E-01)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/20279-001E-01.lib)(options "")(descr ""))
-  (lib (name RSP-122811-01)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/RSP-122811-01.lib)(options "")(descr ""))
-  (lib (name MCP23009-E_SS)(type Legacy)(uri /home/fabian/projects/grayc/inoa/satellite/libraries/symbols/MCP23009-E_SS.lib)(options "")(descr ""))
-)
