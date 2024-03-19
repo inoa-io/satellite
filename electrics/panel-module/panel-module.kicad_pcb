@@ -104,7 +104,6 @@
     (at 146.5 100.8 90)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
-    (property "Manf#" "LTST-C150GKT")
     (property "Price" "0.06")
     (property "Product" "https://www.mouser.de/ProductDetail/Lite-On/LTST-C150GKT")
     (property "Sheetfile" "panel-module.kicad_sch")
@@ -255,7 +254,6 @@
     (at 146.5 89.6 -90)
     (descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
-    (property "Manf#" "LTST-C150GKT")
     (property "Price" "0.06")
     (property "Product" "https://www.mouser.de/ProductDetail/Lite-On/LTST-C150GKT")
     (property "Sheetfile" "panel-module.kicad_sch")
@@ -1785,7 +1783,7 @@
       (net 26 "Panel_Reset") (pintype "passive") (tstamp b635b16e-60bb-4b3e-9fc3-47d34eef8381))
     (pad "2" smd roundrect locked (at 1.55 0 90) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308)
       (net 31 "Net-(R2-Pad2)") (pintype "passive") (tstamp f976e2cc-36f9-4479-a816-2c74d1d5da6f))
-    (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1830,7 +1828,7 @@
       (net 24 "Panel_Setup") (pintype "passive") (tstamp 417f13e4-c121-485a-a6b5-8b55e70350b8))
     (pad "2" smd roundrect locked (at 1.55 0 90) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308)
       (net 32 "Net-(R4-Pad2)") (pintype "passive") (tstamp 9dab0cb7-2557-4419-963b-5ae736517f62))
-    (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

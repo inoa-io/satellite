@@ -120,14 +120,14 @@
   (net 30 "unconnected-(J4-Pad11)")
   (net 31 "unconnected-(J4-Pad12)")
   (net 32 "MBus_TX")
-  (net 33 "M-Bus-2")
+  (net 33 "GNDS")
   (net 34 "Net-(C7-Pad1)")
   (net 35 "Net-(D6-Pad2)")
   (net 36 "Net-(C8-Pad1)")
-  (net 37 "VBUS+")
+  (net 37 "VBUS")
   (net 38 "RS485_B")
   (net 39 "RS485_A")
-  (net 40 "M-Bus-1")
+  (net 40 "M-Bus")
   (net 41 "Net-(Q1-Pad1)")
   (net 42 "Net-(Q1-Pad3)")
   (net 43 "Net-(Q2-Pad1)")
@@ -182,9 +182,9 @@
     (pad "1" smd roundrect (at -0.9375 -0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 36 "Net-(C8-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 3d474465-e4a5-4ded-be8e-3c472622f44d))
     (pad "2" smd roundrect (at -0.9375 0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pinfunction "A") (pintype "passive") (tstamp 0471f253-a72b-4ea7-b6f0-5ec6d893951b))
+      (net 33 "GNDS") (pinfunction "A") (pintype "passive") (tstamp 0471f253-a72b-4ea7-b6f0-5ec6d893951b))
     (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 25a53107-0414-4363-9616-a7d291dc0d84))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+    (model "${KIPRJMOD}/../libraries/models/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -225,12 +225,12 @@
     (pad "3" smd rect locked (at -3.24 1.27) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pintype "passive") (tstamp 72dd42c8-10a7-40ed-9f15-099fc9a9d56a))
     (pad "4" smd rect locked (at 3.24 1.27) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp 4cb966d6-b03b-47e1-ab0d-cc1d409106cf))
+      (net 33 "GNDS") (pintype "passive") (tstamp 4cb966d6-b03b-47e1-ab0d-cc1d409106cf))
     (pad "5" smd rect locked (at 3.24 0) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 43 "Net-(Q2-Pad1)") (pintype "passive") (tstamp 601cdf79-7a85-413b-976c-c1dcbb6f1d7f))
     (pad "6" smd rect locked (at 3.24 -1.27) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "Net-(C7-Pad1)") (pintype "power_in") (tstamp a8fddae8-6b84-4c55-a266-5efd2094d753))
-    (model "/home/fabian/projects/grayc/inoa/satellite/electrics/libraries/models/VOM452T.step"
+    (model "${KIPRJMOD}/../libraries/models/VOM452T.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -283,7 +283,7 @@
       (net 35 "Net-(D6-Pad2)") (pinfunction "K") (pintype "passive") (tstamp fb0cff91-8679-408f-8364-929599931d62))
     (pad "2" smd rect (at 1.65 0 270) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 54 "Net-(D7-Pad2)") (pinfunction "A") (pintype "passive") (tstamp c69a4a08-fb84-4571-9982-802ea557f9b2))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+    (model "${KIPRJMOD}/../libraries/models/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -297,6 +297,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1003F25")
+    (property "mouser#" "660-RN73H1JTD1003F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/516a4ad5-314a-4bee-a7d3-404e591c8af0")
     (attr smd)
     (fp_text reference "R24" (at 0 -1.43 90) (layer "F.SilkS")
@@ -322,10 +324,10 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 86f67d61-a2b4-4cf8-8a62-bfc09e12d9c9))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp f9ed98ab-3956-45d4-b947-6817e5fc4abf))
     (pad "1" smd roundrect (at -0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 40 "M-Bus-1") (pintype "passive") (tstamp 38bb0f2b-b54f-4d6e-9315-a18186d467aa))
+      (net 40 "M-Bus") (pintype "passive") (tstamp 38bb0f2b-b54f-4d6e-9315-a18186d467aa))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp 31f66b7b-d596-4b40-883d-34e641c086a4))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+      (net 33 "GNDS") (pintype "passive") (tstamp 31f66b7b-d596-4b40-883d-34e641c086a4))
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -339,6 +341,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD2002B10")
+    (property "mouser#" "660-RN73H1JTD2002B10")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/4786a709-7a88-426f-bf99-e2de0f50ec1a")
     (attr smd)
     (fp_text reference "R25" (at 0 1.5 90) (layer "F.SilkS")
@@ -366,54 +370,8 @@
     (pad "1" smd roundrect (at -0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 36 "Net-(C8-Pad1)") (pintype "passive") (tstamp 8a4f3c1c-e2f0-4363-a4bd-cff08e4d822d))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 37 "VBUS+") (pintype "passive") (tstamp b62515ff-298f-4404-a6ff-0ea627ecc710))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
-    (tedit 5F68FEEF) (tstamp 12cd7972-20b7-4411-b61f-64804a10ea28)
-    (at 129.5 97.5)
-    (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-    (tags "capacitor handsolder")
-    (property "Price" "")
-    (property "Product" "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D")
-    (property "Sheetfile" "m-bus-module.kicad_sch")
-    (property "Sheetname" "")
-    (property "manf#" "C1206C104M6RACTU")
-    (property "mouser#" "80-C1206C104M6R")
-    (path "/7112d2ae-7915-4f1a-aae6-e71244f669d8")
-    (attr smd)
-    (fp_text reference "C5" (at 2.8 0) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp e7ccd444-f96f-4821-ab86-eeba9305f02b)
-    )
-    (fp_text value "100nF" (at 0 1.43) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp c6d5303d-543e-443e-b105-01b30dda091b)
-    )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
-      (effects (font (size 0.4 0.4) (thickness 0.06)))
-      (tstamp 9a9932fd-7620-4d42-8259-07a4d8d5f0d5)
-    )
-    (fp_line (start -0.146267 0.51) (end 0.146267 0.51) (layer "F.SilkS") (width 0.12) (tstamp 953486d0-8a04-481a-9cb3-429397b3237c))
-    (fp_line (start -0.146267 -0.51) (end 0.146267 -0.51) (layer "F.SilkS") (width 0.12) (tstamp d527b02b-875b-4fe2-afa6-77d0beb66754))
-    (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer "F.CrtYd") (width 0.05) (tstamp 01db55fc-f2ab-465b-9525-6186a5d68868))
-    (fp_line (start -1.65 0.73) (end -1.65 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp 1da08b61-e38a-47c0-a30b-9fc7d843ca7e))
-    (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp 4c87bb80-1a4d-4785-87ca-ea55b69c038d))
-    (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer "F.CrtYd") (width 0.05) (tstamp d50b858f-870b-4b80-a32f-fd9892957fb1))
-    (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 16a07c45-b12b-43bc-8c79-7178503fc852))
-    (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 97ae7c5c-82d6-4ef2-9c0e-e358781495db))
-    (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp bb1ca48c-9b80-4152-b297-fca398737a72))
-    (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp f055be03-112c-40e8-8161-b194faa2fec8))
-    (pad "1" smd roundrect (at -0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 5 "+3V3") (pintype "passive") (tstamp be1dbac3-9c84-4918-96c9-d1a9a5c4faee))
-    (pad "2" smd roundrect (at 0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 2 "GND") (pintype "passive") (tstamp 55bb8743-534b-49f9-8cd8-f09cab68a3af))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+      (net 37 "VBUS") (pintype "passive") (tstamp b62515ff-298f-4404-a6ff-0ea627ecc710))
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -461,7 +419,7 @@
       (net 8 "Net-(D4-Pad1)") (pinfunction "A1") (pintype "passive") (tstamp 79395739-5b58-4aae-aef4-d23a7b2201c1))
     (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "A2") (pintype "passive") (tstamp 864830c7-6e74-464c-9714-07feda4a225a))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/D_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -476,8 +434,8 @@
     (property "Product" "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
-    (property "manf#" "C1206C104M6RACTU")
-    (property "mouser#" "80-C1206C104M6R")
+    (property "manf#" "C0603C104M4RACTU")
+    (property "mouser#" "80-C0603C104M4R")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/bfd6ac5c-42ff-44fe-a8f7-7f930bd312ce")
     (attr smd)
     (fp_text reference "C8" (at 0 1.4 90) (layer "F.SilkS")
@@ -505,8 +463,8 @@
     (pad "1" smd roundrect (at -0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 36 "Net-(C8-Pad1)") (pintype "passive") (tstamp ece7f29f-b824-435c-9c7b-cb43cd5ab28f))
     (pad "2" smd roundrect (at 0.8625 0 270) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp e8fd0535-6a40-4369-b4e1-2f7332303594))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+      (net 33 "GNDS") (pintype "passive") (tstamp e8fd0535-6a40-4369-b4e1-2f7332303594))
+    (model "${KIPRJMOD}/../libraries/models/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1702,7 +1660,7 @@
       (net 1 "Net-(C1-Pad1)") (pintype "passive") (tstamp 37a1a06a-0816-4038-a6f2-ac6d4d3b7116))
     (pad "2" smd roundrect (at 1.5625 0 270) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
       (net 2 "GND") (pintype "passive") (tstamp c32ef01f-6cc6-4b1c-b8f1-2a57b102b3c0))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1748,7 +1706,7 @@
       (net 6 "Net-(D1-Pad1)") (pintype "passive") (tstamp c5c924a2-bc0e-4c14-adc4-fe078f64fb1f))
     (pad "2" smd roundrect (at 1.55 0) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308)
       (net 2 "GND") (pintype "passive") (tstamp 777046a1-fa49-43cf-bcfd-3bc77a0724c5))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1801,7 +1759,7 @@
       (net 1 "Net-(C1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 41cee8e5-0d4f-40a9-a711-cc0ebbf9d89d))
     (pad "2" smd rect (at 1.25 0 180) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "Net-(D1-Pad1)") (pinfunction "A") (pintype "passive") (tstamp cf54f418-c583-4eda-be64-e2658e9d7854))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl"
+    (model "${KIPRJMOD}/../libraries/models/D_SOD-323.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1815,6 +1773,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1001B25")
+    (property "mouser#" "660-RN73H1JTD1001B25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/52f54a5a-70f6-4687-8b4b-f4399d33e8cb")
     (attr smd)
     (fp_text reference "R13" (at -2.3 -0.5 180) (layer "F.SilkS")
@@ -1843,7 +1803,7 @@
       (net 50 "Net-(R13-Pad1)") (pintype "passive") (tstamp 5adf54c6-a2f9-483d-ac42-47e0e7f8b81d))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 48 "Net-(R11-Pad1)") (pintype "passive") (tstamp 83c7a0c1-48ab-4709-aece-4f45cf0d2dcc))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1889,7 +1849,7 @@
       (net 8 "Net-(D4-Pad1)") (pintype "passive") (tstamp a2abc84b-8987-4a83-b329-dceb6c04fe7c))
     (pad "2" smd roundrect (at 1.55 0 180) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308)
       (net 4 "S0_1") (pintype "passive") (tstamp 830d86b3-78eb-4c6c-a352-bf19ba50bd18))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1903,6 +1863,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1803F25")
+    (property "mouser#" "660-RN73H1JTD1803F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/6abe2460-5a3b-467f-8fc7-0238d1febb04")
     (attr smd)
     (fp_text reference "R12" (at 2.4 0 180) (layer "F.SilkS")
@@ -1930,8 +1892,8 @@
     (pad "1" smd roundrect (at -0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 49 "Net-(R12-Pad1)") (pintype "passive") (tstamp 98161390-2c72-4710-b5ee-ad8136a491c3))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp c763810b-d6a0-42c7-a6cc-22f9b0524543))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+      (net 33 "GNDS") (pintype "passive") (tstamp c763810b-d6a0-42c7-a6cc-22f9b0524543))
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1984,7 +1946,7 @@
       (net 6 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 21d4bf72-eb14-493d-94e3-c4cdff234138))
     (pad "2" smd rect (at 0.7 0 180) (size 0.6 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "A") (pintype "passive") (tstamp 1e9f7999-5d8c-460d-852c-486dc045b7ac))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-523.wrl"
+    (model "${KIPRJMOD}/../libraries/models/D_SOD-523.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1998,6 +1960,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1002F25")
+    (property "mouser#" "660-RN73H1TD1002F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/cc293cde-799f-43e2-bcdf-4a13b2938b87")
     (attr smd)
     (fp_text reference "R14" (at -2.3 0 180) (layer "F.SilkS")
@@ -2025,8 +1989,8 @@
     (pad "1" smd roundrect (at -0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 34 "Net-(C7-Pad1)") (pintype "passive") (tstamp 349f3e24-730a-4cfe-9866-61bc15b1473b))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 37 "VBUS+") (pintype "passive") (tstamp 1c0e3b13-fd8d-4bae-8029-f091c72eefff))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+      (net 37 "VBUS") (pintype "passive") (tstamp 1c0e3b13-fd8d-4bae-8029-f091c72eefff))
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2040,6 +2004,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1002F25")
+    (property "mouser#" "660-RN73H1TD1002F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/1346e865-6487-435e-a050-bcfd8cb598e5")
     (attr smd)
     (fp_text reference "R7" (at -2.6 0 -270) (layer "F.SilkS")
@@ -2068,7 +2034,7 @@
       (net 14 "MBus_RX") (pintype "passive") (tstamp 665cd4c9-9c8a-4c3b-9cb1-e64fa27ce651))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "Net-(Q1-Pad1)") (pintype "passive") (tstamp 739630ca-1aa6-407c-973b-a0e49c00de40))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2114,7 +2080,7 @@
       (net 7 "Net-(D3-Pad1)") (pintype "passive") (tstamp b401eca2-204c-47b0-a6cc-cbd09a8de2ad))
     (pad "2" smd roundrect (at 1.55 0 180) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308)
       (net 3 "S0_0") (pintype "passive") (tstamp 30ebadca-c9f5-4eef-93a6-e46a7f5dcb8a))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2175,7 +2141,7 @@
       (net 38 "RS485_B") (pinfunction "B") (pintype "bidirectional") (tstamp ca14d0b0-2600-4ed2-a021-167444e07bec))
     (pad "8" smd roundrect (at 2.475 -1.905 180) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 23a4b9ee-966e-47a6-b50c-dfc53ee72eff))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/../libraries/models/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2189,6 +2155,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1001B25")
+    (property "mouser#" "660-RN73H1JTD1001B25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/30e4f62e-1ae7-4dc6-981a-375a813fad9a")
     (attr smd)
     (fp_text reference "R19" (at 2.3 0 180) (layer "F.SilkS")
@@ -2217,7 +2185,7 @@
       (net 49 "Net-(R12-Pad1)") (pintype "passive") (tstamp 7bc73aeb-ec0d-45ee-992e-c430736a8d71))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 36 "Net-(C8-Pad1)") (pintype "passive") (tstamp 9d5571ca-6665-48f6-b88a-bc4610c06eb6))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2231,6 +2199,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1000F50")
+    (property "mouser#" "660-RN73H1JTD1000F50")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/fea8b10d-4e18-4ef3-bfdb-fb9292bbfeda")
     (attr smd)
     (fp_text reference "R23" (at 0 1.4 90) (layer "F.SilkS")
@@ -2256,10 +2226,10 @@
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 2b01670d-7629-4ddd-8dd1-7eaa9f044dc4))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 65260733-c801-47f9-bbc6-2ab8b16efce8))
     (pad "1" smd roundrect (at -0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 40 "M-Bus-1") (pintype "passive") (tstamp e3872415-a093-4caa-87ad-3216dccb770a))
+      (net 40 "M-Bus") (pintype "passive") (tstamp e3872415-a093-4caa-87ad-3216dccb770a))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 54 "Net-(D7-Pad2)") (pintype "passive") (tstamp 6e5e32a4-dbce-49c6-9f7c-8fce3695fda7))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2305,7 +2275,7 @@
       (net 3 "S0_0") (pintype "passive") (tstamp 5d8898d0-524f-4fc9-9e68-966b1883c5f1))
     (pad "2" smd roundrect (at 1.55 0) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308)
       (net 5 "+3V3") (pintype "passive") (tstamp 816d9601-af08-4260-a966-ab159c080a6c))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2380,7 +2350,7 @@
       (net 32 "MBus_TX") (pinfunction "Pin_13") (pintype "passive") (tstamp c7e0938f-9b18-4d30-91b0-1ef6784bcce7))
     (pad "14" thru_hole oval (at 0 33.02 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_14") (pintype "passive") (tstamp 5b21f87b-558d-4643-ad6d-8779a7c34bb1))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/../libraries/models/PinHeader_1x14_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2427,10 +2397,10 @@
     (pad "1" smd roundrect (at -0.9375 -0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 51 "Net-(Q3-Pad1)") (pinfunction "G") (pintype "input") (tstamp cce5dcfd-83c3-4101-a1a2-9f1f04c47125))
     (pad "2" smd roundrect (at -0.9375 0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 37 "VBUS+") (pinfunction "S") (pintype "passive") (tstamp d6b60ba2-e900-45a7-8a28-a0f50cbb4716))
+      (net 37 "VBUS") (pinfunction "S") (pintype "passive") (tstamp d6b60ba2-e900-45a7-8a28-a0f50cbb4716))
     (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 35 "Net-(D6-Pad2)") (pinfunction "D") (pintype "passive") (tstamp 53b14fd1-879a-41ad-baa1-67e390332177))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+    (model "${KIPRJMOD}/../libraries/models/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2444,6 +2414,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD4701F100")
+    (property "mouser#" "660-RN73H1JT4701F100")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/d00c25f7-9a6c-455e-964f-afaef373a0bb")
     (attr smd)
     (fp_text reference "R16" (at 0 -1.43 90) (layer "F.SilkS")
@@ -2471,8 +2443,8 @@
     (pad "1" smd roundrect (at -0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 51 "Net-(Q3-Pad1)") (pintype "passive") (tstamp 955fd4ee-c484-4e5c-9520-e1f0bed04977))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 37 "VBUS+") (pintype "passive") (tstamp 397ac91d-280a-4afb-8b64-d215e59a65dd))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+      (net 37 "VBUS") (pintype "passive") (tstamp 397ac91d-280a-4afb-8b64-d215e59a65dd))
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2487,8 +2459,8 @@
     (property "Product" "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
-    (property "manf#" "C1206C104M6RACTU")
-    (property "mouser#" "80-C1206C104M6R")
+    (property "manf#" "C0603C104M4RACTU")
+    (property "mouser#" "80-C0603C104M4R")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/3b62aab5-3dad-4878-bb61-8347576648c7")
     (attr smd)
     (fp_text reference "C10" (at 0 6.1 270) (layer "F.SilkS")
@@ -2514,10 +2486,10 @@
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 5ecdaa53-33db-4e16-bb5a-14b7e356d94a))
     (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp dac4828a-8e1e-4c51-ada3-7f50956849d9))
     (pad "1" smd roundrect (at -0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 37 "VBUS+") (pintype "passive") (tstamp 394c09ca-56b1-4151-a8e9-1c1ae5aa9063))
+      (net 37 "VBUS") (pintype "passive") (tstamp 394c09ca-56b1-4151-a8e9-1c1ae5aa9063))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp 1161f41d-82ec-4a57-b4f0-65e5956011c6))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+      (net 33 "GNDS") (pintype "passive") (tstamp 1161f41d-82ec-4a57-b4f0-65e5956011c6))
+    (model "${KIPRJMOD}/../libraries/models/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2531,6 +2503,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1002F25")
+    (property "mouser#" "660-RN73H1TD1002F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/9c848201-34d9-439b-9c70-61d5f2ee0102")
     (attr smd)
     (fp_text reference "R6" (at 2.7 0 90) (layer "F.SilkS")
@@ -2559,7 +2533,7 @@
       (net 32 "MBus_TX") (pintype "passive") (tstamp f7a2cf2e-033d-4a1a-9ac8-18e3c1c37533))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+3V3") (pintype "passive") (tstamp 9a105352-7376-4d5b-949d-7f1c5e433c3c))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2574,8 +2548,8 @@
     (property "Product" "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
-    (property "manf#" "C1206C104M6RACTU")
-    (property "mouser#" "80-C1206C104M6R")
+    (property "manf#" "C0603C104M4RACTU")
+    (property "mouser#" "80-C0603C104M4R")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/2628ad9e-cd26-4392-a0a4-322c996d157b")
     (attr smd)
     (fp_text reference "C7" (at 0 -1.43 90) (layer "F.SilkS")
@@ -2603,8 +2577,8 @@
     (pad "1" smd roundrect (at -0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 34 "Net-(C7-Pad1)") (pintype "passive") (tstamp e07fa7fc-eb3c-4806-ab58-93616849914b))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp 0fc2b9f4-4f6e-4d54-bc89-17860bcc6a51))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+      (net 33 "GNDS") (pintype "passive") (tstamp 0fc2b9f4-4f6e-4d54-bc89-17860bcc6a51))
+    (model "${KIPRJMOD}/../libraries/models/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2647,14 +2621,14 @@
     (pad "2" thru_hole circle locked (at -7.5 0 270) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask)
       (net 39 "RS485_A") (pinfunction "Pin_2") (pintype "passive") (tstamp 307c47ab-7c2c-48a6-8715-4e8fa0f63fe8))
     (pad "3" thru_hole circle locked (at -2.5 0 270) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask)
-      (net 33 "M-Bus-2") (pinfunction "Pin_3") (pintype "passive") (tstamp 1371e2bc-791d-47cf-96fa-e0283b021c8c))
+      (net 33 "GNDS") (pinfunction "Pin_3") (pintype "passive") (tstamp 1371e2bc-791d-47cf-96fa-e0283b021c8c))
     (pad "4" thru_hole circle locked (at 2.5 0 270) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask)
-      (net 40 "M-Bus-1") (pinfunction "Pin_4") (pintype "passive") (tstamp 3fe3d407-0957-4cee-8e0c-7fb0d00119d8))
+      (net 40 "M-Bus") (pinfunction "Pin_4") (pintype "passive") (tstamp 3fe3d407-0957-4cee-8e0c-7fb0d00119d8))
     (pad "5" thru_hole circle locked (at 7.5 0 270) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask)
-      (net 33 "M-Bus-2") (pinfunction "Pin_5") (pintype "passive") (tstamp 6ba4f496-d97e-4b6b-aeee-2b345df9065c))
+      (net 33 "GNDS") (pinfunction "Pin_5") (pintype "passive") (tstamp 6ba4f496-d97e-4b6b-aeee-2b345df9065c))
     (pad "6" thru_hole circle locked (at 12.5 0 270) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask)
-      (net 37 "VBUS+") (pinfunction "Pin_6") (pintype "passive") (tstamp a3515e31-ddcd-4c5d-a4de-805ec62b7b8b))
-    (model "/home/fabian/projects/grayc/inoa/satellite/electrics/libraries/models/1935200.step"
+      (net 37 "VBUS") (pinfunction "Pin_6") (pintype "passive") (tstamp a3515e31-ddcd-4c5d-a4de-805ec62b7b8b))
+    (model "${KIPRJMOD}/../libraries/models/1935200.step"
       (offset (xyz 22.5 44.5 -39))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -2700,7 +2674,7 @@
       (net 6 "Net-(D1-Pad1)") (pintype "passive") (tstamp 247aefbe-08fc-456d-8e00-246e541d8cde))
     (pad "2" smd roundrect (at 1.4875 0 180) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.175439)
       (net 9 "VCC") (pintype "passive") (tstamp 3ea45e28-aa10-4b97-8d16-c3155f0b65ec))
-    (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/Fuse_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2714,6 +2688,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1803F25")
+    (property "mouser#" "660-RN73H1JTD1803F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/975f84e9-dc03-4771-8523-c1a21eb4809a")
     (attr smd)
     (fp_text reference "R11" (at 0 -1.43 90) (layer "F.SilkS")
@@ -2742,7 +2718,7 @@
       (net 48 "Net-(R11-Pad1)") (pintype "passive") (tstamp 87af42d1-8c08-4c94-898a-c911fecf609d))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 47 "Net-(R10-Pad2)") (pintype "passive") (tstamp 94b00495-ead5-4831-aba6-393eed4a8963))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2781,14 +2757,14 @@
     (pad "1" smd rect locked (at -3.24 -1.27 180) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 46 "Net-(R10-Pad1)") (pintype "passive") (tstamp 9f66f742-4465-419d-8de4-50c63c3914c0))
     (pad "3" smd rect locked (at -3.24 1.27 180) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp df884e43-58fc-48a1-a545-d30a3cb1db71))
+      (net 33 "GNDS") (pintype "passive") (tstamp df884e43-58fc-48a1-a545-d30a3cb1db71))
     (pad "4" smd rect locked (at 3.24 1.27 180) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp 9fca04d6-05b4-4aca-849d-78e87c62073f))
+      (net 33 "GNDS") (pintype "passive") (tstamp 9fca04d6-05b4-4aca-849d-78e87c62073f))
     (pad "5" smd rect locked (at 3.24 0 180) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 32 "MBus_TX") (pintype "passive") (tstamp ba779e99-3de7-4aa7-8773-2e1247dd7e38))
     (pad "6" smd rect locked (at 3.24 -1.27 180) (size 1.53 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "+3V3") (pintype "power_in") (tstamp 6001eb5e-2e1a-44d2-aeec-f28a97f30823))
-    (model "/home/fabian/projects/grayc/inoa/satellite/electrics/libraries/models/VOM452T.step"
+    (model "${KIPRJMOD}/../libraries/models/VOM452T.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 -90))
@@ -2802,6 +2778,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1003F25")
+    (property "mouser#" "660-RN73H1JTD1003F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/653a3992-1303-4194-9a73-8e88cf637607")
     (attr smd)
     (fp_text reference "R15" (at 2.4 0 180) (layer "F.SilkS")
@@ -2830,7 +2808,7 @@
       (net 43 "Net-(Q2-Pad1)") (pintype "passive") (tstamp 9bb1b910-8ccf-495d-bfe6-f59ea381d71e))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 34 "Net-(C7-Pad1)") (pintype "passive") (tstamp 991b953c-6fe5-4784-8fd0-677b79bc56f2))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2880,7 +2858,7 @@
       (net 5 "+3V3") (pinfunction "E") (pintype "passive") (tstamp a6ca0014-fc07-4732-885d-8a7960b7d4c3))
     (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 42 "Net-(Q1-Pad3)") (pinfunction "C") (pintype "passive") (tstamp 3fc5f0c6-b153-4d2b-a97b-280ebd06937c))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+    (model "${KIPRJMOD}/../libraries/models/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2895,8 +2873,8 @@
     (property "Product" "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
-    (property "manf#" "C1206C104M6RACTU")
-    (property "mouser#" "80-C1206C104M6R")
+    (property "manf#" "C0603C104M4RACTU")
+    (property "mouser#" "80-C0603C104M4R")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/1ea7c432-6819-4e5a-8408-874a185950ff")
     (attr smd)
     (fp_text reference "C6" (at -2.7 0 90) (layer "F.SilkS")
@@ -2924,8 +2902,8 @@
     (pad "1" smd roundrect (at -0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+3V3") (pintype "passive") (tstamp 73bc975f-09c3-4dda-bb02-860b8380d6ae))
     (pad "2" smd roundrect (at 0.8625 0 90) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp 97962c1e-db75-4192-be44-f60315edb557))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
+      (net 33 "GNDS") (pintype "passive") (tstamp 97962c1e-db75-4192-be44-f60315edb557))
+    (model "${KIPRJMOD}/../libraries/models/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3000,7 +2978,7 @@
       (net 4 "S0_1") (pinfunction "Pin_13") (pintype "passive") (tstamp 47073deb-2847-4d06-8191-ed9cde79fa59))
     (pad "14" thru_hole oval (at 0 33.02 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 21 "unconnected-(J3-Pad14)") (pinfunction "Pin_14") (pintype "passive+no_connect") (tstamp 6955963b-8487-459d-9325-b624685016d5))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x14_P2.54mm_Vertical.wrl"
+    (model "${KIPRJMOD}/../libraries/models/PinHeader_1x14_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3014,6 +2992,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1003F25")
+    (property "mouser#" "660-RN73H1JTD1003F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/3035cc61-5fd5-4d11-812c-cdca8da66811")
     (attr smd)
     (fp_text reference "R8" (at 0 -1.43 90) (layer "F.SilkS")
@@ -3042,7 +3022,7 @@
       (net 41 "Net-(Q1-Pad1)") (pintype "passive") (tstamp 7f784d11-e39d-4e95-a915-e77e130ed7e1))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "+3V3") (pintype "passive") (tstamp 69286616-cd34-4c9d-886c-1e9f16f6b2e6))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3094,8 +3074,8 @@
     (pad "1" smd rect (at -1.65 0 270) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 34 "Net-(C7-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 88ad517a-f3dd-45ef-9d22-8c6199b35f56))
     (pad "2" smd rect (at 1.65 0 270) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 33 "M-Bus-2") (pinfunction "A") (pintype "passive") (tstamp d2683b99-bb18-4d41-a0c5-df26e16e4210))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+      (net 33 "GNDS") (pinfunction "A") (pintype "passive") (tstamp d2683b99-bb18-4d41-a0c5-df26e16e4210))
+    (model "${KIPRJMOD}/../libraries/models/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3145,7 +3125,7 @@
       (net 2 "GND") (pinfunction "Pin_5") (pintype "passive") (tstamp 158eb902-01cc-4a67-9e01-3e1cb36533df))
     (pad "6" thru_hole circle locked (at 12.5 0 90) (size 1.95 1.95) (drill 1.3) (layers *.Cu *.Mask)
       (net 9 "VCC") (pinfunction "Pin_6") (pintype "passive") (tstamp 3c275369-9d74-4178-921c-b51279497dd1))
-    (model "/home/fabian/projects/grayc/inoa/satellite/electrics/libraries/models/1935200.step"
+    (model "${KIPRJMOD}/../libraries/models/1935200.step"
       (offset (xyz 22.5 44.5 -39))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -3159,6 +3139,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1002F25")
+    (property "mouser#" "660-RN73H1TD1002F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/84dcfc5f-3ab9-419a-aee5-d7b1f03520ff")
     (attr smd)
     (fp_text reference "R17" (at 0 1.5 90) (layer "F.SilkS")
@@ -3187,7 +3169,7 @@
       (net 44 "Net-(Q2-Pad3)") (pintype "passive") (tstamp df9a3f1b-06ee-456d-8961-1b91204b37cf))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 51 "Net-(Q3-Pad1)") (pintype "passive") (tstamp 4c93f8a1-1e0d-4784-a5f0-ec27e7df776f))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3233,7 +3215,7 @@
       (net 5 "+3V3") (pintype "passive") (tstamp 52909277-346a-474b-a081-0f8946fe0d3f))
     (pad "2" smd roundrect (at 1.5625 0 270) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
       (net 2 "GND") (pintype "passive") (tstamp 06d97afc-8151-49dc-8ac2-8a1c100d662e))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3247,6 +3229,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD2002B10")
+    (property "mouser#" "660-RN73H1JTD2002B10")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/cdafaad6-50d4-4030-95cc-fc2ca04085f6")
     (attr smd)
     (fp_text reference "R22" (at 0 -6 -90) (layer "F.SilkS")
@@ -3272,10 +3256,56 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 7c6679b8-86c0-4d47-a587-b6c8f1d54e93))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp d275a10a-2c83-4202-b4c0-418199b34de5))
     (pad "1" smd roundrect (at -0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 40 "M-Bus-1") (pintype "passive") (tstamp 7932969f-7fa3-4d25-8aa4-99b70d95bbc0))
+      (net 40 "M-Bus") (pintype "passive") (tstamp 7932969f-7fa3-4d25-8aa4-99b70d95bbc0))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 52 "Net-(R18-Pad1)") (pintype "passive") (tstamp 416f5903-7db7-4f00-a7eb-c5b17e69a690))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
+    (tedit 5F68FEEF) (tstamp bf1b59cd-286d-4b1f-ae75-42e14253d3af)
+    (at 129.5 97.5)
+    (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+    (tags "capacitor handsolder")
+    (property "Price" "")
+    (property "Product" "https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D")
+    (property "Sheetfile" "m-bus-module.kicad_sch")
+    (property "Sheetname" "")
+    (property "manf#" "C0603C104M4RACTU")
+    (property "mouser#" "80-C0603C104M4R")
+    (path "/135071f0-9e32-4a08-9678-599196151f12")
+    (attr smd)
+    (fp_text reference "C5" (at 0 -1.43) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 13f2d2c0-c4f2-4a1b-a0fe-0db1f65e7ad7)
+    )
+    (fp_text value "100nF" (at 0 1.43) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 904d92b7-82c2-4da2-b8bb-a37b3f4a93cc)
+    )
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+      (effects (font (size 0.4 0.4) (thickness 0.06)))
+      (tstamp 0af1a926-bb30-402c-9d54-638d8c54193e)
+    )
+    (fp_line (start -0.146267 -0.51) (end 0.146267 -0.51) (layer "F.SilkS") (width 0.12) (tstamp 2efe1230-4a03-4e1d-9162-464c7098deda))
+    (fp_line (start -0.146267 0.51) (end 0.146267 0.51) (layer "F.SilkS") (width 0.12) (tstamp c142f3ba-12df-41dc-8e96-03f6061a39bb))
+    (fp_line (start -1.65 -0.73) (end 1.65 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp 158caea1-8be4-4d68-b695-e535f7813c3b))
+    (fp_line (start -1.65 0.73) (end -1.65 -0.73) (layer "F.CrtYd") (width 0.05) (tstamp 6264c159-2657-485d-a086-602f545dfbf2))
+    (fp_line (start 1.65 -0.73) (end 1.65 0.73) (layer "F.CrtYd") (width 0.05) (tstamp c9d0c321-d8c6-4483-89da-6709d1d785ac))
+    (fp_line (start 1.65 0.73) (end -1.65 0.73) (layer "F.CrtYd") (width 0.05) (tstamp e1b0380f-01af-4f4c-986f-502b633a3c03))
+    (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp b142b88f-5214-4eb4-bfeb-5c74e74881c7))
+    (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp d867e268-3e45-45c1-9762-565002ef251c))
+    (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp e02b47af-92a8-4b6e-841f-f88d0fa73eb7))
+    (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp fcb0980f-77fc-4d55-a5dd-8e5623c3fa0b))
+    (pad "1" smd roundrect (at -0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 5 "+3V3") (pintype "passive") (tstamp 628e4825-a201-48a3-bbe8-55f8491fa40d))
+    (pad "2" smd roundrect (at 0.8625 0) (size 1.075 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+      (net 2 "GND") (pintype "passive") (tstamp 4be2886c-3881-4e63-a4c5-fe28538180f1))
+    (model "${KIPRJMOD}/../libraries/models/C_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3322,10 +3352,10 @@
     (pad "1" smd roundrect (at -0.9375 -0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 43 "Net-(Q2-Pad1)") (pinfunction "B") (pintype "input") (tstamp f61f10b3-7454-4f1e-bcb8-96e9d8c7e006))
     (pad "2" smd roundrect (at -0.9375 0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pinfunction "E") (pintype "passive") (tstamp e2cfb055-efcc-4c97-8848-6b15df2b09ea))
+      (net 33 "GNDS") (pinfunction "E") (pintype "passive") (tstamp e2cfb055-efcc-4c97-8848-6b15df2b09ea))
     (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 44 "Net-(Q2-Pad3)") (pinfunction "C") (pintype "passive") (tstamp 3e96de97-6396-4002-819f-111cd1307f5d))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+    (model "${KIPRJMOD}/../libraries/models/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3339,6 +3369,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1002F25")
+    (property "mouser#" "660-RN73H1TD1002F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/5e0ce630-5c50-493a-978d-2670d8883f1f")
     (attr smd)
     (fp_text reference "R10" (at 0 1.4 90) (layer "F.SilkS")
@@ -3367,7 +3399,7 @@
       (net 46 "Net-(R10-Pad1)") (pintype "passive") (tstamp 0cd77f7d-d460-4f33-acea-ec52b8800920))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 47 "Net-(R10-Pad2)") (pintype "passive") (tstamp 01e6bc7f-1c40-4a7d-b55f-b467fd355ca5))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3417,10 +3449,10 @@
     (fp_line (start 0.25 0.4) (end -0.35 0) (layer "F.Fab") (width 0.1) (tstamp e07dac1a-a540-4074-9f0a-edc06dec3938))
     (fp_line (start 0.25 -0.4) (end 0.25 0.4) (layer "F.Fab") (width 0.1) (tstamp e5375fae-8d12-42aa-b7f4-67a68780c27e))
     (pad "1" smd rect (at -1.65 0 270) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 37 "VBUS+") (pinfunction "K") (pintype "passive") (tstamp 2b2ac609-6ccd-4193-83aa-53e6ee0b35bc))
+      (net 37 "VBUS") (pinfunction "K") (pintype "passive") (tstamp 2b2ac609-6ccd-4193-83aa-53e6ee0b35bc))
     (pad "2" smd rect (at 1.65 0 270) (size 0.9 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 35 "Net-(D6-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 016bea8d-2b52-47c8-976b-5a0549a53b57))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.wrl"
+    (model "${KIPRJMOD}/../libraries/models/D_SOD-123.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3491,7 +3523,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp bab3fc61-7ffc-43fd-b7e1-a49971a5fd5e))
     (pad "3" smd rect (at -4.2 2.28 90) (size 2.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "+3V3") (pinfunction "Output") (pintype "power_out") (tstamp aa150034-db8e-4e55-b98f-05afdd8af91a))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-252-3_TabPin2.wrl"
+    (model "${KIPRJMOD}/../libraries/models/TO-252-3_TabPin2.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3505,6 +3537,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD2002B10")
+    (property "mouser#" "660-RN73H1JTD2002B10")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/22451217-1b85-4edd-8dab-b485c381d01c")
     (attr smd)
     (fp_text reference "R21" (at -3.2 0 90) (layer "F.SilkS")
@@ -3533,7 +3567,7 @@
       (net 54 "Net-(D7-Pad2)") (pintype "passive") (tstamp cc2ebcc1-7b9a-4332-97f0-fe8dd2d9bd70))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 53 "Net-(R20-Pad2)") (pintype "passive") (tstamp 1ab401d4-1991-4103-bfe7-dc30e3f96501))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3579,7 +3613,7 @@
       (net 3 "S0_0") (pintype "passive") (tstamp 1d204aa6-a518-43b9-a5b1-23f9a215d4d4))
     (pad "2" smd roundrect (at 1.5625 0 180) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
       (net 2 "GND") (pintype "passive") (tstamp 2a0f2ddd-2a3b-4046-9180-2a79675887f3))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3654,7 +3688,7 @@
     (pad "3" smd rect locked (at -2.794 0.635 180) (size 1.4224 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 53 "Net-(R20-Pad2)") (pinfunction "+") (pintype "input") (tstamp 1822fe31-ced6-4c58-bd67-6150c7dfe5be))
     (pad "4" smd rect locked (at -2.794 1.905 180) (size 1.4224 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 33 "M-Bus-2") (pinfunction "V-") (pintype "power_in") (tstamp ac997055-b00d-466e-8e45-1d2d838b5f97))
+      (net 33 "GNDS") (pinfunction "V-") (pintype "power_in") (tstamp ac997055-b00d-466e-8e45-1d2d838b5f97))
     (pad "5" smd rect locked (at 2.794 1.905 180) (size 1.4224 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 48 "Net-(R11-Pad1)") (pinfunction "+") (pintype "input") (tstamp 9e493dfe-75da-48fa-ad61-eaa217b673f3))
     (pad "6" smd rect locked (at 2.794 0.635 180) (size 1.4224 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
@@ -3662,8 +3696,8 @@
     (pad "7" smd rect locked (at 2.794 -0.635 180) (size 1.4224 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 47 "Net-(R10-Pad2)") (pintype "output") (tstamp af0c3389-d840-454a-bd30-19a5abe636af))
     (pad "8" smd rect locked (at 2.794 -1.905 180) (size 1.4224 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 37 "VBUS+") (pinfunction "V+") (pintype "power_in") (tstamp 2a0c4c42-99ab-452d-8d46-27d234ba4801))
-    (model "/home/fabian/projects/grayc/inoa/satellite/electrics/libraries/models/MC33072DR2.step"
+      (net 37 "VBUS") (pinfunction "V+") (pintype "power_in") (tstamp 2a0c4c42-99ab-452d-8d46-27d234ba4801))
+    (model "${KIPRJMOD}/../libraries/models/MC33072DR2.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -3677,6 +3711,8 @@
     (tags "capacitor electrolytic")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "EDK476M050S9HAA")
+    (property "mouser#" "80-EDK476M050S9HAA")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/32044169-2061-48ab-a1a5-d57cf63ad538")
     (attr smd)
     (fp_text reference "C9" (at -4.1 -3.4) (layer "F.SilkS")
@@ -3725,10 +3761,10 @@
     (fp_line (start -2.389838 -1.645) (end -2.389838 -1.015) (layer "F.Fab") (width 0.1) (tstamp c4587029-7976-42ee-b58c-7caa0906b2a7))
     (fp_circle (center 0 0) (end 3.15 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 356d9e4b-09df-4d14-80f7-140c69842faa))
     (pad "1" smd roundrect (at -2.7 0) (size 3.5 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15625)
-      (net 37 "VBUS+") (pintype "passive") (tstamp 2265274a-1cf0-4b44-bf85-d1544e62bb85))
+      (net 37 "VBUS") (pintype "passive") (tstamp 2265274a-1cf0-4b44-bf85-d1544e62bb85))
     (pad "2" smd roundrect (at 2.7 0) (size 3.5 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15625)
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp 654d1b34-7c39-4349-9200-12966b3bf1c6))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_6.3x7.7.wrl"
+      (net 33 "GNDS") (pintype "passive") (tstamp 654d1b34-7c39-4349-9200-12966b3bf1c6))
+    (model "${KIPRJMOD}/../libraries/models/CP_Elec_6.3x7.7.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3742,6 +3778,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1003F25")
+    (property "mouser#" "660-RN73H1JTD1003F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/19bfaeeb-ed2b-4b68-ab83-4993a0033084")
     (attr smd)
     (fp_text reference "R20" (at -3.2 0 90) (layer "F.SilkS")
@@ -3767,10 +3805,10 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp b36baf84-1cea-4352-ad02-0db2036436d2))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp d6bda959-1fe7-4a3e-83cc-abfbb17108d3))
     (pad "1" smd roundrect (at -0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 33 "M-Bus-2") (pintype "passive") (tstamp fe81e014-3edf-443f-85d3-520b3ab288a6))
+      (net 33 "GNDS") (pintype "passive") (tstamp fe81e014-3edf-443f-85d3-520b3ab288a6))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 53 "Net-(R20-Pad2)") (pintype "passive") (tstamp 65af1504-1ea5-44e1-aafa-630384e9ddf3))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3784,6 +3822,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1001B25")
+    (property "mouser#" "660-RN73H1JTD1001B25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/89c045f5-50eb-4f6f-b8a4-9134ac268641")
     (attr smd)
     (fp_text reference "R9" (at 2.6 0 90) (layer "F.SilkS")
@@ -3812,7 +3852,7 @@
       (net 42 "Net-(Q1-Pad3)") (pintype "passive") (tstamp 2eaad9dd-ed86-4d17-8267-8c7e71d1f6d3))
     (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 45 "Net-(R9-Pad2)") (pintype "passive") (tstamp 381607d8-db17-44b4-86c0-ba32bd0463a4))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3858,7 +3898,7 @@
       (net 4 "S0_1") (pintype "passive") (tstamp 68c7dd1a-728b-45d6-957c-248465da0cdf))
     (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
       (net 2 "GND") (pintype "passive") (tstamp c2bdd96b-ae16-41e0-9c01-22c8cd929bb9))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3904,7 +3944,7 @@
       (net 4 "S0_1") (pintype "passive") (tstamp 534d87c1-bf1e-4965-ad11-3e2aa081e8e8))
     (pad "2" smd roundrect (at 1.55 0) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308)
       (net 5 "+3V3") (pintype "passive") (tstamp c7bd964e-6063-4802-85ea-2a5dd3fba324))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3918,6 +3958,8 @@
     (tags "resistor handsolder")
     (property "Sheetfile" "m-bus.kicad_sch")
     (property "Sheetname" "M-Bus")
+    (property "manf#" "RN73H1JTTD1003F25")
+    (property "mouser#" "660-RN73H1JTD1003F25")
     (path "/c020f89c-6a13-4532-8775-2e97fb1ce607/50b954cc-5aa7-49b0-a29e-c43a069d1d3b")
     (attr smd)
     (fp_text reference "R18" (at 0 1.5 -90) (layer "F.SilkS")
@@ -3946,7 +3988,7 @@
       (net 52 "Net-(R18-Pad1)") (pintype "passive") (tstamp 6a9c7bc3-ab30-463a-928f-db8796bc6db5))
     (pad "2" smd roundrect (at 0.9125 0 270) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 50 "Net-(R13-Pad1)") (pintype "passive") (tstamp 88b981ae-9bdb-41f9-8dbe-d622d981265d))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3994,7 +4036,7 @@
       (net 7 "Net-(D3-Pad1)") (pinfunction "A1") (pintype "passive") (tstamp 812c7326-9f47-490c-bc77-b09227e4dc12))
     (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "A2") (pintype "passive") (tstamp 519cd466-4c07-4a29-98ea-e4560f870a66))
-    (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/D_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4549,7 +4591,7 @@
   (segment (start 175.5 104.0875) (end 178 104.0875) (width 0.25) (layer "F.Cu") (net 54) (tstamp e5c30b4f-5724-4ded-837a-f05fbca60645))
   (segment (start 168.5 106.65) (end 170.15 105) (width 0.25) (layer "F.Cu") (net 54) (tstamp ef8497a2-ed2e-4617-bb5c-ac4a8e9c8568))
 
-  (zone (net 33) (net_name "M-Bus-2") (layer "F.Cu") (tstamp 8ef15a91-4945-41e7-b0d0-efab3c60867a) (hatch edge 0.508)
+  (zone (net 33) (net_name "GNDS") (layer "F.Cu") (tstamp 8ef15a91-4945-41e7-b0d0-efab3c60867a) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254) (filled_areas_thickness no)
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))

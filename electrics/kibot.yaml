@@ -3,27 +3,6 @@ kibot:
 
 preflight:
   filters:
-    - filter: 'Ignore Input Power pin not driven by any Output Power pins'
-      error: 'power_pin_not_driven'
-      regex:  '.*'
-    - filter: 'Ignore ATECC608A-SSHDA Input Power pin not driven by any Output Power pins'
-      error: 'power_pin_not_driven'
-      regex:  'ATECC608A'
-    - filter: 'Ignore ESP32-WROVER-IE-16MB Input Power pin not driven by any Output Power pins'
-      error: 'power_pin_not_driven'
-      regex:  'ESP32'
-    - filter: 'Ignore W5500 Input Power pin not driven by any Output Power pins'
-      error: 'power_pin_not_driven'
-      regex:  'W5500'
-    - filter: 'Ignore MAX3486 Input Power pin not driven by any Output Power pins'
-      error: 'power_pin_not_driven'
-      regex:  'MAX3486'
-    - filter: 'Ignore BA033CC0FP-E2 Input Power pin not driven by any Output Power pins'
-      error: 'power_pin_not_driven'
-      regex:  'BA033CC0FP-E2'
-    - filter: 'Ignore Micro_SD_Card_Det_Hirose_DM3AT Input Power pin not driven by any Output Power pins'
-      error: 'power_pin_not_driven'
-      regex:  'Micro_SD_Card_Det_Hirose_DM3AT'
     - filter: 'Ignore silk screen overlap'
       error: 'silk_over_copper'
   run_erc: true
@@ -89,7 +68,7 @@ outputs:
   dir: costs
   options:
     currency: EUR
-    number: 100
+    number: 10
 
 - name: 3D Pic
   comment: Rendered 3D image

@@ -119,18 +119,18 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
-        <field name="manf#">C1206C104M6RACTU</field>
-        <field name="mouser#">80-C1206C104M6R</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Price" value=""/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
-      <property name="manf#" value="C1206C104M6RACTU"/>
-      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="m-bus-module.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7112d2ae-7915-4f1a-aae6-e71244f669d8</tstamps>
+      <tstamps>135071f0-9e32-4a08-9678-599196151f12</tstamps>
     </comp>
     <comp ref="D1">
       <value>25V</value>
@@ -422,13 +422,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
-        <field name="manf#">C1206C104M6RACTU</field>
-        <field name="mouser#">80-C1206C104M6R</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
-      <property name="manf#" value="C1206C104M6RACTU"/>
-      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value="M-Bus"/>
       <property name="Sheetfile" value="m-bus.kicad_sch"/>
       <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
@@ -439,13 +439,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
-        <field name="manf#">C1206C104M6RACTU</field>
-        <field name="mouser#">80-C1206C104M6R</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
-      <property name="manf#" value="C1206C104M6RACTU"/>
-      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value="M-Bus"/>
       <property name="Sheetfile" value="m-bus.kicad_sch"/>
       <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
@@ -456,13 +456,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
-        <field name="manf#">C1206C104M6RACTU</field>
-        <field name="mouser#">80-C1206C104M6R</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
-      <property name="manf#" value="C1206C104M6RACTU"/>
-      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value="M-Bus"/>
       <property name="Sheetfile" value="m-bus.kicad_sch"/>
       <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
@@ -488,13 +488,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
         <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
-        <field name="manf#">C1206C104M6RACTU</field>
-        <field name="mouser#">80-C1206C104M6R</field>
+        <field name="manf#">C0603C104M4RACTU</field>
+        <field name="mouser#">80-C0603C104M4R</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
-      <property name="manf#" value="C1206C104M6RACTU"/>
-      <property name="mouser#" value="80-C1206C104M6R"/>
+      <property name="manf#" value="C0603C104M4RACTU"/>
+      <property name="mouser#" value="80-C0603C104M4R"/>
       <property name="Sheetname" value="M-Bus"/>
       <property name="Sheetfile" value="m-bus.kicad_sch"/>
       <sheetpath names="/M-Bus/" tstamps="/c020f89c-6a13-4532-8775-2e97fb1ce607/"/>
@@ -1304,6 +1304,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="BA033CC0FP-E2">
+      <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/m-bus-module/../libraries/symbols/BA033CC0FP-E2.lib</uri>
+    </library>
     <library logical="Connector">
       <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
@@ -1330,6 +1333,9 @@
     </library>
     <library logical="VOM452T">
       <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/m-bus-module/../libraries/symbols/VOM452T.kicad_sym</uri>
+    </library>
+    <library logical="grayc-logo-negative">
+      <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/m-bus-module/../libraries/images/grayc-logo-negative.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -1366,13 +1372,7 @@
       <node ref="U2" pin="5" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="3" pintype="passive"/>
     </net>
-    <net code="3" name="M-Bus-1">
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="R22" pin="1" pintype="passive"/>
-      <node ref="R23" pin="1" pintype="passive"/>
-      <node ref="R24" pin="1" pintype="passive"/>
-    </net>
-    <net code="4" name="M-Bus-2">
+    <net code="3" name="GNDS">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
@@ -1390,6 +1390,12 @@
       <node ref="U4" pin="4" pintype="passive"/>
       <node ref="U5" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U6" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="4" name="M-Bus">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
     </net>
     <net code="5" name="MBus_RX">
       <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
@@ -1538,7 +1544,7 @@
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="35" name="VBUS+">
+    <net code="35" name="VBUS">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>

@@ -2355,7 +2355,7 @@
       (net 31 "IO21") (pinfunction "SDA") (pintype "bidirectional") (tstamp 61c362b9-dd95-4b5f-ae3a-2fbfac3964c0))
     (pad "8" smd roundrect (at 2.475 1.905 270) (size 1.95 0.6) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 30 "IO22") (pinfunction "SCL") (pintype "input") (tstamp a52c8d1a-d8eb-420e-9c7d-05147dc99e0f))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+    (model "${KIPRJMOD}/../libraries/models/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2432,7 +2432,7 @@
       (net 43 "Net-(BT1-Pad1)") (pinfunction "+") (pintype "passive") (tstamp f7b7cea4-bd16-4fa4-8053-33529b18f1b2))
     (pad "2" smd rect (at 14.68 0) (size 2.54 3.51) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "GND") (pinfunction "-") (pintype "passive") (tstamp 307f059c-034f-413d-a735-41e286f3159d))
-    (model "${KICAD6_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_1058_1x2032.wrl"
+    (model "${KIPRJMOD}/../libraries/models/BatteryHolder_Keystone_1058_1x2032.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2478,7 +2478,7 @@
       (net 1 "+3V3") (pintype "passive") (tstamp d337bedd-aa0b-4401-9bda-d7ac17531682))
     (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.188679)
       (net 2 "GND") (pintype "passive") (tstamp 6ccd433d-6c2a-4816-b21d-4a0768a4b1bf))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/../libraries/models/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
