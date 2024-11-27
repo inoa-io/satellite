@@ -72,6 +72,13 @@ jobs:
           dir: out/
           schema: electrics/m-bus-module/m-bus-module.kicad_sch
           board: electrics/m-bus-module/m-bus-module.kicad_pcb
+      - name: CT Module
+        uses: INTI-CMNB/KiBot@v2_k6
+        with:
+          config: electrics/kibot.yaml
+          dir: out/
+          schema: electrics/ct-module/ct-module.kicad_sch
+          board: electrics/ct-module/ct-module.kicad_pcb
       - name: Install Python
         uses: actions/setup-python@v4
         with:

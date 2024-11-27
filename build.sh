@@ -45,6 +45,7 @@ run_kibot mieterstrom-module
 run_kibot panel-module
 run_kibot soc-module
 run_kibot m-bus-module
+run_kibot ct-module
 
 cp -r out/3d docs/generated
 cp -r out/bom docs/generated
