@@ -60,9 +60,17 @@ The electric metering module is dedicated to be used for interacting with electr
 * 2x pulse interface (S0, Photoelectric barrier, ...)
 * 2x relay driver
 
-#### Current Loop Metering Module
+#### CT Metering Module
 
-_**Coming soon**_
+The CT module is dedicated to be used for EMS use cases. Current transformers (split core) with voltage output may be used (e.g. SCT-013).
+
+It is a base module on level 1 of the stack. Its features are:
+
+* 5V-24V power input
+* 3x CT
+* 1x Analog in (ADC)
+* 1x Digital in (e.g. S0 meters)
+* 1x RS485 interface (ModBus RTU meters)
 
 #### MBus / WMBus Metering Module
 

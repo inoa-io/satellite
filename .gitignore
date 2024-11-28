@@ -36,6 +36,7 @@ electrics/metering-module/metering-module.xml
 electrics/nbiot-extension/nbiot-extension.xml
 electrics/smart-meter-module/smart-meter-module.xml
 electrics/tenement-module/tenement-module.xml
+electrics/ct-module/ct-module.xml
 
 # Build files
 .cache/
