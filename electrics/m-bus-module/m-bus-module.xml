@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/home/fabian/projects/grayc/inoa/satellite/electrics/m-bus-module/m-bus-module.kicad_sch</source>
-    <date>Date1</date>
-    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <date>Tue 07 Jan 2025 02:10:46 PM CET</date>
+    <tool>Eeschema 6.0.11+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>M-Bus Metering Module</title>
         <company>GrayC GmbH</company>
         <rev>1.0</rev>
-        <date>Date2</date>
+        <date>2023-06-27</date>
         <source>m-bus-module.kicad_sch</source>
         <comment number="1" value="Fabian Schlegel"/>
         <comment number="2" value="5-24V Power Supply"/>
@@ -27,7 +27,7 @@
         <title>M-Bus Master Interface</title>
         <company>GrayC GmbH</company>
         <rev>1.0</rev>
-        <date>Date2</date>
+        <date>2023-06-27</date>
         <source>m-bus.kicad_sch</source>
         <comment number="1" value="Fabian Schlegel"/>
         <comment number="2" value="36V Bus Level / 3.3V UART Level"/>
