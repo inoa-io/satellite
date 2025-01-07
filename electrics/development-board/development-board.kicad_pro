@@ -94,8 +94,6 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
@@ -344,7 +342,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -388,9 +386,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.25,
-      "pin_symbol_size": 0.0,
-      "text_offset_ratio": 0.08
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -416,20 +414,8 @@
   },
   "sheets": [
     [
-      "62e8c4d4-266c-4e53-8981-1028251d724c",
+      "93f20687-dc93-4cf9-820c-cf6c98a6080b",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-000061c8894a",
-      "USB_Interface"
-    ],
-    [
-      "00000000-0000-0000-0000-000061d1d020",
-      "Sheet61D1D01F"
-    ],
-    [
-      "00000000-0000-0000-0000-000061db0bd0",
-      "Sheet61DB0BCF"
     ]
   ],
   "text_variables": {}
