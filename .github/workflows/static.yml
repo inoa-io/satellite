@@ -79,6 +79,20 @@ jobs:
           dir: out/
           schema: electrics/ct-module/ct-module.kicad_sch
           board: electrics/ct-module/ct-module.kicad_pcb
+      - name: Debug Module
+        uses: INTI-CMNB/KiBot@v2_k6
+        with:
+          config: electrics/kibot.yaml
+          dir: out/
+          schema: electrics/debug-module/debug-module.kicad_sch
+          board: electrics/debug-module/debug-module.kicad_pcb
+      - name: Dev Board
+        uses: INTI-CMNB/KiBot@v2_k6
+        with:
+          config: electrics/kibot.yaml
+          dir: out/
+          schema: electrics/development-board/development-board.kicad_sch
+          board: electrics/development-board/development-board.kicad_pcb
       - name: Install Python
         uses: actions/setup-python@v4
         with:
