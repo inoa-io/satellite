@@ -13,5 +13,7 @@ nav:
     - 'Mieterstrom Module': technical-guide/mieterstrom-module.md
     - 'M-Bus Module': technical-guide/mbus-module.md
     - 'CT Module': technical-guide/ct-module.md
+    - 'Debug Module': technical-guide/debug-module.md
+    - 'Development Board': technical-guide/development-board.md
   - 'Developer Guide':
     - 'Getting Started': developer-guide/getting-started.md
