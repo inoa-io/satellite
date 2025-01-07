@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "grayc-logo-negative")(type "Legacy")(uri "${KIPRJMOD}/../libraries/images/grayc-logo-negative.lib")(options "")(descr ""))
+)
