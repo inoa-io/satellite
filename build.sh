@@ -47,7 +47,6 @@ run_kibot soc-module
 run_kibot m-bus-module
 run_kibot ct-module
 run_kibot debug-module
-run_kibot debug-module
 run_kibot development-board
 
 cp -r out/3d docs/generated
