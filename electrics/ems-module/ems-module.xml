@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/fabian/projects/grayc/inoa/satellite/electrics/ems-module/ems-module.kicad_sch</source>
+    <date>Mon 03 Feb 2025 03:22:02 PM CET</date>
+    <tool>Eeschema 6.0.11+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CT Module</title>
+        <company>GrayC GmbH</company>
+        <rev>1.0</rev>
+        <date>2024-11-27</date>
+        <source>ems-module.kicad_sch</source>
+        <comment number="1" value="Fabian Schlegel"/>
+        <comment number="2" value=""/>
+        <comment number="3" value="3x CT, 1x Analog In, 1x RS485, 1x S0"/>
+        <comment number="4" value="Metering module for CTs like SCT-013"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="Price" value="0.24"/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d512d14-3ca4-4934-b506-eb07d268c7dc</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.24"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f589ba5-9a37-42a3-9143-d32136fc30cd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">C1206C106M9RACTU</field>
+        <field name="mouser#">80-C1206C106M9R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="C1206C106M9RACTU"/>
+      <property name="mouser#" value="80-C1206C106M9R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f4d5b89-7272-4740-b9b9-d8a78da72a75</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.24"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>345a9ac1-be31-400b-9c5d-4af388112d4b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">C1206C106M9RACTU</field>
+        <field name="mouser#">80-C1206C106M9R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="C1206C106M9RACTU"/>
+      <property name="mouser#" value="80-C1206C106M9R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e3e142a-5a3f-4dbe-9fec-0b99944afc83</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.24"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7112d2ae-7915-4f1a-aae6-e71244f669d8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0u1</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.24</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D</field>
+        <field name="manf#">C1206C104M5RACTU</field>
+        <field name="mouser#">80-C1206C104M5R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Price" value="0.24"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/KEMET/C1206C104M6RACTU?qs=F5EMLAvA7IBTviv6fCZN3A%3D%3D"/>
+      <property name="manf#" value="C1206C104M5RACTU"/>
+      <property name="mouser#" value="80-C1206C104M5R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a8b808d-8215-4e2e-8c97-04cf61a6e048</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">C1206C106M9RACTU</field>
+        <field name="mouser#">80-C1206C106M9R</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="C1206C106M9RACTU"/>
+      <property name="mouser#" value="80-C1206C106M9R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a17f9694-7099-4990-9689-9f803eb9d947</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>25V</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="Price">0.40</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D</field>
+        <field name="manf#">MMSZ5253C-E3-08</field>
+        <field name="mouser#">78-MMSZ5253C-E3-08</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Comchip-Technology/CPDU24V?qs=tw%252BuQ%2FB6PO0bamw1irr2%252Bg%3D%3D"/>
+      <property name="Price" value="0.40"/>
+      <property name="manf#" value="MMSZ5253C-E3-08"/>
+      <property name="mouser#" value="78-MMSZ5253C-E3-08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a76c0baf-6e69-4f8d-a142-018c46047833</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N5819</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Price">0.25</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D</field>
+        <field name="manf#">PMEG4010CEAX</field>
+        <field name="mouser#">771-PMEG4010CEAX</field>
+      </fields>
+      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Price" value="0.25"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D"/>
+      <property name="manf#" value="PMEG4010CEAX"/>
+      <property name="mouser#" value="771-PMEG4010CEAX"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c55033c-55b9-4835-9ab8-f334f8a3ffed</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>3V3</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.32</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D</field>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Price" value="0.32"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CG0603MLC-33LE?qs=m8myXnDJXpXlL5%252BDNWWe1g%3D%3D"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b3fb6a2-ff65-4f66-87d3-45ce9baa7963</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>3V3</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f046ae18-15bf-4972-a4d6-1d4022ceb7ea</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>3V3</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0f1405a-aa1b-4b94-97d4-fcd8b73396bb</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>3V3</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a8d4c2b-2d3e-4d79-921c-511e245e8dcf</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>3V3</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CG0603MLC-3.3LE</field>
+        <field name="mouser#">652-CG0603MLC-3.3LE</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="manf#" value="CG0603MLC-3.3LE"/>
+      <property name="mouser#" value="652-CG0603MLC-3.3LE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f38f5d72-dc27-435f-91d5-011dcbd1b40a</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>25V/1A</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.93</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2</field>
+        <field name="manf#">TR/3216FF1-R</field>
+        <field name="mouser#">504-TR/3216FF1-R</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Price" value="0.93"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/SF-1206HIA100M-2"/>
+      <property name="manf#" value="TR/3216FF1-R"/>
+      <property name="mouser#" value="504-TR/3216FF1-R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11d75bf4-5480-4a2f-baa3-58a51cac0470</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>North</value>
+      <footprint>footprints:PHOENIX_1935200</footprint>
+      <fields>
+        <field name="manf#">1935200</field>
+        <field name="mouser#">651-1935200</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x06" description="Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="1935200"/>
+      <property name="mouser#" value="651-1935200"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff012375-f793-4fe2-bcc9-8296a751529f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>West</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0.45</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Harwin/M20-9991446</field>
+        <field name="manf#">M20-9991446</field>
+        <field name="mouser#">855-M20-9991446</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="0.45"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Harwin/M20-9991446"/>
+      <property name="manf#" value="M20-9991446"/>
+      <property name="mouser#" value="855-M20-9991446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbdd084c-3cde-4340-9de6-6f6ca3f79e91</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>East</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Price">0.45</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Harwin/M20-9991446</field>
+        <field name="manf#">M20-9991446</field>
+        <field name="mouser#">855-M20-9991446</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Price" value="0.45"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Harwin/M20-9991446"/>
+      <property name="manf#" value="M20-9991446"/>
+      <property name="mouser#" value="855-M20-9991446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08601885-ffd0-426c-9b07-2dc479593fb1</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SJ1-3533NG</value>
+      <footprint>SJ1-3533NG:CUI_SJ1-3533NG</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="Availability">In Stock</field>
+        <field name="CUI_PURCHASE_URL">https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-353xng-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector</field>
+        <field name="Description">
+3.5 mm Right-Angle Stereo Jack, 3 Pin PCB Mount, Isolated Ground
+</field>
+        <field name="MF">Same Sky</field>
+        <field name="MP">SJ1-3533NG</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=493917&amp;manufacturer=Same Sky&amp;part_name=SJ1-3533NG&amp;search_term=sj1-3533ng</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=snap</field>
+        <field name="manf#">SJ1-3533NG</field>
+        <field name="mouser#">490-SJ1-3533NG</field>
+      </fields>
+      <libsource lib="SJ1-3533NG" part="SJ1-3533NG" description=""/>
+      <property name="MF" value="Same Sky"/>
+      <property name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=eda"/>
+      <property name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-353xng-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=snap"/>
+      <property name="MP" value="SJ1-3533NG"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=493917&amp;manufacturer=Same Sky&amp;part_name=SJ1-3533NG&amp;search_term=sj1-3533ng"/>
+      <property name="Price" value="None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="Description" value="&#xA;3.5 mm Right-Angle Stereo Jack, 3 Pin PCB Mount, Isolated Ground&#xA;"/>
+      <property name="manf#" value="SJ1-3533NG"/>
+      <property name="mouser#" value="490-SJ1-3533NG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>737ce14e-1fbe-417c-90aa-0ba8c4e4ce84</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>SJ1-3533NG</value>
+      <footprint>SJ1-3533NG:CUI_SJ1-3533NG</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="Availability">In Stock</field>
+        <field name="CUI_PURCHASE_URL">https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-353xng-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector</field>
+        <field name="Description">
+3.5 mm Right-Angle Stereo Jack, 3 Pin PCB Mount, Isolated Ground
+</field>
+        <field name="MF">Same Sky</field>
+        <field name="MP">SJ1-3533NG</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=493917&amp;manufacturer=Same Sky&amp;part_name=SJ1-3533NG&amp;search_term=sj1-3533ng</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=snap</field>
+        <field name="manf#">SJ1-3533NG</field>
+        <field name="mouser#">490-SJ1-3533NG</field>
+      </fields>
+      <libsource lib="SJ1-3533NG" part="SJ1-3533NG" description=""/>
+      <property name="MF" value="Same Sky"/>
+      <property name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=eda"/>
+      <property name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-353xng-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=snap"/>
+      <property name="MP" value="SJ1-3533NG"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=493917&amp;manufacturer=Same Sky&amp;part_name=SJ1-3533NG&amp;search_term=sj1-3533ng"/>
+      <property name="Price" value="None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="Description" value="&#xA;3.5 mm Right-Angle Stereo Jack, 3 Pin PCB Mount, Isolated Ground&#xA;"/>
+      <property name="manf#" value="SJ1-3533NG"/>
+      <property name="mouser#" value="490-SJ1-3533NG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b720e4cb-af19-430d-9c75-3dcd34fb1f62</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>SJ1-3533NG</value>
+      <footprint>SJ1-3533NG:CUI_SJ1-3533NG</footprint>
+      <fields>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="Availability">In Stock</field>
+        <field name="CUI_PURCHASE_URL">https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-353xng-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=eda</field>
+        <field name="DESCRIPTION">3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector</field>
+        <field name="Description">
+3.5 mm Right-Angle Stereo Jack, 3 Pin PCB Mount, Isolated Ground
+</field>
+        <field name="MF">Same Sky</field>
+        <field name="MP">SJ1-3533NG</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=493917&amp;manufacturer=Same Sky&amp;part_name=SJ1-3533NG&amp;search_term=sj1-3533ng</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=snap</field>
+        <field name="manf#">SJ1-3533NG</field>
+        <field name="mouser#">490-SJ1-3533NG</field>
+      </fields>
+      <libsource lib="SJ1-3533NG" part="SJ1-3533NG" description=""/>
+      <property name="MF" value="Same Sky"/>
+      <property name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector"/>
+      <property name="PACKAGE" value="None"/>
+      <property name="PRICE" value="None"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=eda"/>
+      <property name="CUI_PURCHASE_URL" value="https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-353xng-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=snap"/>
+      <property name="MP" value="SJ1-3533NG"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=493917&amp;manufacturer=Same Sky&amp;part_name=SJ1-3533NG&amp;search_term=sj1-3533ng"/>
+      <property name="Price" value="None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="AVAILABILITY" value="Unavailable"/>
+      <property name="Description" value="&#xA;3.5 mm Right-Angle Stereo Jack, 3 Pin PCB Mount, Isolated Ground&#xA;"/>
+      <property name="manf#" value="SJ1-3533NG"/>
+      <property name="mouser#" value="490-SJ1-3533NG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ea9795e-41a5-432d-88a1-716cd0f80bd5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.08"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46c31fef-8b6d-4892-b7d6-1b9818ed82f5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF</field>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.08"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Bourns/CR1206-JW-103ELF"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34e69a8b-b883-4eab-925b-e9c7611657be</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R</field>
+        <field name="manf#">CR0603-FX-2200ELF</field>
+        <field name="mouser#">652-CR0603FX-2200ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.08"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R"/>
+      <property name="manf#" value="CR0603-FX-2200ELF"/>
+      <property name="mouser#" value="652-CR0603FX-2200ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bded521b-e101-4bab-b196-d8ffb4beb44d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Price">0.08</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R</field>
+        <field name="manf#">CR0603-FX-2200ELF</field>
+        <field name="mouser#">652-CR0603FX-2200ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Price" value="0.08"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/TE-Connectivity-Holsworthy/CRGCQ1206J220R"/>
+      <property name="manf#" value="CR0603-FX-2200ELF"/>
+      <property name="mouser#" value="652-CR0603FX-2200ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0472774e-cec6-494b-87e3-0e41edafd23b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a01c5c0-4ce6-4e8e-865c-4041e5bc81c0</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>331264bb-8264-4c90-b5a7-bf0f49e4ca8b</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5168fd9-0cb8-4b62-967c-e3bdff3124cd</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7280e967-e700-4288-aab0-0334b39fe8c1</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0e0d19f-0ea1-4284-943a-b18c5d970408</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ce032a5-c2aa-4056-bbf5-0f4556b9d579</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>620ad854-6d89-4157-b572-4df0b342b00c</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40553fca-49d3-4bad-9626-25f3dffb891a</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="manf#">CR1206-JW-103ELF</field>
+        <field name="mouser#">652-CR1206JW-103ELF</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CR1206-JW-103ELF"/>
+      <property name="mouser#" value="652-CR1206JW-103ELF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f682de80-30b7-4f2d-88bb-62fbddcb96af</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BA033CC0FP-E2</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/348/baxxdd0-e-1873983.pdf</datasheet>
+      <fields>
+        <field name="Price">0.97</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2</field>
+        <field name="manf#">BA033CC0FP-E2</field>
+        <field name="mouser#">755-BA033CC0FP-E2</field>
+      </fields>
+      <libsource lib="BA033CC0FP-E2" part="BA033CC0FP-E2" description=""/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/ROHM-Semiconductor/BA033CC0FP-E2"/>
+      <property name="Price" value="0.97"/>
+      <property name="manf#" value="BA033CC0FP-E2"/>
+      <property name="mouser#" value="755-BA033CC0FP-E2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83fee08f-7316-4ff9-a4fd-e9a9372f4d8f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1115IDGS</value>
+      <footprint>Package_SO:VSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ads1113.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADS1115IDGS" description="Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b3eed51-1950-47e8-976a-50637a7aa041</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MAX3486</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</datasheet>
+      <fields>
+        <field name="Price">3.71</field>
+        <field name="Product">https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D</field>
+        <field name="manf#">MAX3486EESA+</field>
+        <field name="mouser#">700-MAX3486EESA</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX3486" description="True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8"/>
+      <property name="Price" value="3.71"/>
+      <property name="Product" value="https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX3486ECSA%2b?qs=LHmEVA8xxfYujvexFFcA7w%3D%3D"/>
+      <property name="manf#" value="MAX3486EESA+"/>
+      <property name="mouser#" value="700-MAX3486EESA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ems-module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18406746-0f9d-4d88-9ef2-8423e08576f0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="ADS1115IDGS">
+      <description>Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ads1113.pdf</docs>
+      <footprints>
+        <fp>TSSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1115IDGS</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ads1113.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT/RDY" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="BA033CC0FP-E2" part="BA033CC0FP-E2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BA033CC0FP-E2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Input" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Output" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x06">
+      <description>Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5819">
+      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Interface_UART" part="MAX3486">
+      <description>True RS-485/RS-422, 2.5Mbps, Slew-Rate Limited, with low-power shutdown, with receiver/driver enable, 32 receiver drive capacitity, DIP-8 and SOIC-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX3486</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~{RE}" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SJ1-3533NG" part="SJ1-3533NG">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SJ1-3533NG</field>
+        <field name="Footprint">SJ1-3533NG:CUI_SJ1-3533NG</field>
+        <field name="MF">Same Sky</field>
+        <field name="DESCRIPTION">3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">None</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=eda</field>
+        <field name="CUI_PURCHASE_URL">https://www.cuidevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-353xng-series?utm_source=snapeda.com&amp;utm_medium=referral&amp;utm_campaign=snapedaBOM</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SJ1-3533NG/Same+Sky/view-part/?ref=snap</field>
+        <field name="MP">SJ1-3533NG</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=493917&amp;manufacturer=Same Sky&amp;part_name=SJ1-3533NG&amp;search_term=sj1-3533ng</field>
+        <field name="Price">None</field>
+        <field name="Availability">In Stock</field>
+        <field name="AVAILABILITY">Unavailable</field>
+        <field name="Description">
+3.5 mm Right-Angle Stereo Jack, 3 Pin PCB Mount, Isolated Ground
+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="grayc-logo-negative" part="LOGO">
+      <fields>
+        <field name="Reference">#G</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>/usr/share/kicad/symbols//Analog_ADC.kicad_sym</uri>
+    </library>
+    <library logical="BA033CC0FP-E2">
+      <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/ems-module/../libraries/symbols/BA033CC0FP-E2.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/usr/share/kicad/symbols//Graphic.kicad_sym</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>/usr/share/kicad/symbols//Interface_UART.kicad_sym</uri>
+    </library>
+    <library logical="SJ1-3533NG">
+      <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/ems-module/../libraries/symbols/SJ1-3533NG/SJ1-3533NG.kicad_sym</uri>
+    </library>
+    <library logical="grayc-logo-negative">
+      <uri>/home/fabian/projects/grayc/inoa/satellite/electrics/ems-module/../libraries/images/grayc-logo-negative.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Output" pintype="power_out"/>
+      <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="AIN">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="AIN3" pintype="input"/>
+    </net>
+    <net code="3" name="CT_0_K">
+      <node ref="D5" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="AIN0" pintype="input"/>
+    </net>
+    <net code="4" name="CT_0_L">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="CT_1_K">
+      <node ref="D6" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="AIN1" pintype="input"/>
+    </net>
+    <net code="6" name="CT_1_L">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="CT_2_K">
+      <node ref="D7" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="AIN2" pintype="input"/>
+    </net>
+    <net code="8" name="CT_2_L">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J7" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="ADDR" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Input" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="RDY">
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="ALERT/RDY" pintype="output"/>
+    </net>
+    <net code="15" name="RS485_0_A">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="RS485_0_B">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="RS485_0_RX">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="18" name="RS485_0_TX">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="19" name="RS485_0_TXE">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="~{RE}" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="DE" pintype="input"/>
+    </net>
+    <net code="20" name="S0_0">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="SCL">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="22" name="SDA">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="VCC">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(J3-Pad7)">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(J3-Pad8)">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(J3-Pad11)">
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(J3-Pad12)">
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J3-Pad14)">
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J4-Pad5)">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J4-Pad7)">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J4-Pad8)">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(J4-Pad9)">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J4-Pad10)">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J4-Pad11)">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J4-Pad12)">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J4-Pad13)">
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J5-Pad3)">
+      <node ref="J5" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J6-Pad3)">
+      <node ref="J6" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J7-Pad3)">
+      <node ref="J7" pin="3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

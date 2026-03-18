@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "grayc-logo-negative")(type "Legacy")(uri "${KIPRJMOD}/../libraries/images/grayc-logo-negative.lib")(options "")(descr ""))
+  (lib (name "SIM7080G")(type "KiCad")(uri "/home/fabian/projects/grayc/inoa/satellite/electrics/libraries/symbols/SIM7080G.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDA6V1W5")(type "KiCad")(uri "/home/fabian/projects/grayc/inoa/satellite/electrics/libraries/symbols/ESDA6V1W5.kicad_sym")(options "")(descr ""))
+)

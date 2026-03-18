@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "images")(type "KiCad")(uri "${KIPRJMOD}/../libraries/images")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "/home/fabian/projects/grayc/inoa/satellite/electrics/libraries/footprints")(options "")(descr ""))
+)
